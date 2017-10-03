@@ -1,0 +1,14 @@
+.a-cmp-heading--4 {
+	font: {
+		size: $size-28;
+		weight: $font-weight-900;
+	}
+
+	@include mq($until: tablet) {
+		font-size: $size-16;
+	}
+
+	@include mq($until: mobile) {
+		font-size: $size-36;
+	}
+}

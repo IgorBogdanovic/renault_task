@@ -1,0 +1,7 @@
+.a-cmp-paragraph {
+	color: $color-dark-gray;
+	
+	@include mq($until: tablet) {
+		display: none;
+	}
+}

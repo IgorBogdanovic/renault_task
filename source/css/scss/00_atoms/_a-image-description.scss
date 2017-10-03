@@ -1,0 +1,25 @@
+.a-cmp-image-description {
+	display: inline-block;
+	background-color: $color-dark-yellow;
+	padding: $size-12 $size-16;
+	color: inherit;
+	font : {
+	    size: $size-12;
+	    weight: $font-weight-700;
+  	}
+
+  	@include mq($until: tablet) {
+  		font-size: $size-16/2;
+		padding: $size-16/2 $size-16/2;
+	}
+
+  	@include mq($until: mobile) {
+  		font-size: $size-12;
+		padding: $size-10 $size-14;
+	}
+}
+
+.a-cmp-image-description--bottom-left-position {
+	bottom: 0;
+    left: 0;
+}

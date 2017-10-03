@@ -1,0 +1,38 @@
+.a-cmp-heading--3a {
+	font: {
+		size: $size-32;
+		weight: $font-weight-900;
+	}
+
+	@include mq($until: tablet) {
+		font-size: $size-20;
+	}
+
+	@include mq($until: mobile) {
+		font-size: $size-45;
+	}
+}
+
+.a-cmp-heading--3b {
+	font-size: $size-30;
+
+	@include mq($until: tablet) {
+		font-size: $size-20;
+	}
+
+	@include mq($until: mobile) {
+		font-size: $size-50;
+	}
+}
+
+.a-cmp-heading--3c {
+	font-size: $size-30;
+	
+	@include mq($until: tablet) {
+		font-size: $size-20;
+	}
+	
+	@include mq($until: mobile) {
+		font-size: $size-40;
+	}
+}

@@ -1,0 +1,25 @@
+.a-cmp-button {
+	display: inline-block;
+	background-color: $color-white;
+	padding: 16px 22px;
+	color: inherit;
+	font : {
+	    size: 12px;
+	    weight: $font-weight-700;
+  	}
+	text-decoration: none;
+	-webkit-transition: $transition;
+	transition: $transition;
+}
+
+.a-cmp-button--hover:hover {
+	background-color: $color-black;
+	color: $color-white;
+	-webkit-transition: background-color 350ms, color 350ms;
+	transition: background-color 350ms, color 350ms;
+}
+
+.a-cmp-button--hover--bckgrnd-yellow:hover {
+	background-color: $color-dark-yellow;
+	color: $color-black;
+}

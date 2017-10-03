@@ -1,0 +1,48 @@
+.o-media {
+	max-width: 1700px;
+	width: 100%;
+	margin: auto;
+
+	@include mq($until: tablet) {
+		max-width: 1024px;
+		width: 100%;
+	}
+
+	@include mq($until: mobile) {
+		max-width: 640px;
+		width: 100%;
+	}
+}
+
+.o-media--background {
+	background-color: $color-light-gray;
+	margin: 0 5%;
+	padding-bottom: 8%;
+
+	@include mq($until: tablet) {
+		margin: 0 8%;
+		padding-bottom: 11%;
+	}
+	
+	@include mq($until: mobile) {
+		margin: 0;
+		padding-bottom: 23.75%;
+	}
+}
+
+.o-media--no-background {
+	margin: 0 5%;
+
+	@include mq($until: tablet) {
+		margin: 0 8%;
+	}
+	
+	@include mq($until: mobile) {
+		margin: auto;
+	}
+}
+
+/*.o-media__hr {
+	height: 0;
+	border: 1px solid $color-light-gray;
+}*/

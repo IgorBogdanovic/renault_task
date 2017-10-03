@@ -1,0 +1,171 @@
+{
+  "key": "value",
+  "key2": "use this for variables you want to load globally",
+  "title": "Renault test project",
+  "media-section-heading": {
+    "first": "Quel statut juridique choisir pour mon entreprise artisanale ?",
+    "second": "10 idées originales pour gagner de la place dans mon utilitaire.",
+    "third": "À quel moment je peux prétendre aux offres « formule flotte entreprise » chez mon assureur ?",
+    "fourth": "Comment fabriquer un rangement pour ses outils ?",
+    "fifth": "Il transforme son truck en une superbe habitation en bois",
+    "sixth": "Le rangement UPS...zéro perte de place !",
+    "seventh": "Solutrans  - Le salon International des solutions de transport routier arrive à Lyon en 2017",
+    "eight": "Dois-je embaucher un comptable lorsque je suis seul à mon compte ?",
+    "nineth": "4 comptes Instagram d’artisan pâtissiers à déguster sans modération",
+    "tenth": "Quelle est l’autonomie d’un véhicule utilitaire éléctrique ?",
+    "eleventh": "Renault Véhicule utilitaire propose un système de motricité sur terrain instable.",
+    "twelfth": "10 accessoires tendances pour décorer son utilitaire"
+  },
+  "media-test-section-heading": {
+    "first": "Kangoo Z.E.",
+    "second": "Traffic",
+    "third": "Master Fourgon"
+  },
+  "media-test-section-paragraph": {
+    "first": "L'utilitaire autrement",
+    "second": "Le vrai talent, c'est de durer !",
+    "third": "Un modèle pour vous, quels que soient vos besoins"
+  },
+  "media-section-paragraph": {
+    "first": "Cras luctus hendrerit neque lacinia scelerisque. Integer nulla turpis, mattis at libero et, vehicula congue augue.",
+    "second": "Cras luctus hendrerit neque lacinia scelerisque. Integer nulla turpis, mattis at libero et, vehicula congue augue. Suspendisse id commodo tellus. Phasellus ac cursus elit, ac tincidunt nulla.",
+    "third": "Cras luctus hendrerit neque lacinia scelerisque. Integer nulla turpis, mattis at libero et, vehicula congue augue. Suspendisse id commodo",
+    "fourth": "Cras luctus hendrerit neque lacinia scelerisque. Integer nulla turpis, mattis at libero et, vehicula congue augue. Suspendisse"
+  },
+  "img-description": {
+    "first": "Lorem ipsum",
+    "second": "Fan de vu",
+    "third": "Tout sur le vu",
+    "fourth": "Côté business"
+  },
+  "img": {
+    "logo": {
+      "src": "../../images/logo.png",
+      "alt": "Logo"
+    },
+    "arrow-header-left": {
+      "src": "../../images/arrow-header-left.png"
+    },
+    "arrow-header-right": {
+      "src": "../../images/arrow-header-right.png"
+    },
+    "arrow-footer-left": {
+      "src": "../../images/arrow-footer-left.png"
+    },
+    "arrow-footer-right": {
+      "src": "../../images/arrow-footer-right.png"
+    },
+    "img-1700x875": {
+      "src": "https://dummyimage.com/1700x875/7e7e7e/000000.png"
+    },
+    "img-1350x440": {
+      "src": "https://dummyimage.com/1350x440/7e7e7e/ffffff.png"
+    },
+    "img-835x510": {
+      "src": "https://dummyimage.com/835x510/7e7e7e/000000.png"
+    },
+    "img-664x634": {
+      "src": "https://dummyimage.com/664x634/000000/ffffff.png"
+    },
+    "img-578x473": {
+      "src": "https://dummyimage.com/578x473/7e7e7e/000000.png"
+    },
+    "img-490x410": {
+      "src": "https://dummyimage.com/490x410/7e7e7e/000000.png"
+    },
+    "img-405x535": {
+      "src": "https://dummyimage.com/405x535/7e7e7e/000000.png"
+    },
+    "img-362x188": {
+      "src": "https://dummyimage.com/362x188/f6f6f6/000000.png"
+    },
+    "img-362x155": {
+      "src": "https://dummyimage.com/362x155/f6f6f6/000000.png"
+    },
+    "img-352x165": {
+      "src": "https://dummyimage.com/352x165/f6f6f6/000000.png"
+    },
+    "img-321x423": {
+      "src": "https://dummyimage.com/321x423/7e7e7e/000000.png"
+    },
+    "img-320x262": {
+      "src": "https://dummyimage.com/320x262/7e7e7e/000000.png"
+    },
+    "img-235x310": {
+      "src": "https://dummyimage.com/235x310/7e7e7e/000000.png"
+    },
+    "img-235x192": {
+      "src": "https://dummyimage.com/235x192/000000/ffffff.png"
+    },
+
+
+    "avatar": {
+      "src": "http://placeimg.com/100/100/people",
+      "alt": "Avatar"
+    },
+    "square": {
+      "src": "http://placeimg.com/300/300/nature",
+      "alt": "Square"
+    },
+    "rectangle": {
+      "src": "http://placeimg.com/400/300/tech",
+      "alt": "Rectangle"
+    },
+    "landscape-4x3": {
+      "src": "http://placeimg.com/400/300/tech",
+      "alt": "4x3 Image"
+    },
+    "landscape-16x9": {
+      "src": "http://placeimg.com/640/360/tech",
+      "alt": "16x9 Image"
+    }
+  },
+  "headline": {
+    "short": "Lorizzle pimpin' dolizzle sit amet I",
+    "medium": "Rizzle adipiscing elizzle. Nullam sapien velizzle, shit volutpizzle, my"
+  },
+  "excerpt": {
+    "short": "Shizz fo shizzle mah nizzle fo rizzle, mah home g-dizzle, gravida vizzle, arcu. Pellentesque crunk tortizzle. Sed erizzle. Black izzle sheezy telliv.",
+    "medium": "Izzle crazy tempizzle sizzle. We gonna chung gangsta get down get down fo shizzle turpizzle. Away break it down black. Pellentesque bling bling rhoncus fo shizzle. In hac the bizzle platea dictumst. Black dapibizzle. Crackalackin.",
+    "long": "Curabitizzle fo shizzle diam quizzle nisi nizzle mollizzle. Suspendisse boofron. Morbi odio. Sure pizzle. Crazy orci. Shut the shizzle up maurizzle get down get down, check out this a, go to hizzle sit amizzle, malesuada izzle, pede. Pellentesque gravida. Vestibulizzle check it out mi, volutpat izzle, shiz sed, shiznit sempizzle, da bomb. Funky fresh in ipsum. Da bomb volutpat felis vizzle daahng dawg. Crizzle quis dope izzle fo shizzle my ni."
+  },
+  "description": "Fizzle crazy tortor. Sed rizzle. Ass pimpin' dolor dapibizzle turpis tempizzle fo shizzle my nizzle. Maurizzle pellentesque its fo rizzle izzle turpis. Get down get down we gonna chung nizzle. Shizzlin dizzle eleifend rhoncizzle break it down. In yo ghetto platea dictumst. Bling bling dapibizzle. Curabitur break yo neck, yall fo, pretizzle eu, go to hizzle dope, own yo' vitae, nunc. Bizzle suscipizzle. Ass semper velit sizzle fo.",
+  "url": "http://lorizzle.nl/",
+  "name": {
+    "first": "Junius",
+    "firsti": "J",
+    "middle": "Marius",
+    "middlei": "M",
+    "last": "Koolen",
+    "lasti": "K"
+  },
+  "year": {
+    "long": "2013",
+    "short": "13"
+  },
+  "month": {
+    "long": "January",
+    "short": "Jan",
+    "digit": "01"
+  },
+  "dayofweek": {
+    "long": "Sunday",
+    "short": "Sun"
+  },
+  "day": {
+    "long": "01",
+    "short": "1",
+    "ordinal": "st"
+  },
+  "hour": {
+    "long": "06",
+    "short": "6",
+    "military": "06",
+    "ampm": "am"
+  },
+  "minute": {
+    "long": "20",
+    "short": "20"
+  },
+  "seconds": "31"
+}

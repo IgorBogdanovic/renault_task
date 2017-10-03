@@ -1,0 +1,16 @@
+.m-obj-media__img {
+	position: relative;
+}
+
+.m-obj-media__img--on-left {
+	width: 53.78%;
+
+	@include mq($until: tablet) {
+		width: 55.43%;
+	}
+
+	@include mq($until: mobile) {
+		max-width: 272px;
+		width: 48%;
+	}
+}
