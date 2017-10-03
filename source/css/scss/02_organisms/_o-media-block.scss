@@ -172,7 +172,7 @@
 .o-media__block-4-1__section {
 	width: 70%;
 
-	@include mq($until: mobile) {
+	@include mq($until: tablet) {
 		width: 75%;
 	}
 }
