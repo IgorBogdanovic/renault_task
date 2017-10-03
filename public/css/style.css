@@ -929,7 +929,7 @@ a {
       margin-top: 1.43rem; } }
 
 .m-obj-media__txt-2 {
-  margin-top: 4.28rem; }
+  margin-top: 4rem; }
   @media (max-width: 64.0525em) {
     .m-obj-media__txt-2 {
       margin-top: 1.14rem; } }
@@ -1012,19 +1012,19 @@ a {
 
 .o-media--background {
   background-color: #f6f6f6;
-  margin: 0 5%;
+  margin: 0 10.3%;
   padding-bottom: 8%; }
   @media (max-width: 64.0525em) {
     .o-media--background {
       margin: 0 8%;
-      padding-bottom: 11%; } }
+      padding-bottom: 10%; } }
   @media (max-width: 40.0525em) {
     .o-media--background {
       margin: 0;
       padding-bottom: 23.75%; } }
 
 .o-media--no-background {
-  margin: 0 5%; }
+  margin: 0 10.3%; }
   @media (max-width: 64.0525em) {
     .o-media--no-background {
       margin: 0 8%; } }
@@ -1046,7 +1046,7 @@ a {
       margin: 0 5%; } }
 
 .o-media__wrapper-2 {
-  margin: 0 5.875%; }
+  margin: 0 6.3%; }
   @media (max-width: 64.0525em) {
     .o-media__wrapper-2 {
       margin: 0 6.5%; } }
@@ -1166,23 +1166,20 @@ a {
 .o-media__block-4 {
   background-color: #ffffff;
   margin-top: 7%;
-  -webkit-box-shadow: 0px 3.55rem 5.68rem #7e7e7e;
-  -moz-box-shadow: 0px 3.55rem 5.68rem #7e7e7e;
-  box-shadow: 0px 3.55rem 5.68rem #7e7e7e; }
+  -webkit-box-shadow: 0px 50px 90px -15px #7e7e7e;
+  -moz-box-shadow: 0px 50px 90px -15px #7e7e7e;
+  box-shadow: 0px 50px 90px -15px #7e7e7e; }
   @media (max-width: 64.0525em) {
     .o-media__block-4 {
       margin-top: 8%; } }
   @media (max-width: 40.0525em) {
     .o-media__block-4 {
-      margin-top: 10.65%;
-      -webkit-box-shadow: none;
-      -moz-box-shadow: none;
-      box-shadow: none; } }
+      margin-top: 10.65%; } }
 
 .o-media__block-4-1 {
-  width: 31.5%;
+  width: 29.2%;
   float: left;
-  padding: 4% 0 0 10%; }
+  padding: 4.25% 0 0 7.2%; }
   @media (max-width: 64.0525em) {
     .o-media__block-4-1 {
       padding: 5.85% 0 0 7%; } }
@@ -1193,14 +1190,14 @@ a {
       padding: 0; } }
 
 .o-media__block-4-1__section {
-  width: 63%; }
-  @media (max-width: 64.0525em) {
+  width: 70%; }
+  @media (max-width: 40.0525em) {
     .o-media__block-4-1__section {
-      width: 70%; } }
+      width: 75%; } }
 
 .o-media__block-4-2 {
   max-width: 835px;
-  width: 68.5%;
+  width: 70.8%;
   float: right; }
   @media (max-width: 64.0525em) {
     .o-media__block-4-2 {
@@ -1212,10 +1209,10 @@ a {
 
 .o-media__block-5 {
   width: 100%;
-  margin-top: -5%; }
+  margin-top: -6%; }
   @media (max-width: 64.0525em) {
     .o-media__block-5 {
-      margin-top: -8%; } }
+      margin-top: -7%; } }
   @media (max-width: 40.0525em) {
     .o-media__block-5 {
       margin-top: -15.5%; } }

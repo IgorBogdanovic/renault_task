@@ -140,9 +140,9 @@
 .o-media__block-4 {
 	background-color: $color-white;
 	margin-top: 7%;
-	-webkit-box-shadow: 0px $size-10*5 $size-10*9 -$size-10 rgba(126,126,126,1);
-	-moz-box-shadow: 0px $size-10*5 $size-10*9 -$size-10 rgba(126,126,126,1);
-	box-shadow: 0px $size-10*5 $size-10*9 -$size-10 rgba(126,126,126,1);
+	-webkit-box-shadow: 0px 50px 90px -15px rgba(126,126,126,1);
+	-moz-box-shadow: 0px 50px 90px -15px rgba(126,126,126,1);
+	box-shadow: 0px 50px 90px -15px rgba(126,126,126,1);
 
 	@include mq($until: tablet) {
 		margin-top: 8%;
@@ -150,16 +150,13 @@
 
 	@include mq($until: mobile) {
 		margin-top: 10.65%;
-		-webkit-box-shadow: none;
-		-moz-box-shadow: none;
-		box-shadow: none;
 	}
 }
 
 .o-media__block-4-1 {
-	width: 31.5%;
+	width: 29.2%;
 	float: left;
-	padding: 4% 0 0 10%;
+	padding: 4.25% 0 0 7.2%;
 
 	@include mq($until: tablet) {
 		padding: 5.85% 0 0 7%;
@@ -173,16 +170,16 @@
 }
 
 .o-media__block-4-1__section {
-	width: 63%;
+	width: 70%;
 
-	@include mq($until: tablet) {
-		width: 70%;
+	@include mq($until: mobile) {
+		width: 75%;
 	}
 }
 
 .o-media__block-4-2 {
 	max-width: 835px;
-	width: 68.5%;
+	width: 70.8%;
 	float: right;
 
 	@include mq($until: tablet) {
@@ -197,10 +194,10 @@
 
 .o-media__block-5 {
 	width: 100%;
-	margin-top: -5%;
+	margin-top: -6%;
 
 	@include mq($until: tablet) {
-		margin-top: -8%;
+		margin-top: -7%;
 	}
 
 	@include mq($until: mobile) {
