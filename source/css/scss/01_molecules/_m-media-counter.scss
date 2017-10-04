@@ -1,4 +1,14 @@
 .m-obj-media__counter {
 	color: $color-light-black;
 	font-weight: $font-weight-700;
+	float: right;
+	margin-top: $size-22;
+
+	@include mq($until: tablet) {
+		margin-top: $size-50;
+	}
+
+	@include mq($until: mobile) {
+		margin-top: $size-22;
+	}
 }

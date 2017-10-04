@@ -6,8 +6,8 @@ html {
   	}
   	color: $color-black;
 
-  	@include mq($until: desktop) {
-		font-size: 0.7764vw;
+  	@include mq($until: desktop-1) {
+		font-size: 0.8235vw;
 	}
 
   	@include mq($until: tablet) {

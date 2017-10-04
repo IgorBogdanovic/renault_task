@@ -1,3 +1,33 @@
 .m-obj-media {
 	display: inline-block;
 }
+
+.m-obj-media--image-block {
+	float: left;
+
+	@include mq($until: tablet) {
+		width: 42.46%;
+	}
+
+	@include mq($until: mobile) {
+		width: auto;
+		float: none;
+	}
+}
+
+.m-obj-media--text-block {
+	float: left;
+
+	@include mq($until: tablet) {
+		width: 30%;
+		margin-top: 13.65%;
+    	margin-left: 3.65%;
+	}
+
+	@include mq($until: mobile) {
+		margin-top: 5%;
+		margin-left: 0;
+		width: auto;
+		float: none;
+	}
+}
