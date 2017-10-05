@@ -1,7 +1,7 @@
 .a-cmp-button {
 	display: inline-block;
 	background-color: $color-white;
-	padding: 16px 22px;
+	padding: $size-14 $size-20;
 	color: inherit;
 	font : {
 	    size: 12px;
@@ -10,6 +10,14 @@
 	text-decoration: none;
 	-webkit-transition: $transition;
 	transition: $transition;
+
+	@include mq($until: tablet) {
+		padding: $size-12 $size-18;
+	}
+
+	@include mq($until: mobile) {
+		padding: $size-16 $size-22;
+	}
 }
 
 .a-cmp-button--hover:hover {

@@ -16,11 +16,11 @@
 
 .o-media--background {
 	background-color: $color-light-gray;
-	margin: 0 10.3%;
+	margin: 0 10.295%;
 	padding-bottom: 8%;
 
 	@include mq($until: tablet) {
-		margin: 0 8%;
+		margin: 0 7.8%;
 		padding-bottom: 10%;
 	}
 	
@@ -31,10 +31,10 @@
 }
 
 .o-media--no-background {
-	margin: 0 10.3%;
+	margin: 0 10.295%;
 
 	@include mq($until: tablet) {
-		margin: 0 8%;
+		margin: 0 7.8%;
 	}
 	
 	@include mq($until: mobile) {

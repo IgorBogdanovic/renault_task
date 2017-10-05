@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": 1507131754166,
+  "timestamp": 1507215185474,
   "graph": {
     "options": {
       "directed": true,
@@ -802,17 +802,7 @@
       },
       {
         "v": "02-organisms/07-article-cote-business.mustache",
-        "w": "01-molecules/08-media-cote-business/06-media-cote-business-img-320x262-3rd.mustache",
-        "value": {}
-      },
-      {
-        "v": "02-organisms/07-article-cote-business.mustache",
         "w": "01-molecules/08-media-cote-business/03-media-cote-business-img-321x423-1st.mustache",
-        "value": {}
-      },
-      {
-        "v": "02-organisms/07-article-cote-business.mustache",
-        "w": "01-molecules/08-media-cote-business/07-media-cote-business-img-320x262-4th.mustache",
         "value": {}
       },
       {
@@ -823,6 +813,16 @@
       {
         "v": "02-organisms/07-article-cote-business.mustache",
         "w": "01-molecules/08-media-cote-business/05-media-cote-business-img-320x262-2nd.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-organisms/07-article-cote-business.mustache",
+        "w": "01-molecules/08-media-cote-business/06-media-cote-business-img-320x262-3rd.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-organisms/07-article-cote-business.mustache",
+        "w": "01-molecules/08-media-cote-business/07-media-cote-business-img-320x262-4th.mustache",
         "value": {}
       },
       {

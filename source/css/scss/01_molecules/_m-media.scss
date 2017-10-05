@@ -4,9 +4,10 @@
 
 .m-obj-media--image-block {
 	float: left;
+	width: 45.88%;
 
 	@include mq($until: tablet) {
-		width: 42.46%;
+		width: 52.5%;
 	}
 
 	@include mq($until: mobile) {
@@ -17,11 +18,14 @@
 
 .m-obj-media--text-block {
 	float: left;
+	width: 45%;
+	margin-top: 12.9%;
+    margin-left: 2.3%;
 
 	@include mq($until: tablet) {
-		width: 30%;
-		margin-top: 13.65%;
-    	margin-left: 3.65%;
+		width: 35%;
+		margin-top: 19%;
+    	margin-left: 5%;
 	}
 
 	@include mq($until: mobile) {

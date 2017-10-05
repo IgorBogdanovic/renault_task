@@ -1,14 +1,39 @@
 .m-obj-media__counter {
 	color: $color-light-black;
 	font-weight: $font-weight-700;
+	font-size: $size-14;
 	float: right;
-	margin-top: $size-22;
+	margin-top: $size-26;
+	margin-right: 18%;
 
 	@include mq($until: tablet) {
-		margin-top: $size-50;
+		font-size: $size-10;
+		margin-top: 33%;
+		margin-right: -5%;
 	}
 
 	@include mq($until: mobile) {
+		font-size: $size-25;
 		margin-top: $size-22;
+		margin-right: 0;
+	}
+}
+
+.m-obj-media__counter-abs {
+	position: absolute;
+	font-weight: $font-weight-700;
+	font-size: $size-14;
+	top: 20%;
+    right: 10.5%;
+
+	@include mq($until: tablet) {
+		font-size: $size-10;
+    	right: 9.5%;
+	}
+
+	@include mq($until: mobile) {
+		font-size: $size-25;
+		top: 18%;
+    	right: 7.5%;
 	}
 }
