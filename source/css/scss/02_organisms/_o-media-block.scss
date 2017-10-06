@@ -2,6 +2,80 @@
 	display: inline-block;
 }
 
+.o-media__block--box-shadow-1 {
+	-webkit-box-shadow: 0px 10px 50px -10px rgba(126,126,126,1);
+	-moz-box-shadow: 0px 10px 50px -10px rgba(126,126,126,1);
+	box-shadow: 0px 10px 50px -10px rgba(126,126,126,1);
+}
+
+.o-media__block-hp-hdr-txt {
+	position: absolute;
+	top: 38.75%;
+    left: 15.25%;
+
+	@include mq($until: tablet) {
+		top: 36.5%;
+	}
+
+	@include mq($until: mobile) {
+		top: 19.1%;
+		left: 6.15%;
+	}
+}
+
+.o-media__block-hp-hdr-ctr {
+	position: absolute;
+	font-weight: $font-weight-700;
+	font-size: $size-22;
+	bottom: 7.5%;
+    left: 15.5%;
+
+	@include mq($until: tablet) {
+		font-size: $size-12;
+		bottom: 6.25%;
+    	left: 15.25%;
+	}
+
+	@include mq($until: mobile) {
+		font-size: $size-25;
+		bottom: 15%;
+		right: 5.85%;
+		left: auto;
+	}
+}
+
+.o-media__block-arrow-left {
+	position: absolute;
+	max-width: 55px;
+	width: 3.3%;
+	bottom: 42.5%;
+	left: 2.8%;
+
+	@include mq($until: tablet) {
+		bottom: 41%;
+	}
+
+	@include mq($until: mobile) {
+		display: none;
+	}
+}
+
+.o-media__block-arrow-right {
+	position: absolute;
+	max-width: 55px;
+	width: 3.3%;
+	bottom: 42.5%;
+	right: 2.8%;
+
+	@include mq($until: tablet) {
+		bottom: 41%;
+	}
+
+	@include mq($until: mobile) {
+		display: none;
+	}
+}
+
 .o-media__block-1 {
 	max-width: 665px;
 	width: 49.26%;
@@ -535,10 +609,4 @@
 		width: auto;
 		margin-top: 18%;
 	}
-}
-
-.o-media__block--box-shadow-1 {
-	-webkit-box-shadow: 0px 10px 50px -10px rgba(126,126,126,1);
-	-moz-box-shadow: 0px 10px 50px -10px rgba(126,126,126,1);
-	box-shadow: 0px 10px 50px -10px rgba(126,126,126,1);
 }

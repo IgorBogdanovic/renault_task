@@ -71,6 +71,7 @@
 @import "scss/00_atoms/a-paragraph";
 @import "scss/00_atoms/a-paragraph-small";
 @import "scss/00_atoms/a-paragraph-big";
+@import "scss/00_atoms/a-arrow";
 @import "scss/00_atoms/a-media-w1700";
 @import "scss/00_atoms/a-media-w1350";
 @import "scss/00_atoms/a-media-w835";
@@ -101,6 +102,7 @@
 				> ORGANISMS <						
 ------------------------------------------*/
 
+@import "scss/02_organisms/o-nav";
 @import "scss/02_organisms/o-media";
 @import "scss/02_organisms/o-media-wrapper";
 @import "scss/02_organisms/o-media-block";

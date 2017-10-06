@@ -3,4 +3,12 @@
 		size: $size-70;
 		weight: $font-weight-900;
 	}
+
+	@include mq($until: tablet) {
+		font-size: $size-32;
+	}
+
+	@include mq($until: mobile) {
+		font-size: $size-40;
+	}
 }

@@ -1,3 +1,11 @@
 .a-cmp-paragraph--big {
-	font-size: $size-16;
+	font-size: $size-32;
+
+	@include mq($until: tablet) {
+		font-size: $size-16;
+	}
+
+	@include mq($until: mobile) {
+		display: none;
+	}
 }
