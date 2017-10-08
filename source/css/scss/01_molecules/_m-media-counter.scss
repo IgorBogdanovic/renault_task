@@ -37,3 +37,43 @@
     	right: 7.5%;
 	}
 }
+
+.m-obj-media__counter--caret-background {
+	opacity: 0;
+	z-index: -1;
+	position: absolute;
+	border-radius: 50%;
+	width: $size-26;
+	height: $size-26;
+	background-color: $color-middle-gray;
+
+	&:hover {
+		opacity: 1;
+	}
+
+	@include mq($until: tablet) {
+		display: none;
+	}
+}
+
+.m-obj-media__counter--caret-background-1 {
+	top: -30%;
+    left: -10%;
+}
+
+.m-obj-media__counter--caret-background-2 {
+	top: -30%;
+    right: -10%;
+}
+
+.m-obj-media__counter__caret:hover {
+	color: $color-white;
+
+	@include mq($until: tablet) {
+		color: inherit;
+	}
+}
+
+.m-obj-media__counter__caret:hover + .m-obj-media__counter--caret-background {
+	opacity: 1;
+}

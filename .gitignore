@@ -1,0 +1,9 @@
+node_modules/
+scripts/
+.DS_Store
+patternlab.json
+patternlab-config.json
+.sass-cache/*
+/sass-cache
+Thumbs.db
+.idea/
