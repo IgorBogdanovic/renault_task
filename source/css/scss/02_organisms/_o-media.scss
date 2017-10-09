@@ -5,12 +5,10 @@
 
 	@include mq($until: tablet) {
 		max-width: 1024px;
-		width: 100%;
 	}
 
 	@include mq($until: mobile) {
 		max-width: 640px;
-		width: 100%;
 	}
 }
 

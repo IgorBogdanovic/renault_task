@@ -27,32 +27,56 @@
 
 <body class="">
 
-  <a href=""><img class="a-cmp-arrow" src="..&#x2F;..&#x2F;images&#x2F;arrow-header-left.png" alt="" /></a>
+  <div class="o-form">
+
+    <div class="o-form__close  utl-inline-block">
+      <a href=""><i class="fa fa-times" aria-hidden="true"></i></a>
+    </div>
+
+    <div class="o-form__wrapper">
+
+      <form class="o-form__field">
+        <input class="o-form__field__input" type="text" name="search">
+      </form>
+
+      <div class="o-form__search  utl-inline-block">
+        <a href=""><i class="fa fa-search" aria-hidden="true"></i></a>
+      </div>
+
+    </div>
+
+  </div>
   <!--DO NOT REMOVE-->
   <script type="text/json" id="sg-pattern-data-footer" class="sg-pattern-data">
     {
       "cssEnabled": false,
-      "patternLineageExists": false,
-      "patternLineages": [],
-      "lineage": [],
-      "patternLineageRExists": true,
-      "patternLineagesR": [{
-        "lineagePattern": "organisms-hp-header",
-        "lineagePath": "../../patterns/02-organisms-02-home-page-01-hp-header/02-organisms-02-home-page-01-hp-header.rendered.html"
+      "patternLineageExists": true,
+      "patternLineages": [{
+        "lineagePattern": "atoms-menu-close",
+        "lineagePath": "../../patterns/00-atoms-03-buttons-07-menu-close/00-atoms-03-buttons-07-menu-close.rendered.html"
+      }, {
+        "lineagePattern": "atoms-search-link",
+        "lineagePath": "../../patterns/00-atoms-03-buttons-10-search-link/00-atoms-03-buttons-10-search-link.rendered.html"
       }],
-      "lineageR": [{
-        "lineagePattern": "organisms-hp-header",
-        "lineagePath": "../../patterns/02-organisms-02-home-page-01-hp-header/02-organisms-02-home-page-01-hp-header.rendered.html"
+      "lineage": [{
+        "lineagePattern": "atoms-menu-close",
+        "lineagePath": "../../patterns/00-atoms-03-buttons-07-menu-close/00-atoms-03-buttons-07-menu-close.rendered.html"
+      }, {
+        "lineagePattern": "atoms-search-link",
+        "lineagePath": "../../patterns/00-atoms-03-buttons-10-search-link/00-atoms-03-buttons-10-search-link.rendered.html"
       }],
+      "patternLineageRExists": false,
+      "patternLineagesR": [],
+      "lineageR": [],
       "patternLineageEExists": true,
       "patternDesc": "",
       "patternBreadcrumb": {
-        "patternType": "atoms",
-        "patternSubtype": "buttons"
+        "patternType": "organisms",
+        "patternSubtype": "global"
       },
       "patternExtension": "mustache",
-      "patternName": "Arrow Header Left",
-      "patternPartial": "atoms-arrow-header-left",
+      "patternName": "Search",
+      "patternPartial": "organisms-search",
       "patternState": "",
       "patternEngineName": "mustache",
       "extraOutput": {}

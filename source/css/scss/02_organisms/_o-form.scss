@@ -1,0 +1,78 @@
+.o-form {
+	z-index: 1;
+	position: relative;
+	max-width: 1700px;
+	width: 100%;
+	height: 100%;
+	margin: auto;
+	background-color: $color-black;
+	opacity: 0.9;
+
+	@include mq($until: tablet) {
+		max-width: 1024px;
+	}
+
+	@include mq($until: mobile) {
+		max-width: 640px;
+	}
+}
+
+.o-form__wrapper {
+	width: 69%;
+    height: 100vh;
+	margin: auto;
+	padding: 40vh 0;
+
+	@include mq($until: tablet) {
+		width: 89%;
+		padding: 33vh 0;
+	}
+}
+
+.o-form__field {
+	display: inline-block;
+	width: 92.5%;
+}
+
+.o-form__field__input {
+	width: 100%;
+    font : {
+		    size: $size-40*2;
+		    weight: $font-weight-900;
+	  	}
+    color: $color-white;
+	border: none;
+	border-bottom: $size-10/10 $color-white solid;
+	background-color: transparent;
+
+	&:focus {
+		outline: none;
+	}
+
+	@include mq($until: tablet) {
+		font-size: $size-40;
+	}
+}
+
+.o-form__close {
+	position: absolute;
+	top: $size-45;
+    right: $size-50;
+	color: $color-white;
+	font-size: $size-28;
+
+	@include mq($until: tablet) {
+		top: $size-28;
+    	right: $size-38;
+    	font-size: $size-25;
+	}
+}
+
+.o-form__search {
+	color: $color-white;
+	font-size: $size-30*2;
+
+	@include mq($until: tablet) {
+    	font-size: $size-25;
+	}
+}

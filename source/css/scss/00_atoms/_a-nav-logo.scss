@@ -1,0 +1,13 @@
+.a-cmp-nav-logo {
+	max-width: 197px;
+	width: 11.589vw;
+
+	@include mq($until: tablet) {
+		max-width: 100%;
+		width: 25.585vw;
+	}
+
+	@include mq($until: mobile) {
+		width: 30.783vw;
+	}
+}
