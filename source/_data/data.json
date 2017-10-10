@@ -2,6 +2,10 @@
   "key": "value",
   "key2": "use this for variables you want to load globally",
   "title": "Renault test project",
+  "dd-menu-paragraph": {
+    "first": "Proin rhoncus eros ac ante pellentesque, id lobortis turpis",
+    "second": "Vivamus a tincidunt massa, id molestie lacus. donec aliquet mi nis"
+  },
   "media-section-heading": {
     "first": "Quel statut juridique choisir pour mon entreprise artisanale ?",
     "second": "10 idées originales pour gagner de la place dans mon utilitaire.",
@@ -39,6 +43,9 @@
     "fourth": "Côté business"
   },
   "img": {
+    "dd-menu-img": {
+      "src": "https://dummyimage.com/69x56/7e7e7e/000000.png"
+    },
     "logo": {
       "src": "../../images/logo.png",
       "alt": "Logo"

@@ -910,6 +910,32 @@ a {
     .a-cmp-paragraph--big {
       display: none; } }
 
+.a-cmp-paragraph--dd-menu {
+  width: 55%;
+  display: inline-block;
+  font-size: 0.923rem;
+  font-weight: 900;
+  letter-spacing: 0.0497rem;
+  vertical-align: top;
+  margin-left: 1.14rem; }
+
+.a-cmp-img--dd-menu {
+  display: inline-block;
+  max-width: 4.9335rem;
+  width: 100%; }
+
+.a-cmp-vr--dd-menu {
+  background-color: #ececec;
+  position: absolute;
+  width: 1px;
+  height: 100%; }
+
+.a-cmp-vr--dd-menu--v1 {
+  left: 25%; }
+
+.a-cmp-vr--dd-menu--v2 {
+  left: 50%; }
+
 .a-cmp-arrow {
   max-width: 55px;
   width: 100%; }
@@ -1214,19 +1240,35 @@ a {
     .o-nav {
       max-width: 640px; } }
 
-.o-nav__list {
-  width: 71.75%;
+.o-nav__list--tbl-mob {
+  display: none; }
+  @media (max-width: 64.0525em) {
+    .o-nav__list--tbl-mob {
+      display: none;
+      background-color: blue;
+      width: 80%;
+      list-style-type: none; }
+      .o-nav__list--tbl-mob > li a {
+        display: block;
+        font-size: 0.86rem;
+        font-weight: 700;
+        letter-spacing: 0.071rem;
+        text-transform: uppercase;
+        text-decoration: none; } }
+
+.o-nav__list--desktop {
+  width: 65%;
   margin: auto;
   padding-top: 1.68%;
-  padding-left: 6%;
+  padding-left: 6.1%;
   list-style-type: none; }
-  .o-nav__list > .o-nav__list__first-li-block {
+  .o-nav__list--desktop .o-nav__list--desktop__first-li-block {
     float: left; }
-  .o-nav__list > .o-nav__list__second-li-block {
+  .o-nav__list--desktop .o-nav__list--desktop__second-li-block {
     float: right; }
-  .o-nav__list > .o-nav__list__middle-li {
-    margin: 0 5%; }
-  .o-nav__list > li a {
+  .o-nav__list--desktop .o-nav__list--desktop__middle-li {
+    margin: 0 5.6%; }
+  .o-nav__list--desktop .o-nav__list--desktop__link {
     display: block;
     padding-bottom: 0.5rem;
     color: #ffcc33;
@@ -1236,12 +1278,79 @@ a {
     text-transform: uppercase;
     text-align: center;
     text-decoration: none; }
-    .o-nav__list > li a:hover {
+    .o-nav__list--desktop .o-nav__list--desktop__link:hover {
       color: #ffffff;
       border-bottom: 0.215rem #ffffff solid; }
   @media (max-width: 64.0525em) {
-    .o-nav__list {
+    .o-nav__list--desktop {
       display: none; } }
+
+.o-nav__list--desktop__dd-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  background-color: #ffffff;
+  list-style-type: none; }
+  @media (max-width: 64.0525em) {
+    .o-nav__list--desktop__dd-menu {
+      display: none; } }
+
+.o-nav__list--desktop__dd-menu__block-1 {
+  width: 50%;
+  float: left; }
+  .o-nav__list--desktop__dd-menu__block-1 > div li:nth-child(2) {
+    margin: 3.9984rem 0; }
+  .o-nav__list--desktop__dd-menu__block-1 .o-nav__list--desktop__dd-menu__block-1__link {
+    color: inherit;
+    font-size: 1rem;
+    font-weight: 700;
+    letter-spacing: 0.071rem;
+    text-transform: uppercase;
+    text-decoration: none; }
+
+.o-nav__list--desktop__dd-menu__block-1-1 {
+  width: 50%;
+  float: left;
+  padding: 5.355rem 0 5.355rem 8.6394rem; }
+
+.o-nav__list--desktop__dd-menu__block-1-2 {
+  width: 50%;
+  float: right;
+  padding: 5.355rem 0 5.355rem 8.6394rem; }
+
+.o-nav__list--desktop__dd-menu__block-2 {
+  width: 50%;
+  float: right;
+  padding-left: 6.9972rem;
+  padding-top: 4.5045rem; }
+  .o-nav__list--desktop__dd-menu__block-2 .o-nav__list--desktop__dd-menu__block-2__link {
+    color: inherit;
+    text-decoration: none; }
+
+.o-nav__list--desktop__dd-menu__block-2-1 {
+  width: 76%;
+  padding-top: 0.71rem; }
+  .o-nav__list--desktop__dd-menu__block-2-1 > div li:nth-child(2) {
+    margin-top: 1rem; }
+
+.o-nav__list--desktop__dd-menu__block-2-1-1 {
+  width: 50%;
+  float: left; }
+
+.o-nav__list--desktop__dd-menu__block-2-1-2 {
+  width: 50%;
+  float: right; }
+
+.o-nav__list--desktop__dd-menu__heading-1a {
+  font-size: 1.86rem;
+  font-weight: 900; }
+
+.o-nav__list--desktop__dd-menu__heading-1b {
+  font-family: "Airways PERSONAL USE ONLY", sans-serif;
+  font-size: 2.14rem;
+  font-weight: 400; }
 
 .o-nav__fb {
   float: left;
@@ -1255,8 +1364,8 @@ a {
 .o-nav__yt {
   float: left;
   color: #ffffff;
-  font-size: 1.29rem;
-  margin: 1.71rem 0; }
+  font-size: 1.57rem;
+  margin: 1.57rem 0; }
   @media (max-width: 64.0525em) {
     .o-nav__yt {
       display: none; } }
@@ -1357,7 +1466,7 @@ a {
       font-size: 1.78rem; } }
 
 .o-form__search {
-  color: #ffffff;
+  color: #b9b5b5;
   font-size: 4.28rem; }
   @media (max-width: 64.0525em) {
     .o-form__search {
