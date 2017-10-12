@@ -35,3 +35,15 @@
 		float: none;
 	}
 }
+
+.m-obj-media__img-test {
+	margin-bottom: -2%;
+}
+
+.m-obj-media__paragraph-test {
+	display: inherit;
+
+	@include mq($until: tablet) {
+		display: none;
+	}
+}

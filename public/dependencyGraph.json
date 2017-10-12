@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": 1507734343434,
+  "timestamp": 1507820234057,
   "graph": {
     "options": {
       "directed": true,
@@ -212,7 +212,7 @@
         "v": "00-atoms/04-images/03-img-1350x440.mustache",
         "value": {
           "compileState": "clean",
-          "lineagePath": "../../patterns/02-organisms-00-global-06-article-test-quel-vehicule/02-organisms-00-global-06-article-test-quel-vehicule.rendered.html",
+          "lineagePath": "../../patterns/02-organisms-00-global-04-article-test-quel-vehicule/02-organisms-00-global-04-article-test-quel-vehicule.rendered.html",
           "lineagePattern": "organisms-article-test-quel-vehicule"
         }
       },
@@ -233,7 +233,15 @@
         }
       },
       {
-        "v": "00-atoms/04-images/06-img-578x473.mustache",
+        "v": "00-atoms/04-images/06-img-640x492.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/02-organisms-00-global-04-article-test-quel-vehicule/02-organisms-00-global-04-article-test-quel-vehicule.rendered.html",
+          "lineagePattern": "organisms-article-test-quel-vehicule"
+        }
+      },
+      {
+        "v": "00-atoms/04-images/07-img-578x473.mustache",
         "value": {
           "compileState": "clean",
           "lineagePath": "../../patterns/01-molecules-06-media-vu-and-astuces-04-media-vu-and-astuces-img-578x473/01-molecules-06-media-vu-and-astuces-04-media-vu-and-astuces-img-578x473.rendered.html",
@@ -241,7 +249,7 @@
         }
       },
       {
-        "v": "00-atoms/04-images/07-img-490x410.mustache",
+        "v": "00-atoms/04-images/08-img-490x410.mustache",
         "value": {
           "compileState": "clean",
           "lineagePath": "../../patterns/01-molecules-07-media-foire-aux-questions-02-media-foire-aux-questions/01-molecules-07-media-foire-aux-questions-02-media-foire-aux-questions.rendered.html",
@@ -249,7 +257,7 @@
         }
       },
       {
-        "v": "00-atoms/04-images/08-img-405x535.mustache",
+        "v": "00-atoms/04-images/09-img-405x535.mustache",
         "value": {
           "compileState": "clean",
           "lineagePath": "../../patterns/01-molecules-04-media-news-de-la-semaine-03-media-news-de-la-semaine-img-405x535/01-molecules-04-media-news-de-la-semaine-03-media-news-de-la-semaine-img-405x535.rendered.html",
@@ -257,7 +265,7 @@
         }
       },
       {
-        "v": "00-atoms/04-images/09-img-362x188.mustache",
+        "v": "00-atoms/04-images/10-img-362x188.mustache",
         "value": {
           "compileState": "clean",
           "lineagePath": "../../patterns/01-molecules-10-media-test-quel-vehicule-05-media-test-quel-vehicule-362x188/01-molecules-10-media-test-quel-vehicule-05-media-test-quel-vehicule-362x188.rendered.html",
@@ -265,7 +273,7 @@
         }
       },
       {
-        "v": "00-atoms/04-images/10-img-362x155.mustache",
+        "v": "00-atoms/04-images/11-img-362x155.mustache",
         "value": {
           "compileState": "clean",
           "lineagePath": "../../patterns/01-molecules-10-media-test-quel-vehicule-03-media-test-quel-vehicule-362x155/01-molecules-10-media-test-quel-vehicule-03-media-test-quel-vehicule-362x155.rendered.html",
@@ -273,7 +281,7 @@
         }
       },
       {
-        "v": "00-atoms/04-images/11-img-352x165.mustache",
+        "v": "00-atoms/04-images/12-img-352x165.mustache",
         "value": {
           "compileState": "clean",
           "lineagePath": "../../patterns/01-molecules-10-media-test-quel-vehicule-04-media-test-quel-vehicule-352x165/01-molecules-10-media-test-quel-vehicule-04-media-test-quel-vehicule-352x165.rendered.html",
@@ -281,7 +289,7 @@
         }
       },
       {
-        "v": "00-atoms/04-images/12-img-321x423.mustache",
+        "v": "00-atoms/04-images/13-img-321x423.mustache",
         "value": {
           "compileState": "clean",
           "lineagePath": "../../patterns/01-molecules-08-media-cote-business-04-media-cote-business-img-321x423-2nd/01-molecules-08-media-cote-business-04-media-cote-business-img-321x423-2nd.rendered.html",
@@ -289,7 +297,7 @@
         }
       },
       {
-        "v": "00-atoms/04-images/13-img-320x262.mustache",
+        "v": "00-atoms/04-images/14-img-320x262.mustache",
         "value": {
           "compileState": "clean",
           "lineagePath": "../../patterns/01-molecules-08-media-cote-business-07-media-cote-business-img-320x262-4th/01-molecules-08-media-cote-business-07-media-cote-business-img-320x262-4th.rendered.html",
@@ -297,7 +305,7 @@
         }
       },
       {
-        "v": "00-atoms/04-images/14-img-235x310.mustache",
+        "v": "00-atoms/04-images/15-img-235x310.mustache",
         "value": {
           "compileState": "clean",
           "lineagePath": "../../patterns/01-molecules-04-media-news-de-la-semaine-02-media-news-de-la-semaine-img-235x310/01-molecules-04-media-news-de-la-semaine-02-media-news-de-la-semaine-img-235x310.rendered.html",
@@ -305,7 +313,7 @@
         }
       },
       {
-        "v": "00-atoms/04-images/15-img-235x192.mustache",
+        "v": "00-atoms/04-images/16-img-235x192.mustache",
         "value": {
           "compileState": "clean"
         }
@@ -530,7 +538,7 @@
         "v": "01-molecules/10-media-test-quel-vehicule/01-heading-test-quel-vehicule.mustache",
         "value": {
           "compileState": "clean",
-          "lineagePath": "../../patterns/02-organisms-00-global-06-article-test-quel-vehicule/02-organisms-00-global-06-article-test-quel-vehicule.rendered.html",
+          "lineagePath": "../../patterns/02-organisms-00-global-04-article-test-quel-vehicule/02-organisms-00-global-04-article-test-quel-vehicule.rendered.html",
           "lineagePattern": "organisms-article-test-quel-vehicule"
         }
       },
@@ -538,7 +546,7 @@
         "v": "01-molecules/10-media-test-quel-vehicule/03-media-test-quel-vehicule-362x155.mustache",
         "value": {
           "compileState": "clean",
-          "lineagePath": "../../patterns/02-organisms-00-global-06-article-test-quel-vehicule/02-organisms-00-global-06-article-test-quel-vehicule.rendered.html",
+          "lineagePath": "../../patterns/02-organisms-00-global-04-article-test-quel-vehicule/02-organisms-00-global-04-article-test-quel-vehicule.rendered.html",
           "lineagePattern": "organisms-article-test-quel-vehicule"
         }
       },
@@ -546,7 +554,7 @@
         "v": "01-molecules/10-media-test-quel-vehicule/04-media-test-quel-vehicule-352x165.mustache",
         "value": {
           "compileState": "clean",
-          "lineagePath": "../../patterns/02-organisms-00-global-06-article-test-quel-vehicule/02-organisms-00-global-06-article-test-quel-vehicule.rendered.html",
+          "lineagePath": "../../patterns/02-organisms-00-global-04-article-test-quel-vehicule/02-organisms-00-global-04-article-test-quel-vehicule.rendered.html",
           "lineagePattern": "organisms-article-test-quel-vehicule"
         }
       },
@@ -554,7 +562,7 @@
         "v": "01-molecules/10-media-test-quel-vehicule/05-media-test-quel-vehicule-362x188.mustache",
         "value": {
           "compileState": "clean",
-          "lineagePath": "../../patterns/02-organisms-00-global-06-article-test-quel-vehicule/02-organisms-00-global-06-article-test-quel-vehicule.rendered.html",
+          "lineagePath": "../../patterns/02-organisms-00-global-04-article-test-quel-vehicule/02-organisms-00-global-04-article-test-quel-vehicule.rendered.html",
           "lineagePattern": "organisms-article-test-quel-vehicule"
         }
       },
@@ -577,7 +585,7 @@
         }
       },
       {
-        "v": "02-organisms/00-global/06-article-test-quel-vehicule.mustache",
+        "v": "02-organisms/00-global/04-article-test-quel-vehicule.mustache",
         "value": {
           "compileState": "clean"
         }
@@ -634,67 +642,67 @@
     "edges": [
       {
         "v": "01-molecules/04-media-news-de-la-semaine/02-media-news-de-la-semaine-img-235x310.mustache",
-        "w": "00-atoms/04-images/14-img-235x310.mustache",
+        "w": "00-atoms/04-images/15-img-235x310.mustache",
         "value": {}
       },
       {
         "v": "01-molecules/04-media-news-de-la-semaine/03-media-news-de-la-semaine-img-405x535.mustache",
-        "w": "00-atoms/04-images/08-img-405x535.mustache",
+        "w": "00-atoms/04-images/09-img-405x535.mustache",
         "value": {}
       },
       {
         "v": "01-molecules/04-media-news-de-la-semaine/04-media-news-de-la-semaine-img-578x473.mustache",
-        "w": "00-atoms/04-images/06-img-578x473.mustache",
+        "w": "00-atoms/04-images/07-img-578x473.mustache",
         "value": {}
       },
       {
         "v": "01-molecules/04-media-news-de-la-semaine/05-media-news-de-la-semaine-img-320x262.mustache",
-        "w": "00-atoms/04-images/13-img-320x262.mustache",
+        "w": "00-atoms/04-images/14-img-320x262.mustache",
         "value": {}
       },
       {
         "v": "01-molecules/05-media-fan-de-vu/03-media-fan-de-vu-img-320x262-1st.mustache",
-        "w": "00-atoms/04-images/13-img-320x262.mustache",
+        "w": "00-atoms/04-images/14-img-320x262.mustache",
         "value": {}
       },
       {
         "v": "01-molecules/05-media-fan-de-vu/04-media-fan-de-vu-img-320x262-2nd.mustache",
-        "w": "00-atoms/04-images/13-img-320x262.mustache",
+        "w": "00-atoms/04-images/14-img-320x262.mustache",
         "value": {}
       },
       {
         "v": "01-molecules/05-media-fan-de-vu/05-media-fan-de-vu-img-320x262-3rd.mustache",
-        "w": "00-atoms/04-images/13-img-320x262.mustache",
+        "w": "00-atoms/04-images/14-img-320x262.mustache",
         "value": {}
       },
       {
         "v": "01-molecules/06-media-vu-and-astuces/02-media-vu-and-astuces-img-321x423-1st.mustache",
-        "w": "00-atoms/04-images/12-img-321x423.mustache",
+        "w": "00-atoms/04-images/13-img-321x423.mustache",
         "value": {}
       },
       {
         "v": "01-molecules/06-media-vu-and-astuces/03-media-vu-and-astuces-img-320x262-1st.mustache",
-        "w": "00-atoms/04-images/13-img-320x262.mustache",
+        "w": "00-atoms/04-images/14-img-320x262.mustache",
         "value": {}
       },
       {
         "v": "01-molecules/06-media-vu-and-astuces/04-media-vu-and-astuces-img-578x473.mustache",
-        "w": "00-atoms/04-images/06-img-578x473.mustache",
+        "w": "00-atoms/04-images/07-img-578x473.mustache",
         "value": {}
       },
       {
         "v": "01-molecules/06-media-vu-and-astuces/05-media-vu-and-astuces-img-320x262-2nd.mustache",
-        "w": "00-atoms/04-images/13-img-320x262.mustache",
+        "w": "00-atoms/04-images/14-img-320x262.mustache",
         "value": {}
       },
       {
         "v": "01-molecules/06-media-vu-and-astuces/06-media-vu-and-astuces-img-321x423-2nd.mustache",
-        "w": "00-atoms/04-images/12-img-321x423.mustache",
+        "w": "00-atoms/04-images/13-img-321x423.mustache",
         "value": {}
       },
       {
         "v": "01-molecules/07-media-foire-aux-questions/02-media-foire-aux-questions.mustache",
-        "w": "00-atoms/04-images/07-img-490x410.mustache",
+        "w": "00-atoms/04-images/08-img-490x410.mustache",
         "value": {}
       },
       {
@@ -709,32 +717,32 @@
       },
       {
         "v": "01-molecules/08-media-cote-business/02-media-cote-business-img-320x262-1st.mustache",
-        "w": "00-atoms/04-images/13-img-320x262.mustache",
+        "w": "00-atoms/04-images/14-img-320x262.mustache",
         "value": {}
       },
       {
         "v": "01-molecules/08-media-cote-business/03-media-cote-business-img-321x423-1st.mustache",
-        "w": "00-atoms/04-images/12-img-321x423.mustache",
+        "w": "00-atoms/04-images/13-img-321x423.mustache",
         "value": {}
       },
       {
         "v": "01-molecules/08-media-cote-business/04-media-cote-business-img-321x423-2nd.mustache",
-        "w": "00-atoms/04-images/12-img-321x423.mustache",
+        "w": "00-atoms/04-images/13-img-321x423.mustache",
         "value": {}
       },
       {
         "v": "01-molecules/08-media-cote-business/05-media-cote-business-img-320x262-2nd.mustache",
-        "w": "00-atoms/04-images/13-img-320x262.mustache",
+        "w": "00-atoms/04-images/14-img-320x262.mustache",
         "value": {}
       },
       {
         "v": "01-molecules/08-media-cote-business/06-media-cote-business-img-320x262-3rd.mustache",
-        "w": "00-atoms/04-images/13-img-320x262.mustache",
+        "w": "00-atoms/04-images/14-img-320x262.mustache",
         "value": {}
       },
       {
         "v": "01-molecules/08-media-cote-business/07-media-cote-business-img-320x262-4th.mustache",
-        "w": "00-atoms/04-images/13-img-320x262.mustache",
+        "w": "00-atoms/04-images/14-img-320x262.mustache",
         "value": {}
       },
       {
@@ -754,17 +762,17 @@
       },
       {
         "v": "01-molecules/10-media-test-quel-vehicule/03-media-test-quel-vehicule-362x155.mustache",
-        "w": "00-atoms/04-images/10-img-362x155.mustache",
+        "w": "00-atoms/04-images/11-img-362x155.mustache",
         "value": {}
       },
       {
         "v": "01-molecules/10-media-test-quel-vehicule/04-media-test-quel-vehicule-352x165.mustache",
-        "w": "00-atoms/04-images/11-img-352x165.mustache",
+        "w": "00-atoms/04-images/12-img-352x165.mustache",
         "value": {}
       },
       {
         "v": "01-molecules/10-media-test-quel-vehicule/05-media-test-quel-vehicule-362x188.mustache",
-        "w": "00-atoms/04-images/09-img-362x188.mustache",
+        "w": "00-atoms/04-images/10-img-362x188.mustache",
         "value": {}
       },
       {
@@ -818,28 +826,33 @@
         "value": {}
       },
       {
-        "v": "02-organisms/00-global/06-article-test-quel-vehicule.mustache",
+        "v": "02-organisms/00-global/04-article-test-quel-vehicule.mustache",
+        "w": "00-atoms/04-images/03-img-1350x440.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-organisms/00-global/04-article-test-quel-vehicule.mustache",
+        "w": "00-atoms/04-images/06-img-640x492.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-organisms/00-global/04-article-test-quel-vehicule.mustache",
         "w": "01-molecules/10-media-test-quel-vehicule/01-heading-test-quel-vehicule.mustache",
         "value": {}
       },
       {
-        "v": "02-organisms/00-global/06-article-test-quel-vehicule.mustache",
+        "v": "02-organisms/00-global/04-article-test-quel-vehicule.mustache",
         "w": "01-molecules/10-media-test-quel-vehicule/03-media-test-quel-vehicule-362x155.mustache",
         "value": {}
       },
       {
-        "v": "02-organisms/00-global/06-article-test-quel-vehicule.mustache",
+        "v": "02-organisms/00-global/04-article-test-quel-vehicule.mustache",
         "w": "01-molecules/10-media-test-quel-vehicule/04-media-test-quel-vehicule-352x165.mustache",
         "value": {}
       },
       {
-        "v": "02-organisms/00-global/06-article-test-quel-vehicule.mustache",
+        "v": "02-organisms/00-global/04-article-test-quel-vehicule.mustache",
         "w": "01-molecules/10-media-test-quel-vehicule/05-media-test-quel-vehicule-362x188.mustache",
-        "value": {}
-      },
-      {
-        "v": "02-organisms/00-global/06-article-test-quel-vehicule.mustache",
-        "w": "00-atoms/04-images/03-img-1350x440.mustache",
         "value": {}
       },
       {

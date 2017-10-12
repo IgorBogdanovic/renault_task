@@ -36,3 +36,27 @@
 		font-size: $size-40;
 	}
 }
+
+.a-cmp-heading--3d {
+	font-size: $size-32;
+	
+	@include mq($until: tablet) {
+		font-size: $size-22;
+	}
+	
+	@include mq($until: mobile) {
+		font-size: $size-45;
+	}
+}
+
+.a-cmp-heading--3e {
+	font-size: $size-30;
+	
+	@include mq($until: tablet) {
+		font-size: $size-22;
+	}
+	
+	@include mq($until: mobile) {
+		font-size: $size-40*1.05;
+	}
+}

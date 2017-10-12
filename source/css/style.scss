@@ -37,6 +37,7 @@
 
 @import "scss/utilities/utl-txt-uppercase";
 @import "scss/utilities/utl-txt-center";
+@import "scss/utilities/utl-flexbox-center";
 @import "scss/utilities/utl-font-airways";
 @import "scss/utilities/utl-font-weight-400";
 @import "scss/utilities/utl-inline-block";
@@ -80,6 +81,7 @@
 @import "scss/00_atoms/a-media-w1350";
 @import "scss/00_atoms/a-media-w835";
 @import "scss/00_atoms/a-media-w664";
+@import "scss/00_atoms/a-media-w640";
 @import "scss/00_atoms/a-media-w578";
 @import "scss/00_atoms/a-media-w490";
 @import "scss/00_atoms/a-media-w405";
@@ -98,8 +100,6 @@
 @import "scss/01_molecules/m-media-img";
 @import "scss/01_molecules/m-media-txt";
 @import "scss/01_molecules/m-media-counter";
-@import "scss/01_molecules/m-media-heading";
-@import "scss/01_molecules/m-media-wrapper";
 
 
 /*------------------------------------------

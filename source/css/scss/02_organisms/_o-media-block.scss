@@ -8,6 +8,13 @@
 	box-shadow: 0px 10px 50px -10px rgba(126,126,126,1);
 }
 
+/*------------------------------------------
+	> ORGANISMS - media-block related <						
+------------------------------------------*/
+
+@import "scss/02_organisms/o-media-block-test-quel-vehicule";
+
+
 .o-media__block-hp-hdr-txt {
 	position: absolute;
 	top: 38.75%;

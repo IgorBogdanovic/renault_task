@@ -20,6 +20,18 @@
 	}
 }
 
+.a-cmp-button--font-2 {
+	font-size: $size-12;
+
+	@include mq($until: tablet) {
+		font-size: $size-10;
+	}
+
+	@include mq($until: mobile) {
+		font-size: $size-18;
+	}
+}
+
 .a-cmp-button--hover:hover {
 	background-color: $color-black;
 	color: $color-white;

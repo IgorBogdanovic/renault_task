@@ -17,6 +17,7 @@
 	display: none;
 
 	@include mq($until: tablet) {
+		left: -72.65%;
 		display: block;
 		position: absolute;
 		top: 100%;
@@ -45,6 +46,7 @@
 	}
 
 	@include mq($until: mobile) {
+		left: -87.3%;
 		width: 87.3%;
 		padding-top: $size-50*1.54;
 
@@ -62,7 +64,8 @@
 .o-nav__list--tbl-mob__caret--down {
 
 	@include mq($until: tablet) {
-		display: inline-block;
+		float: left;
+		display: block;
 		color: inherit;
 		margin-right: $size-30;
 
@@ -81,12 +84,12 @@
 }
 
 .o-nav__list--tbl-mob__caret--up {
-	display: none;
 
 	@include mq($until: tablet) {
-		position: absolute;
-		top: 0;
+		float: left;
+		display: none;
 		color: inherit;
+		margin-right: $size-30;
 
 		i {
 			vertical-align: bottom;
@@ -103,7 +106,7 @@
 }
 
 .o-nav__list--tbl-mob__submenu {
-	display: block;
+	display: none;
 	width: 100%;
 	list-style-type: none;
 

@@ -1,11 +1,11 @@
 $(document).ready(function() {
 
-	myBusiness.click(function(){
-    	myBusiness_ddMenu.slideToggle(500);
+	myBusinessDesktop.click(function(){
+    	myBusinessDesktop_ddMenu.slideToggle(500);
     });
 
-    myVan.click(function(){
-    	myVan_ddMenu.slideToggle(500);
+    myVanDesktop.click(function(){
+    	myVanDesktop_ddMenu.slideToggle(500);
     });
 
     ddMenu.click(function(){

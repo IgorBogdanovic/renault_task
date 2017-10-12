@@ -5,3 +5,14 @@
 		display: none;
 	}
 }
+
+.a-cmp-paragraph--test {
+	@include mq($until: tablet) {
+		display: none;
+	}
+
+	@include mq($until: mobile) {
+		display: inherit;
+		font-size: $size-26;
+	}
+}
