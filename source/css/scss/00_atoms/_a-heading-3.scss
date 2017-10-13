@@ -60,3 +60,42 @@
 		font-size: $size-40*1.05;
 	}
 }
+
+.a-cmp-heading--3f {
+	font: {
+		size: $size-32;
+		weight: $font-weight-900;
+	}
+
+	@include mq($until: tablet) {
+		font-size: $size-18;
+	}
+
+	@include mq($until: mobile) {
+		font-size: $size-45;
+	}
+}
+
+.a-cmp-heading--3g {
+	font-size: $size-30;
+
+	@include mq($until: tablet) {
+		font-size: $size-18;
+	}
+
+	@include mq($until: mobile) {
+		font-size: $size-50;
+	}
+}
+
+.a-cmp-heading--3h {
+	font-size: $size-30;
+	
+	@include mq($until: tablet) {
+		font-size: $size-18;
+	}
+	
+	@include mq($until: mobile) {
+		font-size: $size-40;
+	}
+}

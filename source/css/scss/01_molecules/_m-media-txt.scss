@@ -80,6 +80,35 @@
 	margin-top: $size-24;
 }
 
+.m-obj-media__paragraph-test {
+	display: inherit;
+	letter-spacing: $size-10*0.1;
+
+	@include mq($until: tablet) {
+		display: none;
+	}
+}
+
+.m-obj-media__paragraph-test__col-3 {
+	padding-left: 20%;
+    padding-right: 20%;
+}
+
+.m-obj-media__paragraph-lpl {
+	margin-top: $size-24;
+	letter-spacing: $size-10*0.1;
+	line-height: 1.3;
+
+	@include mq($until: tablet) {
+		margin-top: -$size-10*0.5;
+		line-height: 1.2;
+	}
+
+	@include mq($until: mobile) {
+		margin-top: 0;
+	}
+}
+
 .m-obj-media__txt--on-right {
 	top: 0;
 	width: 42.02%;

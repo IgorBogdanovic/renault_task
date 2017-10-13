@@ -30,6 +30,10 @@
     "second": "Le vrai talent, c'est de durer !",
     "third": "Un modèle pour vous, quels que soient vos besoins"
   },
+  "media-l-plus-l-section-paragraph": {
+    "first": "Renault Véhicule utilitaire propose un système de motricité sur terrain instable",
+    "second": "Quel statut juridique choisir pour mon entreprise artisanale ?"
+  },
   "media-section-paragraph": {
     "first": "Cras luctus hendrerit neque lacinia scelerisque. Integer nulla turpis, mattis at libero et, vehicula congue augue.",
     "second": "Cras luctus hendrerit neque lacinia scelerisque. Integer nulla turpis, mattis at libero et, vehicula congue augue. Suspendisse id commodo tellus. Phasellus ac cursus elit, ac tincidunt nulla.",
@@ -50,17 +54,21 @@
       "src": "../../images/logo.png",
       "alt": "Logo"
     },
+    "footer-logo": {
+      "src": "../../images/footer-logo.png",
+      "alt": "Logo"
+    },
     "arrow-header-left": {
       "src": "../../images/arrow-header-left.png"
     },
     "arrow-header-right": {
       "src": "../../images/arrow-header-right.png"
     },
-    "arrow-footer-left": {
-      "src": "../../images/arrow-footer-left.png"
+    "arrow-section-left": {
+      "src": "../../images/arrow-section-left.png"
     },
-    "arrow-footer-right": {
-      "src": "../../images/arrow-footer-right.png"
+    "arrow-section-right": {
+      "src": "../../images/arrow-section-right.png"
     },
     "img-1700x875": {
       "src": "https://dummyimage.com/1700x875/7e7e7e/000000.png"

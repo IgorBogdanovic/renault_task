@@ -2,3 +2,13 @@
 	max-width: 235px;
 	width: 100%;
 }
+
+.a-cmp-media-w235--x192 {
+	max-width: 235px;
+	width: 100%;
+
+	@include mq($until: mobile) {
+		max-width: 265px;
+		width: 100%;
+	}
+}

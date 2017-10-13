@@ -1,0 +1,10 @@
+.a-cmp-footer-logo {
+	max-width: 197px;
+	width: 100%;
+
+	@include mq($until: tablet) {
+	}
+
+	@include mq($until: mobile) {
+	}
+}

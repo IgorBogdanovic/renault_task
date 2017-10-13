@@ -1,0 +1,122 @@
+.o-media--background-lpl {
+	background-color: $color-light-gray;
+	z-index: -1;
+	position: absolute;
+	width: 100%;
+	top: 22%;
+	padding-top: 18.7%;
+
+	@include mq($until: tablet) {
+		top: 17%;
+		padding-top: 23.7%;
+	}
+	
+	@include mq($until: mobile) {
+		top: 0;
+	    padding-top: 100%;
+    	height: 106.5%;
+	}
+}
+
+.o-media__block-cmn-3 {
+	vertical-align: top;
+    overflow-wrap: break-word;
+	width: 9.4%;
+    margin-top: 9.4%;
+    margin-left: 0.3%;
+    letter-spacing: $size-10*0.1;
+	line-height: 1;
+
+	@include mq($until: tablet) {
+		width: 11.8%;
+		margin-top: 8.5%;
+		margin-left: 0;
+		letter-spacing: auto;
+	}
+	
+	@include mq($until: mobile) {
+		width: auto;
+		margin-top: 8%;
+		margin-left: 1%;
+    	letter-spacing: $size-10*0.1;
+	}
+}
+
+.o-media__block-cmn-4 {
+	width: 36.8425%;
+	margin-left: 0.5%;
+    margin-right: 0.7%;
+
+	@include mq($until: tablet) {
+		width: 36.15%;
+		margin-left: 1.53%;
+		margin-right: 0;
+	}
+	
+	@include mq($until: mobile) {
+		width: 100%;
+		margin-top: 11%;
+		margin-left: 0;
+	}
+}
+
+.o-media__block-cmn-4-1 {
+	float: left;
+	width: 47.25%;
+
+	@include mq($until: tablet) {
+		float: left;
+		width: 47.25%;
+	}
+	
+	@include mq($until: mobile) {
+		width: 48.66%;
+	}
+}
+
+.o-media__block-cmn-4-2 {
+	float: right;
+	width: 47.25%;
+
+	@include mq($until: tablet) {
+		float: right;
+		width: 47.25%;
+	}
+	
+	@include mq($until: mobile) {
+		width: 48.66%;
+	}
+}
+
+.o-media__block-arrow--lpl {
+	vertical-align: top;
+	width: 4.16%;
+	margin-top: 10.4%;
+
+	@include mq($until: tablet) {
+		width: 4.16%;
+		margin-top: 10.2%;
+	}
+	
+	@include mq($until: mobile) {
+		display: none;
+	}
+}
+
+.o-media__block-arrow--lpl__left {
+	margin-left: 3%;
+    margin-right: 1.25%;
+
+	@include mq($until: tablet) {
+		margin-left: 0;
+		margin-right: 0.7%;
+	}
+}
+
+.o-media__block-arrow--lpl__right {
+	margin-left: 0.83%;
+
+	@include mq($until: tablet) {
+		margin-left: 1.6%;
+	}
+}

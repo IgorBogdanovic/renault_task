@@ -16,3 +16,18 @@
 		font-size: $size-26;
 	}
 }
+
+.a-cmp-paragraph--l-plus-l {
+	font : {
+		size: $size-16;
+		weight: $font-weight-700;
+	}
+
+	@include mq($until: tablet) {
+		font-size: $size-12;
+	}
+
+	@include mq($until: mobile) {
+		font-size: $size-26;
+	}
+}
