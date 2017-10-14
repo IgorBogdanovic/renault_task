@@ -1,12 +1,12 @@
 .m-obj-media__txt {
-	margin-top: $size-24;
+	margin-top: $size-22;
 
 	@include mq($until: tablet) {
-		margin-top: $size-16;
+		margin-top: $size-10;
 	}
 
 	@include mq($until: mobile) {
-		margin-top: $size-20;
+		margin-top: $size-16;
 	}
 }
 

@@ -1,0 +1,103 @@
+.o-media__block-4 {
+	background-color: $color-white;
+	margin-top: 7%;
+	-webkit-box-shadow: 0px 50px 90px -15px rgba(126,126,126,1);
+	-moz-box-shadow: 0px 50px 90px -15px rgba(126,126,126,1);
+	box-shadow: 0px 50px 90px -15px rgba(126,126,126,1);
+
+	@include mq($until: tablet) {
+		margin-top: 8%;
+	}
+
+	@include mq($until: mobile) {
+		margin-top: 10.65%;
+	}
+}
+
+.o-media__block-4-1 {
+	width: 29.2%;
+	float: left;
+	padding: 4.25% 0 0 7.2%;
+
+	@include mq($until: tablet) {
+		padding: 5.85% 0 0 7%;
+	}
+
+	@include mq($until: mobile) {
+		width: auto;
+		margin: 8% 0 11.5% 10%;
+		padding: 0;
+	}
+}
+
+.o-media__block-4-1__section {
+	width: 70%;
+
+	@include mq($until: tablet) {
+		width: 75%;
+	}
+}
+
+.o-media__block-4-2 {
+	max-width: 835px;
+	width: 70.8%;
+	float: right;
+
+	@include mq($until: tablet) {
+		max-width: 701px;
+	}
+
+	@include mq($until: mobile) {
+		max-width: 100%;
+		width: 100%;
+	}
+}
+
+.o-media__block-5 {
+	width: 100%;
+	margin-top: -6%;
+
+	@include mq($until: tablet) {
+		margin-top: -7%;
+	}
+
+	@include mq($until: mobile) {
+		margin-top: -15.5%;
+	}
+}
+
+.o-media__block-5__section {
+	max-width: 320px;
+	width: 23.7%;
+	float: right;
+
+	@include mq($until: tablet) {
+		width: 27.25%;
+	}
+
+	@include mq($until: mobile) {
+		max-width: 272px;
+		width: 48.57%;
+		float: none;
+	}
+}
+
+.o-media__block-5-2 {
+	margin: 0 1.8%;
+
+	@include mq($until: tablet) {
+		margin: 0 2%;
+	}
+
+	@include mq($until: mobile) {
+		float: right;
+		margin: auto;
+	}
+}
+
+.o-media__block-5-3 {
+
+	@include mq($until: mobile) {
+		margin-top: 17.5%;
+	}
+}

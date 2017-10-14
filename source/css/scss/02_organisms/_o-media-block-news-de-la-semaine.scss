@@ -1,0 +1,130 @@
+.o-media__block-1 {
+	max-width: 665px;
+	width: 49.26%;
+	margin-top: 12.22%;
+
+	@include mq($until: tablet) {
+		max-width: 478px;
+		width: 55.4%;
+		margin-top: 0;
+	}
+
+	@include mq($until: mobile) {
+		max-width: 100%;
+		width: 100%;
+	}
+}
+
+.o-media__block-1-1 {
+	width: 35.34%;
+
+	@include mq($until: tablet) {
+		max-width: 206px;
+		width: 43.05%;
+	}
+
+	@include mq($until: mobile) {
+		max-width: 200px;
+		width: 35.5%;
+		margin-top: 4.5%;
+	}
+}
+
+.o-media__block-1-1__heading {
+	max-width: 180px;
+	margin-top: 0;
+
+	@include mq($until: tablet) {
+		max-width: 150px;
+		margin-top: 44%;
+	}
+
+	@include mq($until: mobile) {
+		max-width: 150px;
+		width: 75%;
+		margin-top: 0;
+		line-height: 1;
+	}
+}
+
+.o-media__block-1-1__section {
+	margin-top: 65.4%;
+
+	@include mq($until: tablet) {
+		margin-top: 16.25%;
+	}
+
+	@include mq($until: mobile) {
+		margin-top: 16.4%;
+	}
+}
+
+.o-media__block-1-2 {
+	width: 60.9%;
+
+	@include mq($until: tablet) {
+		max-width: 259px;
+		width: 54.16%;
+		margin-top: 24%;
+	}
+
+	@include mq($until: mobile) {
+		max-width: 346px;
+		width: 61.5%;
+		margin-top: 0;
+	}
+}
+
+.o-media__block-2 {
+	max-width: 595px;
+	width: 44.07%;
+	float: right;
+	margin-right: 4.5%;
+
+	@include mq($until: tablet) {
+		max-width: 366px;
+		width: 42.5%;
+		margin-right: 0;
+	}
+
+	@include mq($until: mobile) {
+		max-width: 100%;
+		width: 100%;
+		float: none;
+	}
+}
+
+.o-media__block-margin-2 {
+
+	@include mq($until: mobile) {
+		margin-top: 14.2%;
+	}
+}
+
+.o-media__block-margin-2-2 {
+	margin-top: 17.75%;
+
+	@include mq($until: desktop-1) {
+		margin-top: 15.75%;
+	}
+
+	@include mq($until: tablet) {
+		margin-top: 9.5%;
+	}
+
+	@include mq($until: mobile) {
+		margin-top: 13.04%;
+	}
+}
+
+.o-media__block-margin-3 {
+	margin-top: 5%;
+
+	@include mq($until: tablet) {
+		margin-top: 8%;
+	}
+
+	@include mq($until: mobile) {
+		margin-top: 11.43%;
+	}
+}
