@@ -1,8 +1,10 @@
 .a-cmp-paragraph--big {
 	font-size: $size-32;
+	letter-spacing: $size-10*0.04;
 
 	@include mq($until: tablet) {
 		font-size: $size-16;
+		letter-spacing: $size-10*0.03;
 	}
 
 	@include mq($until: mobile) {

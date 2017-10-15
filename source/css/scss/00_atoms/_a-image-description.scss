@@ -23,3 +23,15 @@
 	bottom: 0;
     left: 0;
 }
+
+.a-cmp-image-description--header {
+	letter-spacing: $size-10*0.25;
+
+	@include mq($until: tablet) {
+  		letter-spacing: $size-10*0.12;
+	}
+
+  	@include mq($until: mobile) {
+  		letter-spacing: $size-10*0.15;
+	}
+}

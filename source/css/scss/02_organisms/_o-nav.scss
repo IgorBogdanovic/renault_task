@@ -23,9 +23,8 @@
 		top: 100%;
 		width: 72.65%;
 		height: 86.1vh;
-		overflow-y: scroll;
+		overflow-y: auto;
 		padding-top: $size-70*1.02;
-		background-color: $color-dark-yellow;
 		list-style-type: none;
 
 		li {
@@ -66,7 +65,7 @@
 	@include mq($until: tablet) {
 		float: left;
 		display: block;
-		color: inherit;
+		color: $color-dark-yellow;
 		margin-right: $size-30;
 
 		i {
@@ -88,7 +87,7 @@
 	@include mq($until: tablet) {
 		float: left;
 		display: none;
-		color: inherit;
+		color: $color-dark-yellow;
 		margin-right: $size-30;
 
 		i {

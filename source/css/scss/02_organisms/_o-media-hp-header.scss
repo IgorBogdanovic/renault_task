@@ -1,10 +1,11 @@
 .o-media__block-hp-hdr-txt {
 	position: absolute;
 	top: 38.75%;
-    left: 15.25%;
+    left: 15.4%;
 
 	@include mq($until: tablet) {
 		top: 36.5%;
+		left: 15.5%;
 	}
 
 	@include mq($until: mobile) {
@@ -17,19 +18,20 @@
 	position: absolute;
 	font-weight: $font-weight-700;
 	font-size: $size-22;
+	letter-spacing: -$size-10*0.1;
 	bottom: 7.5%;
     left: 15.5%;
 
 	@include mq($until: tablet) {
 		font-size: $size-12;
+		letter-spacing: -$size-10*0.05;
 		bottom: 6.25%;
-    	left: 15.25%;
 	}
 
 	@include mq($until: mobile) {
 		font-size: $size-25;
-		bottom: 15%;
-		right: 5.85%;
+		bottom: 17%;
+		right: 6%;
 		left: auto;
 	}
 }
@@ -38,12 +40,8 @@
 	position: absolute;
 	max-width: 55px;
 	width: 3.3%;
-	bottom: 42.5%;
+	bottom: 43%;
 	left: 2.8%;
-
-	@include mq($until: tablet) {
-		bottom: 41%;
-	}
 
 	@include mq($until: mobile) {
 		display: none;
@@ -54,12 +52,8 @@
 	position: absolute;
 	max-width: 55px;
 	width: 3.3%;
-	bottom: 42.5%;
-	right: 2.8%;
-
-	@include mq($until: tablet) {
-		bottom: 41%;
-	}
+	bottom: 43%;
+	right: 3.2%;
 
 	@include mq($until: mobile) {
 		display: none;

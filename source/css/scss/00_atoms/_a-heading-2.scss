@@ -3,11 +3,13 @@
 		size: $size-36;
 		weight: $font-weight-900;
 	}
-	margin-top: $size-20;
+	margin-top: $size-16;
+	letter-spacing: -$size-10*0.06;
 
 	@include mq($until: tablet) {
 		font-size: $size-16;
-		margin-top: $size-10;
+		margin-top: $size-14*0.5;
+		letter-spacing: -$size-10*0.04;
 	}
 
 	@include mq($until: mobile) {

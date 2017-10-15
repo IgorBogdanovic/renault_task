@@ -3,12 +3,18 @@
 		size: $size-70;
 		weight: $font-weight-900;
 	}
+	line-height: 0.99;
+	letter-spacing: -1.15px;
 
 	@include mq($until: tablet) {
 		font-size: $size-32;
+		line-height: 1;
+    	letter-spacing: -$size-10*0.06;
 	}
 
 	@include mq($until: mobile) {
 		font-size: $size-40;
+		line-height: 1.05;
+    	letter-spacing: -$size-10*0.08;
 	}
 }
