@@ -1,0 +1,14 @@
+.a-cmp-media-w1354 {
+	max-width: 1354px;
+	width: 79.65%;
+
+	@include mq($until: tablet) {
+		width: 91.95%;
+		height: $size-70*5.65;
+	}
+
+	@include mq($until: mobile) {
+		width: 100%;
+		height: auto;
+	}
+}

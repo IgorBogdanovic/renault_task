@@ -1,0 +1,51 @@
+.o-media__block-shp-hdr {
+    position: absolute;
+    top: 41.4%;
+    left: 15.4%;
+
+    @include mq($until: tablet) {
+    	top: 40.5%;
+    	left: 7.5%;
+	}
+
+	@include mq($until: mobile) {
+		top: 21.5%;
+    	left: 18%;
+	}
+}
+
+.o-media__block-shp-txt {
+	background-color: $color-dark-yellow;
+	position: absolute;
+	width: 34.1%;
+    top: 21%;
+    right: 0;
+    padding: $size-50*2.24 $size-50*1.2 $size-70*1.76 $size-70*1.24;
+    line-height: 1.6;
+    letter-spacing: $size-10*0.1;
+
+	@include mq($until: tablet) {
+	    width: 49.35%;
+	    top: 12.6%;
+	    padding: $size-40 $size-45 $size-32 $size-50*1.1;
+	    line-height: 1.47;
+	    letter-spacing: $size-10*0.07;
+	}
+
+	@include mq($until: mobile) {
+		position: static;
+		width: 100%;
+		padding: $size-38;
+	    letter-spacing: $size-10*0.11;
+	}
+}
+
+.o-media__block-shp-path {
+	letter-spacing: $size-10*0.07;
+    margin-top: $size-50*1.06;
+    margin-left: $size-50*5.2;
+
+	@include mq($until: tablet) {
+    	display: none;
+	}
+}

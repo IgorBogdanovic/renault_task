@@ -24,3 +24,15 @@
 		width: 48%;
 	}
 }
+
+.m-obj-media__img--on-right {
+	width: 55.37%;
+
+	@include mq($until: tablet) {
+		width: 55.43%;
+	}
+
+	@include mq($until: mobile) {
+		width: 48.8%;
+	}
+}

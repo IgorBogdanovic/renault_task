@@ -99,3 +99,15 @@
 		font-size: $size-40;
 	}
 }
+
+.a-cmp-heading--3i {
+	font-size: $size-30;
+	
+	@include mq($until: tablet) {
+		font-size: $size-20;
+	}
+	
+	@include mq($until: mobile) {
+		font-size: $size-45;
+	}
+}

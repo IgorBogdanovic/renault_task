@@ -37,6 +37,7 @@
 
 @import "scss/utilities/utl-txt-uppercase";
 @import "scss/utilities/utl-txt-center";
+@import "scss/utilities/utl-txt-bottom";
 @import "scss/utilities/utl-flexbox-center";
 @import "scss/utilities/utl-font-airways";
 @import "scss/utilities/utl-font-weight-400";
@@ -74,11 +75,13 @@
 @import "scss/00_atoms/a-paragraph";
 @import "scss/00_atoms/a-paragraph-small";
 @import "scss/00_atoms/a-paragraph-big";
+@import "scss/00_atoms/a-paragraph-shp-header";
 @import "scss/00_atoms/a-paragraph-dd-menu";
 @import "scss/00_atoms/a-img-dd-menu";
 @import "scss/00_atoms/a-vr-dd-menu";
 @import "scss/00_atoms/a-arrow";
 @import "scss/00_atoms/a-media-w1700";
+@import "scss/00_atoms/a-media-w1354";
 @import "scss/00_atoms/a-media-w1350";
 @import "scss/00_atoms/a-media-w835";
 @import "scss/00_atoms/a-media-w664";

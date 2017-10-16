@@ -121,3 +121,17 @@
 		width: 48%;
 	}
 }
+
+.m-obj-media__txt--on-left {
+	width: 43%;
+	top: 0;
+	margin-top: -1%;
+
+	@include mq($until: tablet) {
+		width: 35%;
+	}
+
+	@include mq($until: mobile) {
+		width: 50%;
+	}
+}

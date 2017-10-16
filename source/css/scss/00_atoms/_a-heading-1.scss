@@ -18,3 +18,11 @@
     	letter-spacing: -$size-10*0.08;
 	}
 }
+
+.a-cmp-heading--1--shp {
+	margin-top: $size-10;
+
+	@include mq($until: mobile) {
+		margin-top: $size-14;
+	}
+}
