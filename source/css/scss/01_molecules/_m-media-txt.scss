@@ -76,6 +76,18 @@
 	}
 }
 
+.m-obj-media__txt-5 {
+	margin-top: $size-28;
+
+	@include mq($until: tablet) {
+		margin-top: $size-12;
+	}
+
+	@include mq($until: mobile) {
+		margin-top: $size-20;
+	}
+}
+
 .m-obj-media__paragraph {
 	margin-top: $size-24;
 }

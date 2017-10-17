@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": 1508166142124,
+  "timestamp": 1508252934941,
   "graph": {
     "options": {
       "directed": true,
@@ -735,19 +735,25 @@
       {
         "v": "01-molecules/10-media-latest-news/01-heading-latest-news.mustache",
         "value": {
-          "compileState": "clean"
+          "compileState": "clean",
+          "lineagePath": "../../patterns/02-organisms-03-shp-04-article-latest-news/02-organisms-03-shp-04-article-latest-news.rendered.html",
+          "lineagePattern": "organisms-article-latest-news"
         }
       },
       {
         "v": "01-molecules/10-media-latest-news/03-media-latest-news-img-320x262.mustache",
         "value": {
-          "compileState": "clean"
+          "compileState": "clean",
+          "lineagePath": "../../patterns/02-organisms-03-shp-04-article-latest-news/02-organisms-03-shp-04-article-latest-news.rendered.html",
+          "lineagePattern": "organisms-article-latest-news"
         }
       },
       {
         "v": "01-molecules/10-media-latest-news/04-media-latest-news-img-578x473.mustache",
         "value": {
-          "compileState": "clean"
+          "compileState": "clean",
+          "lineagePath": "../../patterns/02-organisms-03-shp-04-article-latest-news/02-organisms-03-shp-04-article-latest-news.rendered.html",
+          "lineagePattern": "organisms-article-latest-news"
         }
       },
       {
@@ -830,6 +836,12 @@
       },
       {
         "v": "02-organisms/03-shp/03-article-editors-picks.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "02-organisms/03-shp/04-article-latest-news.mustache",
         "value": {
           "compileState": "clean"
         }
@@ -1406,6 +1418,21 @@
       {
         "v": "02-organisms/03-shp/03-article-editors-picks.mustache",
         "w": "01-molecules/09-media-editors-picks/04-media-editors-picks-img-405x535.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-organisms/03-shp/04-article-latest-news.mustache",
+        "w": "01-molecules/10-media-latest-news/01-heading-latest-news.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-organisms/03-shp/04-article-latest-news.mustache",
+        "w": "01-molecules/10-media-latest-news/03-media-latest-news-img-320x262.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-organisms/03-shp/04-article-latest-news.mustache",
+        "w": "01-molecules/10-media-latest-news/04-media-latest-news-img-578x473.mustache",
         "value": {}
       }
     ]
