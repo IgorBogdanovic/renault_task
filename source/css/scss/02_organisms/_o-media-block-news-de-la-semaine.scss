@@ -33,45 +33,71 @@
 .o-media__block-1-1__heading {
 	max-width: 180px;
 	margin-top: 0;
+	letter-spacing: $size-10*0.05;
+    line-height: 1.05;
 
 	@include mq($until: tablet) {
 		max-width: 150px;
-		margin-top: 44%;
+		margin-top: 49%;
+		line-height: 1;
 	}
 
 	@include mq($until: mobile) {
 		max-width: 150px;
 		width: 75%;
 		margin-top: 0;
-		line-height: 1;
+		line-height: 0.9;
 	}
 }
 
 .o-media__block-1-1__section {
-	margin-top: 65.4%;
+	margin-top: 70.5%;
+	letter-spacing: $size-10*0.13;
+    line-height: 1.4;
+
+    p {
+    	letter-spacing: $size-10*0.075;
+    	line-height: initial;
+    }
 
 	@include mq($until: tablet) {
-		margin-top: 16.25%;
+		margin-top: 21.25%;
+		letter-spacing: $size-10*0.14;
+    	line-height: 1.3;
 	}
 
 	@include mq($until: mobile) {
-		margin-top: 16.4%;
+		margin-top: 22%;
+		letter-spacing: $size-10*0.15;
+    	line-height: 1.1;
 	}
 }
 
 .o-media__block-1-2 {
 	width: 60.9%;
+	margin-top: 1%;
+	letter-spacing: $size-10*0.13;
+    line-height: 1.4;
+
+    p {
+    	letter-spacing: $size-10*0.075;
+    	line-height: initial;
+    }
 
 	@include mq($until: tablet) {
 		max-width: 259px;
 		width: 54.16%;
-		margin-top: 24%;
+		margin-top: 26.8%;
+		letter-spacing: $size-10*0.14;
+    	line-height: 1.3;
 	}
 
 	@include mq($until: mobile) {
 		max-width: 346px;
 		width: 61.5%;
 		margin-top: 0;
+		letter-spacing: $size-10*0.15;
+    	line-height: 1.1;
 	}
 }
 
@@ -79,33 +105,40 @@
 	max-width: 595px;
 	width: 44.07%;
 	float: right;
-	margin-right: 4.5%;
+	margin-top: 0.45%;
+	margin-right: 4.85%;
+	letter-spacing: $size-10*0.13;
+    line-height: 1.4;
+
+    p {
+    	letter-spacing: $size-10*0.075;
+    	line-height: initial;
+    }
 
 	@include mq($until: tablet) {
 		max-width: 366px;
 		width: 42.5%;
-		margin-right: 0;
+		margin-top: 1.7%;
+		margin-right: 0.3%;
+		letter-spacing: $size-10*0.14;
+    	line-height: 1.3;
 	}
 
 	@include mq($until: mobile) {
 		max-width: 100%;
 		width: 100%;
-		float: none;
-	}
-}
-
-.o-media__block-margin-2 {
-
-	@include mq($until: mobile) {
 		margin-top: 14.2%;
+		float: none;
+		letter-spacing: $size-10*0.15;
+    	line-height: 1.1;
 	}
 }
 
-.o-media__block-margin-2-2 {
-	margin-top: 17.75%;
+.o-media__block-2-2__section {
+	margin-top: 12.6%;
 
 	@include mq($until: desktop-1) {
-		margin-top: 15.75%;
+		margin-top: 10%;
 	}
 
 	@include mq($until: tablet) {
@@ -113,18 +146,36 @@
 	}
 
 	@include mq($until: mobile) {
-		margin-top: 13.04%;
+		margin-top: 12.5%;
 	}
 }
 
 .o-media__block-margin-3 {
-	margin-top: 5%;
+	margin-top: 4.8%;
+
+	a {
+			font-size: $size-14;
+			letter-spacing: $size-10*0.12;
+    		padding: $size-20 $size-26;
+		}
 
 	@include mq($until: tablet) {
 		margin-top: 8%;
+
+		a {
+			font-size: $size-12;
+			letter-spacing: $size-10*0.03;
+    		padding: $size-18 $size-24;
+		}
 	}
 
 	@include mq($until: mobile) {
-		margin-top: 11.43%;
+		margin-top: 12%;
+
+		a {
+			font-size: $size-10*1.5;
+    		letter-spacing: $size-10*0.14;
+    		padding: $size-20 $size-20*1.15;
+		}
 	}
 }

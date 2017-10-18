@@ -1,5 +1,5 @@
 .m-obj-media__txt {
-	margin-top: $size-22;
+	margin-top: $size-28;
 
 	@include mq($until: tablet) {
 		margin-top: $size-10;
@@ -122,15 +122,16 @@
 }
 
 .m-obj-media__txt--on-right {
-	top: 0;
 	width: 42.02%;
+	top: 0;
+	margin-top: -0.6%;
 
 	@include mq($until: tablet) {
 		width: 40.58%;
 	}
 
 	@include mq($until: mobile) {
-		width: 48%;
+		width: 49%;
 	}
 }
 

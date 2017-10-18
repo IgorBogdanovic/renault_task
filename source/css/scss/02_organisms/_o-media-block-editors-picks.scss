@@ -24,6 +24,11 @@
 	letter-spacing: $size-10*0.12;
     line-height: 1.5;
 
+    p {
+    	letter-spacing: $size-10*0.075;
+    	line-height: initial;
+    }
+
 	@include mq($until: tablet) {
 		width: 42.77%;
 		margin-left: 0;
@@ -40,7 +45,7 @@
 }
 
 .o-media__block-edit-picks__2__section-2 {
-	margin-top: 12%;
+	margin-top: 14.3%;
 
 	@include mq($until: tablet) {
 		margin-top: 19%;
@@ -57,6 +62,11 @@
 	margin-top: 12%;
 	letter-spacing: $size-10*0.12;
     line-height: 1.5;
+
+    p {
+    	letter-spacing: $size-10*0.075;
+    	line-height: initial;
+    }
 
 	@include mq($until: tablet) {
 		width: 55.54%;

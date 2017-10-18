@@ -41,6 +41,11 @@
 	letter-spacing: $size-10*0.12;
     line-height: 1.4;
 
+    p {
+    	letter-spacing: $size-10*0.08;
+    	line-height: initial;
+    }
+
 	@include mq($until: tablet) {
 		width: 49.08%;
 		letter-spacing: $size-10*0.075;
@@ -55,7 +60,7 @@
 }
 
 .o-media__block-latest-news__2--margins {
-	margin-top: 5.3%;
+	margin-top: 5.7%;
     margin-bottom: 0.65%;
 
 	@include mq($until: tablet) {
@@ -102,6 +107,11 @@
 	letter-spacing: $size-10*0.12;
     line-height: 1.4;
 
+    p {
+    	letter-spacing: $size-10*0.08;
+    	line-height: initial;
+    }
+
 	@include mq($until: tablet) {
 		width: 42.925%;
 		letter-spacing: $size-10*0.075;
@@ -118,7 +128,7 @@
 }
 
 .o-list-latest-news {
-	margin-top: 5.3%;
+	margin-top: 6%;
 
 	@include mq($until: tablet) {
 		margin-top: 7.9%;
@@ -130,10 +140,10 @@
 }
 
 .o-list-latest-news-2 {
-	margin-top: 0.2%;
-    margin-left: 39.5%;
+    margin-left: 39.7%;
 
 	@include mq($until: tablet) {
+		margin-top: 0.2%;
    		margin-left: 29.9%;
 	}
 
