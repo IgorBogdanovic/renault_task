@@ -1,0 +1,209 @@
+.o-media__wrapper-1--renault-qa {
+	padding-bottom: 6.6%;
+}
+
+.o-media__block-renault-qa--background {
+	position: absolute;
+	z-index: -1;
+    background-color: $color-light-gray;
+    width: 100%;
+	padding-top: 62.5%;
+	top: 33.4%;
+
+	@include mq($until: tablet) {
+		width: 100%;
+	    padding-top: 60%;
+	    top: 39.5%;
+	}
+
+	@include mq($until: mobile) {
+	    padding-top: 81%;
+	    top: 15.6%;
+	}
+}
+
+.o-media__block-renault-qa--background-mob {
+	display: none;
+
+	@include mq($until: mobile) {
+		display: block;
+	}
+}
+
+.o-media__block-renault-qa--background-tbl-dsk {
+	display: block;
+
+	@include mq($until: mobile) {
+		display: none;
+	}
+}
+
+.o-media__block--renault-qa-wrapper-1 {
+	width: 61.85%;
+
+	@include mq($until: tablet) {
+		width: 68.2%;
+	}
+
+	@include mq($until: mobile) {
+		width: 100%;
+		margin-bottom: 17.5%;
+	}
+}
+
+.o-media__block--renault-qa-wrapper-2 {
+	float: right;
+	width: 23.7%;
+	margin-top: 17%;
+
+	@include mq($until: tablet) {
+		width: 31.54%;
+		margin-top: 8.6%;
+    	padding-left: 1.7%;
+	}
+
+	@include mq($until: mobile) {
+		float: none;
+		width: 100%;
+		margin-top: 0;
+		margin-bottom: 11%;
+		padding-left: 0;
+	}
+}
+
+.o-media__block-renault-qa__1 {
+	margin-bottom: 3.5%;
+	margin-left: 20.6%;
+	letter-spacing: $size-10*0.1;
+    line-height: 1.05;
+
+	@include mq($until: tablet) {
+		margin-bottom: 4%;
+		margin-left: 9.5%;
+		line-height: 1;
+	}
+
+	@include mq($until: mobile) {
+		margin-bottom: 5%;
+		margin-left: 0;
+	}
+}
+
+.o-media__block-renault-qa__2 {
+	width: 58.685%;
+	margin-bottom: 3.5%;
+	margin-left: 20.6%;
+
+	@include mq($until: tablet) {
+		width: 67.42%;
+		margin-bottom: 3.5%;
+		margin-left: 9.5%;
+	}
+
+	@include mq($until: mobile) {
+		width: 100%;
+		margin-bottom: 8%;
+		margin-left: 0;
+	}
+}
+
+.o-media__block-renault-qa__3 {
+	width: 40%;
+	margin-left: 20.6%;
+	letter-spacing: $size-10*0.145;
+    line-height: 1.35;
+
+    p {
+    	letter-spacing: $size-10*0.07;
+    }
+
+	@include mq($until: tablet) {
+		width: 48%;
+		margin-left: 9.5%;
+		line-height: inherit;
+	}
+
+	@include mq($until: mobile) {
+		width: 100%;
+		margin-left: 0;
+		letter-spacing: $size-10*0.16;
+		line-height: 1.1;
+	}
+}
+
+.o-media__block-renault-qa__4 {
+	float: right;
+	width: 15%;
+	margin-top: -2.5%;
+	margin-right: 18.4%;
+
+	@include mq($until: tablet) {
+		width: auto;
+		margin-top: -0.6%;
+    	margin-right: 6.7%;
+	}
+
+	@include mq($until: mobile) {
+		margin-top: 0;
+    	margin-right: 0;
+	}
+}
+
+.o-media__block-renault-qa__5 {
+	word-wrap: break-word;
+	width: 33%;
+    margin-bottom: 7%;
+    line-height: 1;
+
+	@include mq($until: tablet) {
+    	width: 33%;
+    	margin-bottom: 9.5%;
+    	line-height: 1;
+	}
+
+	@include mq($until: mobile) {
+		width: 100%;
+		margin-bottom: 11%;
+		line-height: inherit;
+	}
+}
+
+.o-media__block-renault-qa__6 {
+	font : {
+		size: $size-12;
+		weight: $font-weight-700;
+	}
+	text-transform: uppercase;
+	letter-spacing: $size-10*0.06;
+
+	@include mq($until: tablet) {
+		letter-spacing: $size-10*0.04;
+	}
+
+	@include mq($until: mobile) {
+		font-size: $size-24;
+		letter-spacing: $size-10*0.1;
+	}
+}
+
+.o-media__block-renault-qa__6__ul {
+	list-style: none;
+}
+
+.o-media__block-renault-qa__6__ul__li {
+	width: fit-content;
+	text-align: center;
+	background-color: $color-light-gray;
+	margin-bottom: 7.8%;
+	padding: $size-18 $size-26;
+
+	@include mq($until: tablet) {
+		margin-bottom: 5.25%;
+		padding: $size-12;
+	}
+
+	@include mq($until: mobile) {
+		margin-bottom: 9.25%;
+		padding: $size-28;
+	}
+}

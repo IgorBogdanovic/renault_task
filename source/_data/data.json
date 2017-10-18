@@ -25,7 +25,8 @@
     "thirteen": "Fleuriste : l’aménagement optimal de ovtre véhicule utilitaire en 5 étapes",
     "fourteen": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vehicula, dolor sit amet",
     "fifthteen": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    "sixteen": "Lorem ipsum dolor sit amet, consectetur adipiscing elit vestibulum"
+    "sixteen": "Lorem ipsum dolor sit amet, consectetur adipiscing elit vestibulum",
+    "seventeen": "Cras consectetur felis et ligula faucibus vehicula ut at lectus"
   },
   "media-test-section-heading": {
     "first": "Kangoo Z.E.",
@@ -46,6 +47,14 @@
     "second": "Cras luctus hendrerit neque lacinia scelerisque. Integer nulla turpis, mattis at libero et, vehicula congue augue. Suspendisse id commodo tellus. Phasellus ac cursus elit, ac tincidunt nulla.",
     "third": "Cras luctus hendrerit neque lacinia scelerisque. Integer nulla turpis, mattis at libero et, vehicula congue augue. Suspendisse id commodo",
     "fourth": "Cras luctus hendrerit neque lacinia scelerisque. Integer nulla turpis, mattis at libero et, vehicula congue augue. Suspendisse"
+  },
+  "renault-qa-list": {
+    "first": "Maecenas vel",
+    "second": "Lorem ipsum dolor",
+    "third": "Sit amet",
+    "fourth": "Consectetur adipiscing",
+    "fifth": "Sollicitudin",
+    "sixth": "Fermentum nunc"
   },
   "img-description": {
     "first": "Lorem ipsum",
@@ -121,6 +130,9 @@
     },
     "img-320x262": {
       "src": "https://dummyimage.com/320x262/7e7e7e/000000.png"
+    },
+    "img-284x235": {
+      "src": "https://dummyimage.com/284x235/7e7e7e/000000.png"
     },
     "img-235x310": {
       "src": "https://dummyimage.com/235x310/7e7e7e/000000.png"

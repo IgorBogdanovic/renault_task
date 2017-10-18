@@ -125,6 +125,7 @@
 	}
 
 	@include mq($until: mobile) {
+		margin-top: 18.5%;
 	}
 }
 
@@ -133,12 +134,13 @@
     margin-left: 39.5%;
 
 	@include mq($until: tablet) {
-		margin-top: 0.2%;
    		margin-left: 29.9%;
 	}
 
 	@include mq($until: mobile) {
-		letter-spacing: 1;
+		margin-top: 9%;
+   		margin-left: 6.8%;
+		letter-spacing: $size-10*0.1;
 	}
 }
 
@@ -171,6 +173,10 @@
 
 	@include mq($until: mobile) {
 
+		a {
+			margin-top: $size-18;
+		}
+
 		li {
 			font-size: $size-32;
 		}
@@ -187,6 +193,8 @@
 	}
 
 	@include mq($until: mobile) {
+		margin-left: -1%;
+    	margin-right: 6%;
 	}
 }
 
@@ -200,6 +208,8 @@
 	}
 
 	@include mq($until: mobile) {
+
+		margin: 0 $size-12;
 
 		@for $i from 4 to $elements-latest-news_ul-1_li {
 			&:nth-child(#{$i}) {
@@ -223,6 +233,8 @@
 
 	@include mq($until: mobile) {
 
+		margin: 0 $size-40;
+
 		&:nth-child(6) {
 			display: none;
 		}
@@ -238,29 +250,33 @@
 	}
 
 	i {
+		vertical-align: middle;
 		font-size: $size-18;
 	}
 
 	@include mq($until: mobile) {
 
 		a {
-			margin-top: $size-16;
+			margin-top: $size-26;
 		}
 
 		i {
-			font-size: $size-24;
+			font-size: $size-28;
 		}
 	}
 }
 
 .o-list-latest-news--background {
 	display: inline-block;
-	opacity: 1;
 	border-radius: 50%;
 	width: $size-50;
 	height: $size-50;
-	background-color: $color-light-gray;
+	background-color: transparent;
 	text-align: center;
+
+	&:hover {
+		background-color: $color-light-gray;
+	}
 
 	@include mq($until: mobile) {
 		width: $size-78;
@@ -276,5 +292,6 @@
 	}
 
 	@include mq($until: mobile) {
+		margin-right: $size-26;
 	}
 }

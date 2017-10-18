@@ -14,6 +14,20 @@
 	}
 }
 
+.o-media__block-shp-hdr--faq {
+    top: 40%;
+
+    @include mq($until: tablet) {
+    	top: 46.5%;
+    	left: 8%;
+	}
+
+	@include mq($until: mobile) {
+		top: 19%;
+    	left: 17.7%;
+	}
+}
+
 .o-media__block-shp-txt {
 	background-color: $color-dark-yellow;
 	position: absolute;
@@ -38,6 +52,10 @@
 		padding: $size-38;
 	    letter-spacing: $size-10*0.11;
 	}
+}
+
+.o-media__block-shp-txt--faq {
+	background-color: $color-light-gray;
 }
 
 .o-media__block-shp-path {
