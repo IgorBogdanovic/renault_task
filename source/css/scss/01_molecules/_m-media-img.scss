@@ -25,6 +25,22 @@
 	}
 }
 
+.m-obj-media__img--on-left-2 {
+	width: 47.41%;
+
+	@include mq($until: tablet) {
+		width: 39.535%;
+	}
+
+	@include mq($until: mobile) {
+		width: 48.7%;
+	}
+}
+
+.m-obj-media__img--qa-list {
+	width: 100%;
+}
+
 .m-obj-media__img--on-right {
 	width: 55.37%;
 

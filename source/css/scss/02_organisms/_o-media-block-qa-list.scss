@@ -1,0 +1,277 @@
+.o-media__block-qa-list__heading {
+	margin: 10.9% 0 9.4% 4.5%;
+
+	@include mq($until: tablet) {
+		margin-bottom: 7.35%;
+	}
+
+	@include mq($until: mobile) {
+		margin: 0 0 8.4% 0;
+		letter-spacing: -$size-10*0.15;
+    	line-height: 1.2;
+	}
+}
+
+.o-media__block-qa-list--float-left-tbl-dsk {
+	float: left;
+
+	@include mq($until: mobile) {
+		float: auto;
+	}
+}
+
+.o-media__block-qa-list--float-right-tbl-dsk {
+	float: right;
+
+	@include mq($until: mobile) {
+		float: auto;
+	}
+}
+
+.o-media__block-qa-list--float-left-mob {
+
+	@include mq($until: mobile) {
+		float: left;
+	}
+}
+
+.o-media__block-qa-list--float-right-mob {
+
+	@include mq($until: mobile) {
+		float: right;
+	}
+}
+
+.o-media__block-qa-list-wrapper {
+	@include clearfix();
+	float: left;
+	width: 100%;
+
+	@include mq($until: mobile) {
+		&:after {
+			clear: none !important;
+		}
+
+		float: none;
+	}
+}
+
+.o-media__block-qa-list__1 {
+	width: 57.26%;
+	margin-top: 2%;
+	
+	@include mq($until: tablet) {
+		width: 61.54%;
+		margin-top: 0;
+	}
+
+	@include mq($until: mobile) {
+		width: 100%;
+		margin-bottom: 15.1%;
+	}
+}
+
+.o-media__block-qa-list__1__sec-1 {
+	width: 77.5%;
+	margin: auto;
+
+	p {
+		letter-spacing: $size-10*0.065;
+	}
+	
+	@include mq($until: tablet) {
+		width: 86%;
+		padding-top: 1%;
+    	padding-left: 2.75%;
+
+    	p {
+			letter-spacing: inherit;
+		}
+	}
+
+	@include mq($until: mobile) {
+		width: 100%;
+		margin: 0;
+		padding-top: 0;
+    	padding-left: 0;
+	}
+}
+
+.o-media__block-qa-list__2 {
+	width: 30%;
+	
+	@include mq($until: tablet) {
+		width: 29.848%;
+	}
+
+	@include mq($until: mobile) {
+		width: 48.7%;
+		margin-bottom: 11.1%;
+	}
+}
+
+.o-media__block-qa-list__2--middle {
+	margin-left: 1.9%;
+	margin-right: 1.8%;
+	
+	@include mq($until: tablet) {
+		margin-left: 2%;
+		margin-right: 2%;
+	}
+
+	@include mq($until: mobile) {
+		margin-left: 0;
+		margin-right: 0;
+	}
+}
+
+.o-media__block-qa-list__2__sec-1 {
+	width: 70.485%;
+	margin: auto;
+
+	p {
+		letter-spacing: $size-10*0.065;
+	}
+	
+	@include mq($until: tablet) {
+		width: 70.11%;
+
+		h6 {
+			width: 115%;
+    		margin-left: -1.5%;
+		}
+
+		p {
+			letter-spacing: inherit;
+		}
+	}
+
+	@include mq($until: mobile) {
+		width: 100%;
+
+		h6 {
+			width: 100%;
+    		margin-left: 0;
+		}
+	}
+}
+
+.o-media__block-qa-list__3 {
+	width: 57.26%;
+	
+	@include mq($until: tablet) {
+		width: 61.54%;
+	}
+
+	@include mq($until: mobile) {
+		width: 48.7%;
+		margin-bottom: 11.1%;
+	}
+}
+
+.o-media__block-qa-list__3--l1 {
+	margin: 5.8% 0 5.9% 4.5%;
+	
+	@include mq($until: tablet) {
+		margin: 8% 0 7.75% 4.5%;
+	}
+
+	@include mq($until: mobile) {
+		margin: 0 0 11.1% 0;
+	}
+}
+
+.o-media__block-qa-list__3--l2 {
+	margin-top: 5.8%;
+	
+	@include mq($until: tablet) {
+		margin-top: 7.8%;
+	}
+
+	@include mq($until: mobile) {
+		margin-top: 0;
+	}
+}
+
+.o-media__block-qa-list__3__sec-1--tbl-dsk {
+	display: block;
+	width: 77.5%;
+	margin: auto;
+
+	p {
+		letter-spacing: $size-10*0.065;
+	}
+	
+	@include mq($until: tablet) {
+		width: 86%;
+		padding-top: 1%;
+    	padding-left: 2.75%;
+
+    	p {
+			letter-spacing: inherit;
+		}
+	}
+
+	@include mq($until: mobile) {
+		display: none;
+	}
+}
+
+.o-media__block-qa-list__3__sec-1--mob {
+	display: none;
+
+	@include mq($until: mobile) {
+		display: block;
+	}
+}
+
+.o-media__block-qa-list__background {
+	position: absolute;
+	z-index: -1;
+    background-color: $color-light-gray;
+    width: 100%;
+}
+
+.o-media__block-qa-list__background-1 {
+	top: 14%;
+    padding-top: 33.5%;
+	
+	@include mq($until: tablet) {
+		top: 7%;
+	}
+
+	@include mq($until: mobile) {
+		top: 16.5%;
+    	padding-top: 44.6%;
+	}
+}
+
+.o-media__block-qa-list__background-2 {
+	top: 31%;
+    padding-top: 77.5%;
+	
+	@include mq($until: tablet) {
+		top: 28%;
+	}
+
+	@include mq($until: mobile) {
+		top: 40%;
+    	padding-top: 100%;
+	}
+}
+
+.o-media__block-qa-list__background-1--tbl-dsk {
+	display: block;
+
+	@include mq($until: mobile) {
+		display: none;
+	}
+}
+
+.o-media__block-qa-list__background-2--mob {
+	display: none;
+
+	@include mq($until: mobile) {
+		display: block;
+	}
+}

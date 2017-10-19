@@ -88,6 +88,24 @@
 	}
 }
 
+.m-obj-media__txt-6 {
+	margin-top: $size-32;
+	letter-spacing: $size-10*0.12;
+
+	@include mq($until: tablet) {
+		margin-top: $size-14;
+		letter-spacing: $size-10*0.075;
+	    line-height: 1.2;
+	}
+
+	@include mq($until: mobile) {
+		width: 80%;
+		margin-top: 14%;
+	    margin-left: 8%;
+	    letter-spacing: $size-10*0.15;
+	}
+}
+
 .m-obj-media__paragraph {
 	margin-top: $size-24;
 }
@@ -132,6 +150,28 @@
 
 	@include mq($until: mobile) {
 		width: 49%;
+	}
+}
+
+.m-obj-media__txt--on-right-2 {
+	width: 50.7%;
+	margin-top: 16.2%;
+	margin-right: -2.5%;
+	letter-spacing: $size-10*0.12;
+
+	@include mq($until: tablet) {
+		width: 45%;
+		margin-top: 11.2%;
+	    margin-right: 5%;
+	    letter-spacing: $size-10*0.075;
+	    line-height: 1.2;
+	}
+
+	@include mq($until: mobile) {
+		width: 43%;
+		margin-top: 17.5%;
+	    margin-right: 2%;
+	    letter-spacing: $size-10*0.15;
 	}
 }
 
