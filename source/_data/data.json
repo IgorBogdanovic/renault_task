@@ -7,7 +7,8 @@
     "second": "Vivamus a tincidunt massa, id molestie lacus. donec aliquet mi nis"
   },
   "header-paragraph": {
-    "shp": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam nunc felis, congue in leo id, condimentum fringilla mi. In vestibulum diam eget semper lobortis. Curabitur laoreet nibh diam, condimentum blandit est maximus vestibulum. Integer posuere urna pharetra, dictum tellus nec, tincidunt velit. Pellentesque vel diam sit amet mauris eleifend laoreet sed et nisi. Quisque molestie et orci eu aliquam. Sed eu vestibulum elit, in pretium tellus. Donec blandit luctus ipsum, ac semper orci fermentum quis. Suspendisse mollis ut metus sed egestas. Interdum et malesuada fames ac ante ipsum primis in faucibus... "
+    "shp": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam nunc felis, congue in leo id, condimentum fringilla mi. In vestibulum diam eget semper lobortis. Curabitur laoreet nibh diam, condimentum blandit est maximus vestibulum. Integer posuere urna pharetra, dictum tellus nec, tincidunt velit. Pellentesque vel diam sit amet mauris eleifend laoreet sed et nisi. Quisque molestie et orci eu aliquam. Sed eu vestibulum elit, in pretium tellus. Donec blandit luctus ipsum, ac semper orci fermentum quis. Suspendisse mollis ut metus sed egestas. Interdum et malesuada fames ac ante ipsum primis in faucibus... ",
+    "article": "Lorem ipsum dolor sit amet, consectetur"
   },
   "media-section-heading": {
     "first": "Quel statut juridique choisir pour mon entreprise artisanale ?",
@@ -89,6 +90,9 @@
     "img-1700x875": {
       "src": "https://dummyimage.com/1700x875/7e7e7e/000000.png"
     },
+    "img-1700x700": {
+      "src": "https://dummyimage.com/1700x700/7e7e7e/000000.png"
+    },
     "img-1354x700": {
       "src": "https://dummyimage.com/1354x700/7e7e7e/000000.png"
     },
@@ -112,6 +116,9 @@
     },
     "img-405x535": {
       "src": "https://dummyimage.com/405x535/7e7e7e/000000.png"
+    },
+    "img-405x490": {
+      "src": "https://dummyimage.com/405x490/7e7e7e/ffffff.png"
     },
     "img-362x188": {
       "src": "https://dummyimage.com/362x188/f6f6f6/000000.png"

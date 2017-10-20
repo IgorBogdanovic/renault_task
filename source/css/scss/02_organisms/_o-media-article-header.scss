@@ -1,0 +1,26 @@
+.o-media__block-article-img {
+
+    @include mq($until: tablet) {
+	}
+
+	@include mq($until: mobile) {
+		.a-cmp-media-w1700 {
+	    	height: 23.4rem;
+	    }
+	}
+}
+
+.o-media__block-article-txt {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: $color-white;
+
+    @include mq($until: tablet) {
+	}
+
+	@include mq($until: mobile) {
+		padding: 1.6% 1.6% 0.5% 2.5%;
+    	letter-spacing: $size-10*0.1;
+	}
+}

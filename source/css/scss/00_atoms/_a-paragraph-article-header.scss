@@ -1,0 +1,10 @@
+.a-cmp-paragraph--article-header {
+	font-size: $size-10*1.1;
+
+    @include mq($until: tablet) {
+	}
+
+	@include mq($until: mobile) {
+		font-size: $size-20;
+	}
+}

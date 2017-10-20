@@ -1,0 +1,66 @@
+.m-obj-social {
+	display: inline-block;
+	max-width: $size-14*4.5;
+	width: 100%;
+	background-color: $color-white;
+	border: 1px solid $color-dark-yellow;
+	color: $color-dark-yellow;
+	text-align: center;
+
+	a {
+		display: block;
+	}
+
+	@include mq($until: mobile) {
+		max-width: $size-14*7.072;
+		width: 100%;
+	}
+}
+
+.m-obj-social--fb {
+	font-size: $size-22;
+
+	a {
+		padding: 29.52% 0;
+	}
+
+	@include mq($until: mobile) {
+		font-size: $size-34;
+
+		a {
+			padding: 29.9% 0;
+		}
+	}
+}
+
+.m-obj-social--twitter {
+	font-size: $size-14*1.54;
+
+	a {
+		padding: 30.35% 0;
+	}
+
+	@include mq($until: mobile) {
+		font-size: $size-14*2.31;
+
+		a {
+			padding: 30.94% 0;
+		}
+	}
+}
+
+.m-obj-social--mail {
+	font-size: $size-14*1.54;
+
+	a {
+		padding: 30.35% 0;
+	}
+
+	@include mq($until: mobile) {
+		font-size: $size-14*2.31;
+
+		a {
+			padding: 30.94% 0;
+		}
+	}
+}
