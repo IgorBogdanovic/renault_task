@@ -11,13 +11,13 @@
 }
 
 .o-media__wrapper-2 {
-	margin: 0 6.3%;
+	margin: 0 6.4%;
 
 	@include mq($until: tablet) {
 		margin: 0 6.5%;
 	}
 
 	@include mq($until: mobile) {
-		margin: 0 5%;
+		margin: 0 6.25%;
 	}
 }

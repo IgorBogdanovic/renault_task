@@ -26,3 +26,15 @@
 		margin-top: $size-14;
 	}
 }
+
+.a-cmp-heading--1--article {
+	font-size: $size-50*1.08;
+
+	@include mq($until: tablet) {
+		font-size: $size-32;
+	}
+
+	@include mq($until: mobile) {
+		font-size: $size-40;
+	}
+}

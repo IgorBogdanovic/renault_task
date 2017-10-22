@@ -1,6 +1,9 @@
-.o-media__block-article-img {
+.o-media__header-article-img {
 
     @include mq($until: tablet) {
+    	.a-cmp-media-w1700 {
+	    	height: 28.25rem;
+	    }
 	}
 
 	@include mq($until: mobile) {
@@ -10,17 +13,23 @@
 	}
 }
 
-.o-media__block-article-txt {
+.o-media__header-article-txt {
     position: absolute;
     bottom: 0;
     right: 0;
     background-color: $color-white;
+    width: 20.3%;
+    padding: 1% 0 0.6% 1.7%;
+    letter-spacing: $size-10*0.06;
 
     @include mq($until: tablet) {
+    	width: 45%;
+    	padding: 2% 0 1.2% 3.9%;
 	}
 
 	@include mq($until: mobile) {
-		padding: 1.6% 1.6% 0.5% 2.5%;
+		width: 65%;
+		padding: 1.6% 0 0.5% 2.6%;
     	letter-spacing: $size-10*0.1;
 	}
 }

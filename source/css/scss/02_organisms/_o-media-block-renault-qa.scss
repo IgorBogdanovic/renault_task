@@ -12,7 +12,7 @@
 
 	@include mq($until: tablet) {
 	    padding-top: 60%;
-	    top: 39.5%;
+	    top: 39.4%;
 	}
 
 	@include mq($until: mobile) {
@@ -119,6 +119,7 @@
 	@include mq($until: tablet) {
 		width: 48%;
 		margin-left: 9.5%;
+		letter-spacing: $size-10*0.01;
 		line-height: inherit;
 	}
 
@@ -133,12 +134,12 @@
 .o-media__block-renault-qa__4 {
 	float: right;
 	width: 15%;
-	margin-top: -2.5%;
+	margin-top: -20.6%;
 	margin-right: 18.4%;
 
 	@include mq($until: tablet) {
 		width: auto;
-		margin-top: -0.6%;
+		margin-top: -9%;
     	margin-right: 6.7%;
 	}
 
