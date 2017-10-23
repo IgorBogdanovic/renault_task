@@ -1,9 +1,40 @@
 .o-media__block-article__1 {
+    display: block;
+    width: 87.6%;
+    margin: auto;
+    margin-top: 2%;
+
+    .o-media__block-article__path {
+        display: block;
+        letter-spacing: $size-10*0.085;
+    }
+
+    .a-cmp-image-description {
+        margin-top: 3.8%;
+        padding-left: 1.7%;
+        padding-right: 1.7%;
+        letter-spacing: $size-10*0.13;
+    }
+
+    .o-media__block-article__heading {
+        margin-top: 2.2%;
+    }
+
+    .a-cmp-heading--1--article {
+        width: 82%;
+        letter-spacing: $size-10*0.04;
+        line-height: 1.02;
+    }
+
 
     @include mq($until: tablet) {
         display: block;
         width: 87%;
         margin: auto;
+
+        .o-media__block-article__path {
+            display: none;
+        }
 
         .a-cmp-image-description {
             letter-spacing: $size-10*0.05;
@@ -11,10 +42,13 @@
 
         .o-media__block-article__heading {
             margin-top: 3%;
+            line-height: 1;
         }
 
         .a-cmp-heading--1--article {
+            width: 100%;
             letter-spacing: -$size-10*0.1;
+            line-height: inherit;
         }
 	}
 
@@ -39,9 +73,19 @@
 }
 
 .o-media__block-article-slider {
+    width: 10%;
+    position: absolute;
+    top: 26.4%;
+    left: 0;
+
+    .o-media__block__slider__background--vertical {
+        height: 125%;
+        top: -12%;
+    }
 
     @include mq($until: tablet) {
         width: 43%;
+        position: static;
         margin-top: 6.8%;
         margin-left: 6.7%;
     }
@@ -53,7 +97,59 @@
     }
 }
 
+.o-media__block-article-test {
+    display: inline-block;
+    position: absolute;
+    top: 26.4%;
+    right: 0;
+
+    @include mq($until: tablet) {
+        display: none;
+    }
+}
+
 .o-media__block-article__2 {
+    display: block;
+    width: 49%;
+    margin-left: 12.8%;
+    padding-top: 7.3%;
+
+    .o-media__block-article__2__sec-1 {
+        font-size: $size-10;
+        letter-spacing: $size-10*0.06;
+    }
+
+    .o-media__block-article__2__sec-2 {
+        margin-top: 3.5%;
+
+        .o-media__block-article__2__sec-2__intro {
+            margin-top: -2%;
+            margin-bottom: 1%;
+            font-size: $size-18;
+            font-weight: $font-weight-900;
+            letter-spacing: $size-10*0.125;
+            line-height: 1.45;
+        }
+
+        .o-media__block-article__2__sec-2__text {
+            margin-bottom: 1.2%;
+            font-size: $size-16;
+            letter-spacing: $size-10*0.085;
+            line-height: 1.4;
+
+            a {
+                color: $color-dark-yellow;
+                text-decoration: underline;
+            }
+        }
+    }
+
+    .o-media__block-article__2__sec-3 {
+        margin-top: 1.3%;
+        font-size: $size-12;
+        color: $color-dark-yellow;
+        letter-spacing: $size-10*0.06;
+    }
 
     @include mq($until: tablet) {
         display: block;
@@ -63,37 +159,24 @@
 
         .o-media__block-article__2__sec-1 {
             font-size: $size-12;
-            letter-spacing: $size-10*0.06;
         }
 
         .o-media__block-article__2__sec-2 {
             margin-top: 3.5%;
 
             .o-media__block-article__2__sec-2__intro {
-                margin-top: -2%;
                 margin-bottom: 3.3%;
-                font-size: $size-18;
-                font-weight: $font-weight-900;
                 letter-spacing: $size-10*0.1;
-                line-height: 1.45;
             }
 
             .o-media__block-article__2__sec-2__text {
                 margin-bottom: 1.8%;
-                font-size: $size-16;
                 letter-spacing: $size-10*0.065;
-                line-height: 1.4;
-
-                a {
-                    color: $color-dark-yellow;
-                    text-decoration: underline;
-                }
             }
         }
 
         .o-media__block-article__2__sec-3 {
             font-size: $size-16;
-            color: $color-dark-yellow;
             letter-spacing: $size-10*0.065;
         }
     }
@@ -130,7 +213,7 @@
         }
 
         .o-media__block-article__2__sec-3 {
-            margin-top: 5.2%;
+            margin-top: 1.5%;
             font-size: $size-28;
             letter-spacing: $size-10*0.1;
         }

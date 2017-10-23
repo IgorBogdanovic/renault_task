@@ -87,6 +87,18 @@
     "arrow-section-right": {
       "src": "../../images/arrow-section-right.png"
     },
+    "arrow-diaporama-left": {
+      "src": "../../images/arrow-diaporama-left.png"
+    },
+    "arrow-diaporama-right": {
+      "src": "../../images/arrow-diaporama-right.png"
+    },
+    "fb-diaporama": {
+      "src": "../../images/fb-diaporama.png"
+    },
+    "twitter-diaporama": {
+      "src": "../../images/twitter-diaporama.png"
+    },
     "img-1700x875": {
       "src": "https://dummyimage.com/1700x875/7e7e7e/000000.png"
     },
@@ -98,6 +110,9 @@
     },
     "img-1350x440": {
       "src": "https://dummyimage.com/1350x440/7e7e7e/ffffff.png"
+    },
+    "img-945x585": {
+      "src": "https://dummyimage.com/945x585/7e7e7e/000000.png"
     },
     "img-835x510": {
       "src": "https://dummyimage.com/835x510/7e7e7e/000000.png"
@@ -146,6 +161,9 @@
     },
     "img-235x192": {
       "src": "https://dummyimage.com/235x192/000000/ffffff.png"
+    },
+    "img-100x80": {
+      "src": "https://dummyimage.com/100x80/ffffff/000000.png"
     },
 
 

@@ -1,0 +1,147 @@
+.o-media__header-article-img {
+	width: 100%;
+
+    @include mq($until: tablet) {
+    	.a-cmp-media-w1700 {
+	    	height: 28.25rem;
+	    }
+	}
+
+	@include mq($until: mobile) {
+		.a-cmp-media-w1700 {
+	    	height: 23.4rem;
+	    }
+	}
+}
+
+.o-media__header-article-img--background {
+	z-index: -1;
+	-webkit-filter: brightness(10%);
+	filter: brightness(10%);
+}
+
+.o-media__header-article-video {
+	position: absolute;
+	bottom: 9%;
+    left: 20%;
+	width: 60%;
+    height: 82%;
+
+	@include mq($until: tablet) {
+    	width: 100%;
+    	bottom: 0;
+    	left: 0;
+	    height: 28.25rem;
+	}
+
+	@include mq($until: mobile) {
+		height: 23.4rem;
+	}
+}
+
+.o-media__header-article-txt {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: $color-white;
+    width: 20.3%;
+    padding: 1% 0 0.6% 1.7%;
+    letter-spacing: $size-10*0.06;
+
+    @include mq($until: tablet) {
+    	width: 45%;
+    	padding: 2% 0 1.2% 3.9%;
+	}
+
+	@include mq($until: mobile) {
+		width: 65%;
+		padding: 1.6% 0 0.5% 2.6%;
+    	letter-spacing: $size-10*0.1;
+	}
+}
+
+.o-media__block-arrow-left--article {
+	display: block;
+	width: 1.8%;
+    bottom: 12.9%;
+    left: 28.7%;
+
+	@include mq($until: tablet) {
+		width: 4%;
+	    bottom: 43%;
+	    left: 3.9%;
+	}
+
+	@include mq($until: mobile) {
+		width: 10%;
+	    bottom: 40.5%;
+	    left: 6.3%;
+	}
+}
+
+.o-media__block-arrow-right--article {
+	display: block;
+	width: 1.8%;
+    bottom: 12.9%;
+    right: 28.7%;
+
+	@include mq($until: tablet) {
+		width: 4%;
+	    bottom: 43%;
+	    right: 3.9%;
+	}
+
+	@include mq($until: mobile) {
+		width: 10%;
+	    bottom: 40.5%;
+	    right: 6.3%;
+	}
+}
+
+.o-media__button-article {
+	position: absolute;
+	top: 54.3%;
+    left: 44.5%;
+
+	.a-cmp-button {
+		font-size: $size-16;
+		font-weight: $font-weight-700;
+		letter-spacing: $size-10*0.14;
+		padding: 11% 22%;
+	}
+
+	@include mq($until: tablet) {
+	    top: 46%;
+	    left: 38%;
+	}
+
+	@include mq($until: mobile) {
+	    top: 41.5%;
+	    left: 35%;
+
+		.a-cmp-button {
+    		letter-spacing: $size-10*0.1;
+    		padding: 11% 23.5%;
+		}
+	}
+}
+
+.o-media__header-article-carousel--small {
+	position: absolute;
+	width: 35.295%;
+	bottom: 8.75%;
+    left: 33%;
+
+	@include mq($until: tablet) {
+	    display: none;
+	}
+}
+
+.o-media__header-article-img--small {
+	display: inline-block;
+	width: 7.143rem;
+}
+
+.slick-slide{
+	width: 8.572rem;
+}

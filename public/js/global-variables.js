@@ -59,6 +59,15 @@ var headerArrowLeft = $('.o-media__block-arrow-left');
 var headerArrowRight = $('.o-media__block-arrow-right');
 
 /*------------------------------------------
+		> HAEADER ARTICLE CAROUSEL <						
+------------------------------------------*/
+
+var carouselArticleHeader = $('.o-media__header-article-carousel');
+var carouselArticleHeaderSmall = $('.o-media__header-article-carousel--small');
+var headerArticleArrowLeft = $('.o-media__block-arrow-left--article');
+var headerArticleArrowRight = $('.o-media__block-arrow-right--article');
+
+/*------------------------------------------
 			> RENAULT-QA CAROUSEL <						
 ------------------------------------------*/
 

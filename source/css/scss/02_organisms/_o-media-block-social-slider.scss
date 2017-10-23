@@ -39,7 +39,7 @@
 }
 
 .o-media__block__slider__background--vertical {
-	@include mq($until: mobile) {
+	@include mq($until: tablet) {
 		display: none;
 	}
 }
