@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": 1508771222825,
+  "timestamp": 1508856706880,
   "graph": {
     "options": {
       "directed": true,
@@ -103,6 +103,14 @@
         }
       },
       {
+        "v": "00-atoms/03-buttons/02-close-icon.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/02-organisms-05-article-04-article-diaporama-module/02-organisms-05-article-04-article-diaporama-module.rendered.html",
+          "lineagePattern": "organisms-article-diaporama-module"
+        }
+      },
+      {
         "v": "00-atoms/03-buttons/02-menu-close.mustache",
         "value": {
           "compileState": "clean",
@@ -153,25 +161,33 @@
       {
         "v": "00-atoms/03-buttons/18-arrow-diaporama-left.mustache",
         "value": {
-          "compileState": "clean"
+          "compileState": "clean",
+          "lineagePath": "../../patterns/02-organisms-05-article-04-article-diaporama-module/02-organisms-05-article-04-article-diaporama-module.rendered.html",
+          "lineagePattern": "organisms-article-diaporama-module"
         }
       },
       {
         "v": "00-atoms/03-buttons/19-arrow-diaporama-right.mustache",
         "value": {
-          "compileState": "clean"
+          "compileState": "clean",
+          "lineagePath": "../../patterns/02-organisms-05-article-04-article-diaporama-module/02-organisms-05-article-04-article-diaporama-module.rendered.html",
+          "lineagePattern": "organisms-article-diaporama-module"
         }
       },
       {
         "v": "00-atoms/03-buttons/20-fb-diaporama.mustache",
         "value": {
-          "compileState": "clean"
+          "compileState": "clean",
+          "lineagePath": "../../patterns/02-organisms-05-article-04-article-diaporama-module/02-organisms-05-article-04-article-diaporama-module.rendered.html",
+          "lineagePattern": "organisms-article-diaporama-module"
         }
       },
       {
         "v": "00-atoms/03-buttons/21-twitter-diaporama.mustache",
         "value": {
-          "compileState": "clean"
+          "compileState": "clean",
+          "lineagePath": "../../patterns/02-organisms-05-article-04-article-diaporama-module/02-organisms-05-article-04-article-diaporama-module.rendered.html",
+          "lineagePattern": "organisms-article-diaporama-module"
         }
       },
       {
@@ -287,7 +303,9 @@
       {
         "v": "00-atoms/04-images/22-img-945x585.mustache",
         "value": {
-          "compileState": "clean"
+          "compileState": "clean",
+          "lineagePath": "../../patterns/02-organisms-05-article-04-article-diaporama-module/02-organisms-05-article-04-article-diaporama-module.rendered.html",
+          "lineagePattern": "organisms-article-diaporama-module"
         }
       },
       {
@@ -299,11 +317,27 @@
         }
       },
       {
+        "v": "00-atoms/04-images/25-img-770x570.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/02-organisms-05-article-04-article-diaporama-module/02-organisms-05-article-04-article-diaporama-module.rendered.html",
+          "lineagePattern": "organisms-article-diaporama-module"
+        }
+      },
+      {
         "v": "00-atoms/04-images/26-img-664x634.mustache",
         "value": {
           "compileState": "clean",
           "lineagePath": "../../patterns/01-molecules-08-media-cote-business-08-media-cote-business-portrait/01-molecules-08-media-cote-business-08-media-cote-business-portrait.rendered.html",
           "lineagePattern": "molecules-media-cote-business-portrait"
+        }
+      },
+      {
+        "v": "00-atoms/04-images/27-img-640x550.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/02-organisms-05-article-04-article-diaporama-module/02-organisms-05-article-04-article-diaporama-module.rendered.html",
+          "lineagePattern": "organisms-article-diaporama-module"
         }
       },
       {
@@ -406,8 +440,8 @@
         "v": "00-atoms/04-images/55-img-100x80.mustache",
         "value": {
           "compileState": "clean",
-          "lineagePath": "../../patterns/02-organisms-05-article-03-article-diaporama-header/02-organisms-05-article-03-article-diaporama-header.rendered.html",
-          "lineagePattern": "organisms-article-diaporama-header"
+          "lineagePath": "../../patterns/02-organisms-05-article-04-article-diaporama-module/02-organisms-05-article-04-article-diaporama-module.rendered.html",
+          "lineagePattern": "organisms-article-diaporama-module"
         }
       },
       {
@@ -1140,6 +1174,12 @@
       },
       {
         "v": "02-organisms/05-article/03-article-diaporama-header.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "02-organisms/05-article/04-article-diaporama-module.mustache",
         "value": {
           "compileState": "clean"
         }
@@ -1982,6 +2022,51 @@
       {
         "v": "02-organisms/05-article/03-article-diaporama-header.mustache",
         "w": "00-atoms/03-buttons/11-arrow-header-right.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-organisms/05-article/04-article-diaporama-module.mustache",
+        "w": "00-atoms/03-buttons/02-close-icon.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-organisms/05-article/04-article-diaporama-module.mustache",
+        "w": "00-atoms/03-buttons/18-arrow-diaporama-left.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-organisms/05-article/04-article-diaporama-module.mustache",
+        "w": "00-atoms/03-buttons/19-arrow-diaporama-right.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-organisms/05-article/04-article-diaporama-module.mustache",
+        "w": "00-atoms/04-images/22-img-945x585.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-organisms/05-article/04-article-diaporama-module.mustache",
+        "w": "00-atoms/04-images/25-img-770x570.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-organisms/05-article/04-article-diaporama-module.mustache",
+        "w": "00-atoms/04-images/27-img-640x550.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-organisms/05-article/04-article-diaporama-module.mustache",
+        "w": "00-atoms/03-buttons/21-twitter-diaporama.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-organisms/05-article/04-article-diaporama-module.mustache",
+        "w": "00-atoms/03-buttons/20-fb-diaporama.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-organisms/05-article/04-article-diaporama-module.mustache",
+        "w": "00-atoms/04-images/55-img-100x80.mustache",
         "value": {}
       },
       {

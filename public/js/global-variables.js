@@ -68,6 +68,15 @@ var headerArticleArrowLeft = $('.o-media__block-arrow-left--article');
 var headerArticleArrowRight = $('.o-media__block-arrow-right--article');
 
 /*------------------------------------------
+		> DIAPORAMA MODULE CAROUSEL <						
+------------------------------------------*/
+
+var carouselD_Module = $('.o-media__block-module-carousel');
+var carouselD_ModuleSmall = $('.o-media__block-module-carousel--small');
+var d_ModuleArrowLeft = $('.o-media__block-module__arrow--left');
+var d_ModuleArrowRight = $('.o-media__block-module__arrow--right');
+
+/*------------------------------------------
 			> RENAULT-QA CAROUSEL <						
 ------------------------------------------*/
 

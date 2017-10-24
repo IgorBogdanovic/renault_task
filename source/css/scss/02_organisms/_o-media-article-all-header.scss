@@ -132,6 +132,10 @@
 	bottom: 8.75%;
     left: 33%;
 
+    .slick-slide {
+		width: 8.572rem;
+	}
+
 	@include mq($until: tablet) {
 	    display: none;
 	}
@@ -140,8 +144,4 @@
 .o-media__header-article-img--small {
 	display: inline-block;
 	width: 7.143rem;
-}
-
-.slick-slide{
-	width: 8.572rem;
 }

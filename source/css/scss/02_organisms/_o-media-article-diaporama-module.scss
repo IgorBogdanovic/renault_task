@@ -1,0 +1,238 @@
+.o-media__block-module__img--desktop {
+    float: left;
+    width: 55.589%;
+    margin-top: 7%;
+    margin-left: 10.3%;
+
+    @include mq($until: tablet) {
+        display: none;
+    }
+}
+
+.o-media__block-module__img--tablet {
+    display: none;
+
+    @include mq($until: tablet) {
+        display: block;
+    }
+
+    @include mq($until: mobile) {
+        display: none;
+    }
+}
+
+.o-media__block-module__img--mobile {
+    display: none;
+
+    @include mq($until: mobile) {
+        display: block;
+    }
+}
+
+.o-media__block-module__close {
+    top: 2.3%;
+    right: 1%;
+
+    i {
+        font-size: $size-50*1.3;
+    }
+
+    @include mq($until: tablet) {
+        top: 1.8%;
+        right: 3.7%;
+
+        i {
+            font-size: $size-45;
+        }
+    }
+
+    @include mq($until: mobile) {
+        top: 1.5%;
+        right: 2.7%;
+    }
+}
+
+.o-media__block-module__arrow {
+    width: 2.7%;
+    top: 105.2%;
+
+    @include mq($until: tablet) {
+        width: 5.794%;
+        top: 26.3%;
+    }
+
+    @include mq($until: mobile) {
+        width: 9.6%;
+        top: 18.5%;
+    }
+}
+
+.o-media__block-module__arrow--left {
+    left: 54.6%;
+
+    @include mq($until: tablet) {
+        left: 3.7%;
+    }
+
+    @include mq($until: mobile) {
+        left: 6%;
+    }
+}
+
+.o-media__block-module__arrow--right {
+    right: 37%;
+
+    @include mq($until: tablet) {
+        right: 3.7%;
+    }
+
+    @include mq($until: mobile) {
+        right: 6%;
+    }
+}
+
+.o-media__block-module__background--yellow {
+    background-color: $color-dark-yellow;
+    opacity: 0.99;
+    position: absolute;
+    right: 0;
+    width: 41.2%;
+    height: 132.3%;
+
+    @include mq($until: tablet) {
+        right: auto;
+        width: 100%;
+        height: 104.6%;
+    }
+
+    @include mq($until: mobile) {
+        height: 104.6%;
+    }
+}
+
+.o-media__block-module__content {
+    float: left;
+    width: 19%;
+    margin-top: 6.7%;
+    margin-left: 5%;
+
+    @include mq($until: tablet) {
+        float: none;
+        width: 85%;
+        margin-top: 4.4%;
+        margin-left: 8%;
+    }
+
+    @include mq($until: mobile) {
+        width: 89%;
+        margin-top: 7%;
+        margin-left: 6%;
+    }
+}
+
+.o-media__block-module__content__counter {
+    font : {
+        size: $size-24;
+        weight: $font-weight-900;
+    }
+
+	@include mq($until: mobile) {
+        font-size: $size-32;
+	}
+}
+
+.o-media__block-module__content__heading {
+    text-transform: uppercase;
+    margin-top: 9%;
+    letter-spacing: $size-10*0.03;
+    line-height: 1.2;
+
+    @include mq($until: tablet) {
+        margin-top: 4%;
+        letter-spacing: -$size-10*0.025;
+        line-height: 1;
+    }
+
+    @include mq($until: mobile) {
+        margin-top: 3.5%;
+        letter-spacing: -$size-10*0.04;
+        line-height: 1.05;
+    }
+}
+
+.o-media__block-module__content__paragraph {
+    font-size: $size-16;
+    margin-top: 8.5%;
+    letter-spacing: $size-10*0.08;
+    line-height: 1.55;
+
+    @include mq($until: tablet) {
+        margin-top: 4.6%;
+        letter-spacing: $size-10*0.07;
+        line-height: 1.5;
+    }
+
+    @include mq($until: mobile) {
+        font-size: $size-28;
+        margin-top: 4%;
+        letter-spacing: $size-10*0.11;
+        line-height: 1.47;
+    }
+}
+
+.o-media__block-module__content__social-links {
+    margin-top: 10%;
+
+    @include mq($until: tablet) {
+        margin-top: 7.5%;
+    }
+
+    @include mq($until: mobile) {
+        margin-top: 8.5%;
+    }
+}
+
+.o-media__block-module__content__social-links__link {
+    display: inline-block;
+    width: 9%;
+
+    @include mq($until: tablet) {
+        width: 7.5%;
+    }
+
+    @include mq($until: mobile) {
+        width: 12.405%;
+    }
+}
+
+.o-media__block-module__content__social-links__twitter {
+    margin-right: 0.8%;
+
+    @include mq($until: tablet) {
+        margin-right: 0.8%;
+    }
+
+    @include mq($until: mobile) {
+        margin-right: 8.5%;
+    }
+}
+
+.o-media__block-module-carousel--small {
+    position: absolute;
+    width: 42.295%;
+    bottom: -14.6%;
+    left: 10.25%;
+
+    .slick-slide {
+        width: 8.65rem;
+    }
+
+    @include mq($until: tablet) {
+        display: none;
+    }
+}
+
+.o-media__block-module__img--small {
+    display: inline-block;
+    width: 7.143rem;
+}
