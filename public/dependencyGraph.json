@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": 1508856706880,
+  "timestamp": 1508943769518,
   "graph": {
     "options": {
       "directed": true,
@@ -130,16 +130,16 @@
         "v": "00-atoms/03-buttons/10-arrow-header-left.mustache",
         "value": {
           "compileState": "clean",
-          "lineagePath": "../../patterns/02-organisms-05-article-03-article-diaporama-header/02-organisms-05-article-03-article-diaporama-header.rendered.html",
-          "lineagePattern": "organisms-article-diaporama-header"
+          "lineagePath": "../../patterns/02-organisms-05-article-06-carousel-enrichi/02-organisms-05-article-06-carousel-enrichi.rendered.html",
+          "lineagePattern": "organisms-carousel-enrichi"
         }
       },
       {
         "v": "00-atoms/03-buttons/11-arrow-header-right.mustache",
         "value": {
           "compileState": "clean",
-          "lineagePath": "../../patterns/02-organisms-05-article-03-article-diaporama-header/02-organisms-05-article-03-article-diaporama-header.rendered.html",
-          "lineagePattern": "organisms-article-diaporama-header"
+          "lineagePath": "../../patterns/02-organisms-05-article-06-carousel-enrichi/02-organisms-05-article-06-carousel-enrichi.rendered.html",
+          "lineagePattern": "organisms-carousel-enrichi"
         }
       },
       {
@@ -309,7 +309,7 @@
         }
       },
       {
-        "v": "00-atoms/04-images/24-img-835x510.mustache",
+        "v": "00-atoms/04-images/23-img-835x510.mustache",
         "value": {
           "compileState": "clean",
           "lineagePath": "../../patterns/02-organisms-02-home-page-04-article-fan-de-vu/02-organisms-02-home-page-04-article-fan-de-vu.rendered.html",
@@ -317,11 +317,19 @@
         }
       },
       {
-        "v": "00-atoms/04-images/25-img-770x570.mustache",
+        "v": "00-atoms/04-images/24-img-770x570.mustache",
         "value": {
           "compileState": "clean",
           "lineagePath": "../../patterns/02-organisms-05-article-04-article-diaporama-module/02-organisms-05-article-04-article-diaporama-module.rendered.html",
           "lineagePattern": "organisms-article-diaporama-module"
+        }
+      },
+      {
+        "v": "00-atoms/04-images/25-img-690x955.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/02-organisms-05-article-07-article-enrichi/02-organisms-05-article-07-article-enrichi.rendered.html",
+          "lineagePattern": "organisms-article-enrichi"
         }
       },
       {
@@ -333,7 +341,23 @@
         }
       },
       {
-        "v": "00-atoms/04-images/27-img-640x550.mustache",
+        "v": "00-atoms/04-images/27-img-664x375.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/02-organisms-05-article-07-article-enrichi/02-organisms-05-article-07-article-enrichi.rendered.html",
+          "lineagePattern": "organisms-article-enrichi"
+        }
+      },
+      {
+        "v": "00-atoms/04-images/28-img-664x358.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/02-organisms-05-article-06-carousel-enrichi/02-organisms-05-article-06-carousel-enrichi.rendered.html",
+          "lineagePattern": "organisms-carousel-enrichi"
+        }
+      },
+      {
+        "v": "00-atoms/04-images/29-img-640x550.mustache",
         "value": {
           "compileState": "clean",
           "lineagePath": "../../patterns/02-organisms-05-article-04-article-diaporama-module/02-organisms-05-article-04-article-diaporama-module.rendered.html",
@@ -341,7 +365,7 @@
         }
       },
       {
-        "v": "00-atoms/04-images/28-img-640x492.mustache",
+        "v": "00-atoms/04-images/30-img-640x492.mustache",
         "value": {
           "compileState": "clean",
           "lineagePath": "../../patterns/02-organisms-00-global-04-article-test-quel-vehicule/02-organisms-00-global-04-article-test-quel-vehicule.rendered.html",
@@ -349,7 +373,15 @@
         }
       },
       {
-        "v": "00-atoms/04-images/30-img-578x473.mustache",
+        "v": "00-atoms/04-images/31-img-640x330.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/02-organisms-05-article-06-carousel-enrichi/02-organisms-05-article-06-carousel-enrichi.rendered.html",
+          "lineagePattern": "organisms-carousel-enrichi"
+        }
+      },
+      {
+        "v": "00-atoms/04-images/32-img-578x473.mustache",
         "value": {
           "compileState": "clean",
           "lineagePath": "../../patterns/01-molecules-10-media-latest-news-04-media-latest-news-img-578x473/01-molecules-10-media-latest-news-04-media-latest-news-img-578x473.rendered.html",
@@ -357,7 +389,7 @@
         }
       },
       {
-        "v": "00-atoms/04-images/32-img-490x410.mustache",
+        "v": "00-atoms/04-images/34-img-490x410.mustache",
         "value": {
           "compileState": "clean",
           "lineagePath": "../../patterns/02-organisms-03-shp-05-article-renault-qa/02-organisms-03-shp-05-article-renault-qa.rendered.html",
@@ -365,7 +397,7 @@
         }
       },
       {
-        "v": "00-atoms/04-images/34-img-405x535.mustache",
+        "v": "00-atoms/04-images/35-img-405x535.mustache",
         "value": {
           "compileState": "clean",
           "lineagePath": "../../patterns/01-molecules-09-media-editors-picks-04-media-editors-picks-img-405x535/01-molecules-09-media-editors-picks-04-media-editors-picks-img-405x535.rendered.html",
@@ -440,8 +472,8 @@
         "v": "00-atoms/04-images/55-img-100x80.mustache",
         "value": {
           "compileState": "clean",
-          "lineagePath": "../../patterns/02-organisms-05-article-04-article-diaporama-module/02-organisms-05-article-04-article-diaporama-module.rendered.html",
-          "lineagePattern": "organisms-article-diaporama-module"
+          "lineagePath": "../../patterns/02-organisms-05-article-06-carousel-enrichi/02-organisms-05-article-06-carousel-enrichi.rendered.html",
+          "lineagePattern": "organisms-carousel-enrichi"
         }
       },
       {
@@ -1008,32 +1040,32 @@
         "v": "01-molecules/13-article-page/01-heading-article.mustache",
         "value": {
           "compileState": "clean",
-          "lineagePath": "../../patterns/02-organisms-05-article-05-article/02-organisms-05-article-05-article.rendered.html",
-          "lineagePattern": "organisms-article"
+          "lineagePath": "../../patterns/02-organisms-05-article-07-article-enrichi/02-organisms-05-article-07-article-enrichi.rendered.html",
+          "lineagePattern": "organisms-article-enrichi"
         }
       },
       {
         "v": "01-molecules/13-article-page/03-slider-link-fb.mustache",
         "value": {
           "compileState": "clean",
-          "lineagePath": "../../patterns/02-organisms-00-global-03-social-slider/02-organisms-00-global-03-social-slider.rendered.html",
-          "lineagePattern": "organisms-social-slider"
+          "lineagePath": "../../patterns/02-organisms-00-global-03-social-slider-enrichi/02-organisms-00-global-03-social-slider-enrichi.rendered.html",
+          "lineagePattern": "organisms-social-slider-enrichi"
         }
       },
       {
         "v": "01-molecules/13-article-page/04-slider-link-twitter.mustache",
         "value": {
           "compileState": "clean",
-          "lineagePath": "../../patterns/02-organisms-00-global-03-social-slider/02-organisms-00-global-03-social-slider.rendered.html",
-          "lineagePattern": "organisms-social-slider"
+          "lineagePath": "../../patterns/02-organisms-00-global-03-social-slider-enrichi/02-organisms-00-global-03-social-slider-enrichi.rendered.html",
+          "lineagePattern": "organisms-social-slider-enrichi"
         }
       },
       {
         "v": "01-molecules/13-article-page/05-slider-link-mail.mustache",
         "value": {
           "compileState": "clean",
-          "lineagePath": "../../patterns/02-organisms-00-global-03-social-slider/02-organisms-00-global-03-social-slider.rendered.html",
-          "lineagePattern": "organisms-social-slider"
+          "lineagePath": "../../patterns/02-organisms-00-global-03-social-slider-enrichi/02-organisms-00-global-03-social-slider-enrichi.rendered.html",
+          "lineagePattern": "organisms-social-slider-enrichi"
         }
       },
       {
@@ -1049,11 +1081,19 @@
         }
       },
       {
-        "v": "02-organisms/00-global/03-social-slider.mustache",
+        "v": "02-organisms/00-global/02-social-slider.mustache",
         "value": {
           "compileState": "clean",
           "lineagePath": "../../patterns/02-organisms-05-article-05-article/02-organisms-05-article-05-article.rendered.html",
           "lineagePattern": "organisms-article"
+        }
+      },
+      {
+        "v": "02-organisms/00-global/03-social-slider-enrichi.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/02-organisms-05-article-07-article-enrichi/02-organisms-05-article-07-article-enrichi.rendered.html",
+          "lineagePattern": "organisms-article-enrichi"
         }
       },
       {
@@ -1191,6 +1231,20 @@
         }
       },
       {
+        "v": "02-organisms/05-article/06-carousel-enrichi.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/02-organisms-05-article-07-article-enrichi/02-organisms-05-article-07-article-enrichi.rendered.html",
+          "lineagePattern": "organisms-article-enrichi"
+        }
+      },
+      {
+        "v": "02-organisms/05-article/07-article-enrichi.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
         "v": "/Users/igor/renault_task/source/_meta/_00-head.mustache",
         "value": {
           "compileState": null
@@ -1246,7 +1300,7 @@
       },
       {
         "v": "01-molecules/03-media-articles-lies/04-media-articles-lies-img-578x473.mustache",
-        "w": "00-atoms/04-images/30-img-578x473.mustache",
+        "w": "00-atoms/04-images/32-img-578x473.mustache",
         "value": {}
       },
       {
@@ -1276,12 +1330,12 @@
       },
       {
         "v": "01-molecules/04-media-news-de-la-semaine/03-media-news-de-la-semaine-img-405x535.mustache",
-        "w": "00-atoms/04-images/34-img-405x535.mustache",
+        "w": "00-atoms/04-images/35-img-405x535.mustache",
         "value": {}
       },
       {
         "v": "01-molecules/04-media-news-de-la-semaine/04-media-news-de-la-semaine-img-578x473.mustache",
-        "w": "00-atoms/04-images/30-img-578x473.mustache",
+        "w": "00-atoms/04-images/32-img-578x473.mustache",
         "value": {}
       },
       {
@@ -1316,7 +1370,7 @@
       },
       {
         "v": "01-molecules/06-media-vu-and-astuces/04-media-vu-and-astuces-img-578x473.mustache",
-        "w": "00-atoms/04-images/30-img-578x473.mustache",
+        "w": "00-atoms/04-images/32-img-578x473.mustache",
         "value": {}
       },
       {
@@ -1331,7 +1385,7 @@
       },
       {
         "v": "01-molecules/07-media-foire-aux-questions/02-media-foire-aux-questions.mustache",
-        "w": "00-atoms/04-images/32-img-490x410.mustache",
+        "w": "00-atoms/04-images/34-img-490x410.mustache",
         "value": {}
       },
       {
@@ -1391,7 +1445,7 @@
       },
       {
         "v": "01-molecules/09-media-editors-picks/02-media-editors-picks-img-578x473.mustache",
-        "w": "00-atoms/04-images/30-img-578x473.mustache",
+        "w": "00-atoms/04-images/32-img-578x473.mustache",
         "value": {}
       },
       {
@@ -1401,7 +1455,7 @@
       },
       {
         "v": "01-molecules/09-media-editors-picks/04-media-editors-picks-img-405x535.mustache",
-        "w": "00-atoms/04-images/34-img-405x535.mustache",
+        "w": "00-atoms/04-images/35-img-405x535.mustache",
         "value": {}
       },
       {
@@ -1416,7 +1470,7 @@
       },
       {
         "v": "01-molecules/10-media-latest-news/04-media-latest-news-img-578x473.mustache",
-        "w": "00-atoms/04-images/30-img-578x473.mustache",
+        "w": "00-atoms/04-images/32-img-578x473.mustache",
         "value": {}
       },
       {
@@ -1540,17 +1594,32 @@
         "value": {}
       },
       {
-        "v": "02-organisms/00-global/03-social-slider.mustache",
+        "v": "02-organisms/00-global/02-social-slider.mustache",
         "w": "01-molecules/13-article-page/03-slider-link-fb.mustache",
         "value": {}
       },
       {
-        "v": "02-organisms/00-global/03-social-slider.mustache",
+        "v": "02-organisms/00-global/02-social-slider.mustache",
         "w": "01-molecules/13-article-page/04-slider-link-twitter.mustache",
         "value": {}
       },
       {
-        "v": "02-organisms/00-global/03-social-slider.mustache",
+        "v": "02-organisms/00-global/02-social-slider.mustache",
+        "w": "01-molecules/13-article-page/05-slider-link-mail.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-organisms/00-global/03-social-slider-enrichi.mustache",
+        "w": "01-molecules/13-article-page/03-slider-link-fb.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-organisms/00-global/03-social-slider-enrichi.mustache",
+        "w": "01-molecules/13-article-page/04-slider-link-twitter.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-organisms/00-global/03-social-slider-enrichi.mustache",
         "w": "01-molecules/13-article-page/05-slider-link-mail.mustache",
         "value": {}
       },
@@ -1561,7 +1630,7 @@
       },
       {
         "v": "02-organisms/00-global/04-article-test-quel-vehicule.mustache",
-        "w": "00-atoms/04-images/28-img-640x492.mustache",
+        "w": "00-atoms/04-images/30-img-640x492.mustache",
         "value": {}
       },
       {
@@ -1761,7 +1830,7 @@
       },
       {
         "v": "02-organisms/02-home-page/04-article-fan-de-vu.mustache",
-        "w": "00-atoms/04-images/24-img-835x510.mustache",
+        "w": "00-atoms/04-images/23-img-835x510.mustache",
         "value": {}
       },
       {
@@ -1911,7 +1980,7 @@
       },
       {
         "v": "02-organisms/03-shp/05-article-renault-qa.mustache",
-        "w": "00-atoms/04-images/32-img-490x410.mustache",
+        "w": "00-atoms/04-images/34-img-490x410.mustache",
         "value": {}
       },
       {
@@ -2046,12 +2115,12 @@
       },
       {
         "v": "02-organisms/05-article/04-article-diaporama-module.mustache",
-        "w": "00-atoms/04-images/25-img-770x570.mustache",
+        "w": "00-atoms/04-images/24-img-770x570.mustache",
         "value": {}
       },
       {
         "v": "02-organisms/05-article/04-article-diaporama-module.mustache",
-        "w": "00-atoms/04-images/27-img-640x550.mustache",
+        "w": "00-atoms/04-images/29-img-640x550.mustache",
         "value": {}
       },
       {
@@ -2076,12 +2145,62 @@
       },
       {
         "v": "02-organisms/05-article/05-article.mustache",
-        "w": "02-organisms/00-global/03-social-slider.mustache",
+        "w": "02-organisms/00-global/02-social-slider.mustache",
         "value": {}
       },
       {
         "v": "02-organisms/05-article/05-article.mustache",
         "w": "02-organisms/00-global/05-article-test-quel-vehicule-small-desktop-version.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-organisms/05-article/06-carousel-enrichi.mustache",
+        "w": "00-atoms/04-images/31-img-640x330.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-organisms/05-article/06-carousel-enrichi.mustache",
+        "w": "00-atoms/04-images/28-img-664x358.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-organisms/05-article/06-carousel-enrichi.mustache",
+        "w": "00-atoms/04-images/55-img-100x80.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-organisms/05-article/06-carousel-enrichi.mustache",
+        "w": "00-atoms/03-buttons/10-arrow-header-left.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-organisms/05-article/06-carousel-enrichi.mustache",
+        "w": "00-atoms/03-buttons/11-arrow-header-right.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-organisms/05-article/07-article-enrichi.mustache",
+        "w": "00-atoms/04-images/25-img-690x955.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-organisms/05-article/07-article-enrichi.mustache",
+        "w": "01-molecules/13-article-page/01-heading-article.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-organisms/05-article/07-article-enrichi.mustache",
+        "w": "02-organisms/00-global/03-social-slider-enrichi.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-organisms/05-article/07-article-enrichi.mustache",
+        "w": "00-atoms/04-images/27-img-664x375.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-organisms/05-article/07-article-enrichi.mustache",
+        "w": "02-organisms/05-article/06-carousel-enrichi.mustache",
         "value": {}
       }
     ]

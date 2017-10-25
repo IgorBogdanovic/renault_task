@@ -1,0 +1,156 @@
+.o-media__enrichi-carousel-wrapper {
+    max-width: 47.429rem;
+    width: 100%;
+
+    @include mq($until: tablet) {
+        max-width: 54.946rem;
+    }
+
+    @include mq($until: mobile) {
+        max-width: 45.715rem;
+    }
+}
+
+.o-media__enrichi-img--desktop {
+    display: block;
+
+    @include mq($until: tablet) {
+        width: 73.378%;
+        margin: auto;
+    }
+
+    @include mq($until: mobile) {
+        display: none;
+    }
+}
+
+.o-media__enrichi-img--mobile {
+    display: none;
+
+    @include mq($until: mobile) {
+        display: block;
+    }
+}
+
+.o-media__enrichi-txt {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: $color-white;
+    width: 46.5%;
+    padding: 1.5% 0 1% 2%;
+    letter-spacing: $size-10*0.06;
+
+    @include mq($until: tablet) {
+    	width: 54%;
+        padding: 1.5% 0 0.4% 2%;
+	}
+
+	@include mq($until: mobile) {
+        position: static;
+		width: 100%;
+		padding: 2% 0 0 3.2%;
+    	letter-spacing: $size-10*0.1;
+	}
+}
+
+.o-media__block-arrow-left--enrichi {
+    display: block;
+    width: 4.8%;
+    bottom: 6.6%;
+    left: 0;
+
+    @include mq($until: tablet) {
+        width: 3.5%;
+        bottom: 7%;
+        left: 13.2%;
+    }
+
+    @include mq($until: mobile) {
+        width: 10%;
+        bottom: 46.5%;
+        left: 6.3%;
+    }
+}
+
+.o-media__block-arrow-right--enrichi {
+    display: block;
+    width: 4.8%;
+    bottom: 6.6%;
+    right: 0;
+
+    @include mq($until: tablet) {
+        width: 3.5%;
+        bottom: 7%;
+        right: 13.2%;
+    }
+
+    @include mq($until: mobile) {
+        width: 10%;
+        bottom: 46.5%;
+        right: 6.3%;
+    }
+}
+
+.o-media__button-enrichi {
+    display: none;
+
+    @include mq($until: tablet) {
+        position: absolute;
+        display: block;
+        top: 34.5%;
+        left: 39.9%;
+
+        .a-cmp-button {
+            font-size: $size-14;
+            font-weight: $font-weight-700;
+            letter-spacing: $size-10*0.14;
+            padding: 11% 21%;
+        }
+    }
+
+    @include mq($until: mobile) {
+        top: 37.8%;
+        left: 35%;
+
+        .a-cmp-button {
+            font-size: $size-16;
+            letter-spacing: $size-10*0.1;
+            padding: 11% 23.5%;
+        }
+    }
+}
+
+.o-media__enrichi-carousel--small {
+    width: 87%;
+    margin: auto;
+    margin-top: 3%;
+
+    .slick-slide {
+        width: 8.59rem;
+    }
+
+    @include mq($until: tablet) {
+        width: 66%;
+        margin-top: 2.1%;
+
+        .slick-slide {
+            width: 7.2857rem;
+        }
+    }
+
+    @include mq($until: mobile) {
+        display: none;
+    }
+}
+
+.o-media__enrichi-img--small {
+    display: inline-block;
+    width: 7.143rem;
+    margin-left: 10.5%;
+
+    @include mq($until: tablet) {
+        width: 6.2rem;
+        margin-left: 8%;
+    }
+}

@@ -12,3 +12,27 @@
 		font-size: $size-36;
 	}
 }
+
+.a-cmp-heading--4-enrichi {
+	font: {
+		size: $size-22;
+		weight: $font-weight-700;
+	}
+
+	text-transform: uppercase;
+
+	@include mq($until: mobile) {
+		font-size: $size-34;
+	}
+}
+
+.a-cmp-heading--4-enrichi-2 {
+	font: {
+		size: $size-18;
+		weight: $font-weight-700;
+	}
+
+	@include mq($until: mobile) {
+		font-size: $size-34;
+	}
+}

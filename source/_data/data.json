@@ -61,7 +61,8 @@
     "first": "Lorem ipsum",
     "second": "Fan de vu",
     "third": "Tout sur le vu",
-    "fourth": "Côté business"
+    "fourth": "Côté business",
+    "fifth": "Faq"
   },
   "img": {
     "dd-menu-img": {
@@ -120,14 +121,26 @@
     "img-770x570": {
       "src": "https://dummyimage.com/770x570/7e7e7e/000000.png"
     },
-     "img-640x550": {
+    "img-690x955": {
+      "src": "https://dummyimage.com/690x955/7e7e7e/000000.png"
+    },
+    "img-664x634": {
+      "src": "https://dummyimage.com/664x634/000000/7e7e7e.png"
+    },
+    "img-664x375": {
+      "src": "https://dummyimage.com/664x375/7e7e7e/000000.png"
+    },
+    "img-664x358": {
+      "src": "https://dummyimage.com/664x358/7e7e7e/000000.png"
+    },
+    "img-640x550": {
       "src": "https://dummyimage.com/640x550/7e7e7e/000000.png"
     },
     "img-640x492": {
       "src": "https://dummyimage.com/640x492/7e7e7e/ffffff.png"
     },
-    "img-664x634": {
-      "src": "https://dummyimage.com/664x634/000000/7e7e7e.png"
+    "img-640x330": {
+      "src": "https://dummyimage.com/640x330/7e7e7e/000000.png"
     },
     "img-578x473": {
       "src": "https://dummyimage.com/578x473/7e7e7e/000000.png"

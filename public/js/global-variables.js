@@ -58,6 +58,7 @@ var carouselHeader = $('.o-media__header-carousel');
 var headerArrowLeft = $('.o-media__block-arrow-left');
 var headerArrowRight = $('.o-media__block-arrow-right');
 
+
 /*------------------------------------------
 		> HAEADER ARTICLE CAROUSEL <						
 ------------------------------------------*/
@@ -67,6 +68,7 @@ var carouselArticleHeaderSmall = $('.o-media__header-article-carousel--small');
 var headerArticleArrowLeft = $('.o-media__block-arrow-left--article');
 var headerArticleArrowRight = $('.o-media__block-arrow-right--article');
 
+
 /*------------------------------------------
 		> DIAPORAMA MODULE CAROUSEL <						
 ------------------------------------------*/
@@ -75,6 +77,17 @@ var carouselD_Module = $('.o-media__block-module-carousel');
 var carouselD_ModuleSmall = $('.o-media__block-module-carousel--small');
 var d_ModuleArrowLeft = $('.o-media__block-module__arrow--left');
 var d_ModuleArrowRight = $('.o-media__block-module__arrow--right');
+
+
+/*------------------------------------------
+			> ENRICHI CAROUSEL <						
+------------------------------------------*/
+
+var carouselEnrichi = $('.o-media__enrichi-carousel');
+var carouselEnrichiSmall = $('.o-media__enrichi-carousel--small');
+var enrichiArrowLeft = $('.o-media__block-arrow-left--enrichi');
+var enrichiArrowRight = $('.o-media__block-arrow-right--enrichi');
+
 
 /*------------------------------------------
 			> RENAULT-QA CAROUSEL <						
