@@ -1,15 +1,38 @@
+.o-media__header-enrichi {
+    float: left;
+    max-width: 40.589%;
+
+    @include mq($until: tablet) {
+        float: none;
+        max-width: 100%;
+    }
+}
+
+.o-media__header-enrichi-img {
+
+    @include mq($until: tablet) {
+        width: 73.378%;
+        margin: auto;
+    }
+
+    @include mq($until: mobile) {
+        width: 100%;
+    }
+}
+
 .o-media__header-enrichi-txt {
     position: absolute;
     bottom: 0;
     right: 0;
     background-color: $color-white;
-    width: 20.3%;
-    padding: 1% 0 0.6% 1.7%;
+    width: 50%;
+    padding: 2.4% 0 1.6% 4.3%;
     letter-spacing: $size-10*0.06;
 
     @include mq($until: tablet) {
-        width: 45%;
+        width: 58%;
         padding: 2% 0 1.2% 3.9%;
+        letter-spacing: $size-10*0.045;
     }
 
     @include mq($until: mobile) {
@@ -20,7 +43,10 @@
 }
 
 .o-media__block-enrichi__path {
-    letter-spacing: $size-10*0.085;
+    display: inline-block;
+    margin-top: 2.5%;
+    margin-left: 5%;
+    letter-spacing: $size-10*0.08;
 
     @include mq($until: tablet) {
         display: none;
@@ -28,20 +54,45 @@
 }
 
 .o-media__block-enrichi {
+    display: inline-block;
+    width: 39.059%;
+    margin-top: 2.7%;
+    margin-left: 5%;
 
     @include mq($until: tablet) {
+        display: block;
+        width: 73.378%;
+        margin: auto;
+        margin-top: 4%;
+        //margin-left: auto;
     }
 
     @include mq($until: mobile) {
         width: 87.5%;
-        margin: auto;
         margin-top: 8.7%;
     }
 }
 
 .o-media__block-enrichi__1 {
 
+    .a-cmp-image-description {
+        font-size: $size-10*1.3;
+        padding: $size-10*1.1 $size-10*2.3;
+        letter-spacing: $size-10*0.07;
+    }
+
+    .a-cmp-heading--1--article {
+        letter-spacing: $size-10*0.1;
+        line-height: 1;
+    }
+
     @include mq($until: tablet) {
+
+        .a-cmp-image-description {
+            font-size: $size-10*0.8;
+            padding: $size-10*0.8 $size-10*0.8;
+            letter-spacing: auto;
+        }
     }
 
     @include mq($until: mobile) {
@@ -54,8 +105,20 @@
 }
 
 .o-media__block-enrichi__heading {
+    margin-top: 4%;
+
+    .a-cmp-heading--1 {
+        letter-spacing: $size-10*0.07;
+        line-height: 1.01;
+    }
 
     @include mq($until: tablet) {
+        margin-top: 3%;
+
+        .a-cmp-heading--1 {
+            letter-spacing: -$size-10*0.1;
+            line-height: 1;
+        }
     }
 
     @include mq($until: mobile) {
@@ -68,13 +131,34 @@
     }
 }
 
-.o-media__block-enrichi__2 {
+.o-media__block-enrichi-slider {
+    width: 49.5%;
+    margin-top: 6.7%;
+    margin-left: 0.6%;
 
     @include mq($until: tablet) {
+        margin-top: 7.8%;
+        margin-left: 0;
     }
 
     @include mq($until: mobile) {
-        width: 100%;
+        width: 74%;
+        margin-top: 12%;
+    }
+}
+
+.o-media__block-enrichi__2 {
+    width: 100%;
+    margin-top: 16%;
+    margin-left: 0.25%;
+
+    @include mq($until: tablet) {
+        margin-top: 13%;
+        margin-left: 0;
+    }
+
+    @include mq($until: mobile) {
+        margin-top: 15%;
     }
 }
 
@@ -84,11 +168,24 @@
 
     @include mq($until: tablet) {
         font-size: $size-12;
+        letter-spacing: $size-10*0.04;
     }
 
     @include mq($until: mobile) {
         font-size: $size-24;
         letter-spacing: $size-10*0.1;
+    }
+}
+
+.o-media__block-enrichi__2__sec-2 {
+    margin-top: 1.4%;
+
+    @include mq($until: tablet) {
+        margin-top: 1%;
+    }
+
+    @include mq($until: mobile) {
+        margin-top: 4%;
     }
 }
 
@@ -110,9 +207,25 @@
     }
 }
 
+.o-media__block-enrichi__2__sec-2__heading {
+    margin-top: 3.8%;
+    letter-spacing: $size-10*0.1;
+
+    @include mq($until: tablet) {
+        margin-top: 7%;
+        letter-spacing: $size-10*0.07;
+    }
+
+    @include mq($until: mobile) {
+        margin-top: 8%;
+        letter-spacing: $size-10*0.1;
+    }
+}
+
 .o-media__block-enrichi__2__sec-2__text {
+    margin-top: 3.8%;
     font-size: $size-16;
-    letter-spacing: $size-10*0.085;
+    letter-spacing: $size-10*0.08;
     line-height: 1.4;
 
     a {
@@ -121,30 +234,240 @@
     }
 
     @include mq($until: tablet) {
+        margin-top: 4%;
         letter-spacing: $size-10*0.065;
     }
 
     @include mq($until: mobile) {
+        margin-top: 7%;
         font-size: $size-28;
         letter-spacing: $size-10*0.1;
         line-height: 1.465;
     }
 }
 
+.o-media__block-enrichi-video {
+    width: 100%;
+    margin-top: 4%;
+    height: 26.7rem;
+
+    @include mq($until: tablet) {
+        margin-top: 6.5%;
+        height: 22.2rem;
+    }
+
+    @include mq($until: mobile) {
+        margin-top: 7%;
+        height: 22rem;
+    }
+}
+
+.o-media__block-enrichi__2__sec-2__list {
+    list-style-type: square;
+    color: $color-dark-yellow;
+    margin-top: 5.8%;
+    padding-left: 1.9%;
+    font-size: $size-12;
+
+    li {
+        padding-left: 1.5%;
+    }
+
+    @include mq($until: tablet) {
+        margin-top: 6%;
+        padding-left: 2%;
+        font-size: $size-12;
+    }
+
+    @include mq($until: mobile) {
+        margin-top: 10.5%;
+        padding-left: 6%;
+        font-size: $size-36;
+
+        li {
+            padding-left: 2%;
+        }
+    }
+}
+
+.o-media__block-enrichi__2__sec-2__list__text {
+    color: $color-black;
+    font-size: $size-16;
+    letter-spacing: $size-10*0.085;
+    line-height: 1.4;
+
+    @include mq($until: tablet) {
+        letter-spacing: $size-10*0.065;
+    }
+
+    @include mq($until: mobile) {
+        font-size: $size-28;
+        letter-spacing: $size-10*0.1;
+        line-height: 1;
+    }
+}
+
+.o-media__block-enrichi__2__sec-2__table {
+    font-size: $size-16;
+    letter-spacing: $size-10*0.085;
+    line-height: 1.4;
+    margin-top: 7.2%;
+
+    th, td {
+        width: 50%;
+        padding-left: 3.3%;
+        padding-right: 4%;
+        text-align: left;
+        line-height: 1.4;
+    }
+
+    th {
+        font-weight: $font-weight-700;
+        height: $size-50*1.12;
+        letter-spacing: $size-10*0.18;
+    }
+
+    td {
+        height: $size-50*3.06;
+        letter-spacing: $size-10*0.07;
+    }
+
+    @include mq($until: tablet) {
+        margin-top: 8.5%;
+
+        td {
+            height: $size-50*3.4;
+        }
+    }
+
+    @include mq($until: mobile) {
+        margin-top: 14%;
+        font-size: $size-28;
+
+        th, td {
+            width: 100%;
+            padding-left: 3.2%;
+            padding-right: 5%;
+            line-height: 1.64;
+        }
+
+        th {
+            height: $size-50*1.32;
+            letter-spacing: $size-10*0.13;
+        }
+
+        td {
+            height: $size-50*4.6;
+            letter-spacing: $size-10*0.11;
+        }
+    }
+}
+
+.o-media__block-enrichi__2__sec-2__table--mobile {
+    display: none;
+
+    @include mq($until: mobile) {
+        display: block;
+        border: 2px dashed $color-dark-yellow;
+        border-top: none;
+
+        th, td {
+            border-top: 2px dashed $color-dark-yellow;
+        }
+    }
+}
+
+.o-media__block-enrichi__2__sec-2__table--desktop {
+
+    &, th, td {
+        border: 2px dashed $color-dark-yellow;
+    }
+
+    @include mq($until: mobile) {
+        display: none;
+    }
+}
+
+.o-media__block-enrichi__2__sec-2__heading-2 {
+    margin-top: 8.4%;
+    letter-spacing: $size-10*0.1;
+
+    & + .o-media__block-enrichi__2__sec-2__text {
+        margin-top: 0.5%;
+    }
+
+    @include mq($until: tablet) {
+        margin-top: 7.5%;
+        letter-spacing: $size-10*0.08;
+    }
+
+    @include mq($until: mobile) {
+        margin-top: 11.5%;
+        letter-spacing: $size-10*0.17;
+    }
+}
+
+.o-media__block-enrichi-img {
+    margin-top: 6.6%;
+
+    @include mq($until: tablet) {
+        margin-top: 6%;
+        margin-bottom: 3%;
+    }
+
+    @include mq($until: mobile) {
+        margin-top: 14%;
+    }
+}
+
+.o-media__block-enrichi__2__sec-2__text-2 {
+    margin-top: 2.1%;
+    margin-bottom: 6%;
+    font-size: $size-14;
+    letter-spacing: $size-10*0.07;
+    line-height: 1.22;
+
+    @include mq($until: tablet) {
+        margin-top: 3.7%;
+        letter-spacing: $size-10*0.05;
+    }
+
+    @include mq($until: mobile) {
+        margin-top: 0;
+        margin-bottom: 0;
+        font-size: $size-24;
+        letter-spacing: $size-10*0.09;
+    }
+}
+
 .o-media__block-enrichi__2__sec-3 {
+    position: relative;
+    margin-top: 6.8%;
+
+    @include mq($until: tablet) {
+        left: -18%;
+        width: 136.2%;
+    }
+
+    @include mq($until: mobile) {
+        left: -7.15%;
+        width: 114.25%;
+    }
 }
 
 .o-media__block-enrichi__2__sec-4 {
+    margin-top: 13.8%;
     font-size: $size-12;
     color: $color-dark-yellow;
     letter-spacing: $size-10*0.06;
 
     @include mq($until: tablet) {
-        font-size: $size-16;
-        letter-spacing: $size-10*0.065;
+        margin-top: 9%;
+        letter-spacing: $size-10*0.055;
     }
 
     @include mq($until: mobile) {
+        margin-top: 13%;
         font-size: $size-28;
         letter-spacing: $size-10*0.1;
     }

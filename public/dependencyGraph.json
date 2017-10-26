@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": 1508943769518,
+  "timestamp": 1509030485619,
   "graph": {
     "options": {
       "directed": true,
@@ -280,8 +280,8 @@
         "v": "00-atoms/04-images/10-img-1700x700.mustache",
         "value": {
           "compileState": "clean",
-          "lineagePath": "../../patterns/02-organisms-05-article-03-article-diaporama-header/02-organisms-05-article-03-article-diaporama-header.rendered.html",
-          "lineagePattern": "organisms-article-diaporama-header"
+          "lineagePath": "../../patterns/02-organisms-06-article-faq-01-article-faq-header/02-organisms-06-article-faq-01-article-faq-header.rendered.html",
+          "lineagePattern": "organisms-article-faq-header"
         }
       },
       {
@@ -1069,6 +1069,14 @@
         }
       },
       {
+        "v": "01-molecules/14-article-faq-page/01-heading-article-faq.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/02-organisms-06-article-faq-03-article-faq/02-organisms-06-article-faq-03-article-faq.rendered.html",
+          "lineagePattern": "organisms-article-faq"
+        }
+      },
+      {
         "v": "02-organisms/00-global/00-nav.mustache",
         "value": {
           "compileState": "clean"
@@ -1084,8 +1092,8 @@
         "v": "02-organisms/00-global/02-social-slider.mustache",
         "value": {
           "compileState": "clean",
-          "lineagePath": "../../patterns/02-organisms-05-article-05-article/02-organisms-05-article-05-article.rendered.html",
-          "lineagePattern": "organisms-article"
+          "lineagePath": "../../patterns/02-organisms-06-article-faq-03-article-faq/02-organisms-06-article-faq-03-article-faq.rendered.html",
+          "lineagePattern": "organisms-article-faq"
         }
       },
       {
@@ -1106,8 +1114,8 @@
         "v": "02-organisms/00-global/05-article-test-quel-vehicule-small-desktop-version.mustache",
         "value": {
           "compileState": "clean",
-          "lineagePath": "../../patterns/02-organisms-05-article-05-article/02-organisms-05-article-05-article.rendered.html",
-          "lineagePattern": "organisms-article"
+          "lineagePath": "../../patterns/02-organisms-06-article-faq-03-article-faq/02-organisms-06-article-faq-03-article-faq.rendered.html",
+          "lineagePattern": "organisms-article-faq"
         }
       },
       {
@@ -1240,6 +1248,18 @@
       },
       {
         "v": "02-organisms/05-article/07-article-enrichi.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "02-organisms/06-article-faq/01-article-faq-header.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "02-organisms/06-article-faq/03-article-faq.mustache",
         "value": {
           "compileState": "clean"
         }
@@ -2201,6 +2221,26 @@
       {
         "v": "02-organisms/05-article/07-article-enrichi.mustache",
         "w": "02-organisms/05-article/06-carousel-enrichi.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-organisms/06-article-faq/01-article-faq-header.mustache",
+        "w": "00-atoms/04-images/10-img-1700x700.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-organisms/06-article-faq/03-article-faq.mustache",
+        "w": "01-molecules/14-article-faq-page/01-heading-article-faq.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-organisms/06-article-faq/03-article-faq.mustache",
+        "w": "02-organisms/00-global/02-social-slider.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-organisms/06-article-faq/03-article-faq.mustache",
+        "w": "02-organisms/00-global/05-article-test-quel-vehicule-small-desktop-version.mustache",
         "value": {}
       }
     ]
