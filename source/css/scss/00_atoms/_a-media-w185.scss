@@ -1,0 +1,12 @@
+.a-cmp-media-w185 {
+	max-width: 6.29rem;
+	width: 100%;
+
+	@include mq($until: tablet) {
+        max-width: 4.79rem;
+    }
+
+    @include mq($until: mobile) {
+        max-width: 13.21rem;
+    }
+}

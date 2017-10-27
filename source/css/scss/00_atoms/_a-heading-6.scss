@@ -12,3 +12,29 @@
 		font-size: $size-28;
 	}
 }
+
+.a-cmp-heading--6-more-qa--big {
+	font: {
+		size: $size-22;
+		weight: $font-weight-900;
+	}
+
+	@include mq($until: tablet) {
+		font-size: $size-16;
+	}
+
+	@include mq($until: mobile) {
+		font-size: $size-28;
+	}
+}
+
+.a-cmp-heading--6-more-qa--small {
+	font: {
+		size: $size-14;
+		weight: $font-weight-700;
+	}
+
+	@include mq($until: mobile) {
+		font-size: $size-22;
+	}
+}

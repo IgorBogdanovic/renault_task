@@ -1,0 +1,14 @@
+.a-cmp-drop-down-circle {
+	display: inline-block;
+	cursor: pointer;
+
+	i {
+		color: $color-dark-gray-2;
+		border-radius: 50%;
+    	background-color: $color-dark-yellow;
+	}
+
+	&:hover {
+		transform: rotateX(180deg);
+	}
+}

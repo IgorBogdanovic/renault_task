@@ -27,7 +27,8 @@
     "fourteen": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vehicula, dolor sit amet",
     "fifthteen": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     "sixteen": "Lorem ipsum dolor sit amet, consectetur adipiscing elit vestibulum",
-    "seventeen": "Cras consectetur felis et ligula faucibus vehicula ut at lectus"
+    "seventeen": "Cras consectetur felis et ligula faucibus vehicula ut at lectus",
+    "eighteen": "Ut elit tellus, imperdiet et varius at, molestie vitae nisi"
   },
   "media-test-section-heading": {
     "first": "Kangoo Z.E.",
@@ -180,6 +181,9 @@
     },
     "img-235x192": {
       "src": "https://dummyimage.com/235x192/000000/ffffff.png"
+    },
+    "img-185x152": {
+      "src": "https://dummyimage.com/185x152/7e7e7e/000000.png"
     },
     "img-100x80": {
       "src": "https://dummyimage.com/100x80/000000/ffffff.png"
