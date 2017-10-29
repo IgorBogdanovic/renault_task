@@ -2,6 +2,45 @@
 	display: inline-block;
 }
 
+.m-obj-media--lpl {
+	max-width: 16.79rem;
+	width: 100%;
+
+	@include mq($until: tablet) {
+		max-width: 7.85rem;
+	}
+
+	@include mq($until: mobile) {
+		max-width: 19.43rem;
+	}
+}
+
+.m-obj-media--foire {
+	max-width: 68.215rem;
+	width: 100%;
+
+	@include mq($until: tablet) {
+		max-width: 35.679rem;
+	}
+
+	@include mq($until: mobile) {
+		max-width: 40rem;
+	}
+}
+
+.m-obj-media--cote-b {
+	max-width: 47.429rem;
+	width: 100%;
+
+	@include mq($until: tablet) {
+		max-width: 22.835rem;
+	}
+
+	@include mq($until: mobile) {
+		max-width: 40rem;
+	}
+}
+
 .m-obj-media--image-block {
 	float: left;
 	width: 45.88%;

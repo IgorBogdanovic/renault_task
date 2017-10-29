@@ -51,12 +51,46 @@ var caretUp_2nd = $(".o-nav__list--tbl-mob__link--2nd .o-nav__list--tbl-mob__car
 
 
 /*------------------------------------------
+		> LES PLUS LUS CAROUSEL <						
+------------------------------------------*/
+
+var carouselLpl = $('.o-media__block-lpl-carousel');
+var lplArrowLeft = $('.o-media__block-arrow--lpl__left');
+var lplArrowRight = $('.o-media__block-arrow--lpl__right');
+
+/*------------------------------------------
 			> HAEADER CAROUSEL <						
 ------------------------------------------*/
 
 var carouselHeader = $('.o-media__header-carousel');
 var headerArrowLeft = $('.o-media__block-arrow-left');
 var headerArrowRight = $('.o-media__block-arrow-right');
+
+
+/*------------------------------------------
+		> FOIRE AUX QUESTIONS CAROUSEL <						
+------------------------------------------*/
+
+var carouselFoire = $('.m-obj-media__foire-carousel');
+var foireArrowLeft = $('.m-cmp-foire__caret--left');
+var foireArrowRight = $('.m-cmp-foire__caret--right');
+
+
+/*------------------------------------------
+		> COTE BUSINESS CAROUSEL <						
+------------------------------------------*/
+
+var carouselCoteb = $('.m-media__block-cote-b-carousel');
+var cotebArrowLeft = $('.m-cmp-cote-b__caret--left');
+var cotebArrowRight = $('.m-cmp-cote-b__caret--right');
+
+/*------------------------------------------
+			> RENAULT-QA CAROUSEL <						
+------------------------------------------*/
+
+var carouselRenaultQa = $('.o-media__block-renault-qa-carousel');
+var renaultQaArrowLeft = $('.o-cmp-renault-qa__caret--left');
+var renaultQaArrowRight = $('.o-cmp-renault-qa__caret--right');
 
 
 /*------------------------------------------
@@ -87,12 +121,3 @@ var carouselEnrichi = $('.o-media__enrichi-carousel');
 var carouselEnrichiSmall = $('.o-media__enrichi-carousel--small');
 var enrichiArrowLeft = $('.o-media__block-arrow-left--enrichi');
 var enrichiArrowRight = $('.o-media__block-arrow-right--enrichi');
-
-
-/*------------------------------------------
-			> RENAULT-QA CAROUSEL <						
-------------------------------------------*/
-
-var carouselRenaultQa = $('.o-media__block-renault-qa-carousel');
-var renaultQaArrowLeft = $('.a-cmp-caret--margin-left');
-var renaultQaArrowRight = $('.a-cmp-caret--margin-right');

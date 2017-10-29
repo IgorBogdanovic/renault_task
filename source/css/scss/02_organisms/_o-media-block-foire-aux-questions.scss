@@ -1,5 +1,11 @@
 .o-media__block-9 {
 	float: left;
+	margin-top: 0.5%;
+	line-height: 1;
+
+	@include mq($until: tablet) {
+		margin-top: 1.5%;
+	}
 
 	@include mq($until: mobile) {
 		float: none;
@@ -10,10 +16,62 @@
 	width: 81%;
 	float: right;
 
+	.m-obj-media--image-block {
+		width: 51.31%;
+	}
+
+	.m-obj-media--text-block {
+		margin-top: 13.5%;
+    	margin-left: 3%;
+
+		.m-obj-media__txt-3 {
+			width: 75%;
+		}
+	}
+
+	.m-obj-media__counter {
+		margin-top: -26.5%;
+    	margin-right: 0%;
+	}
+
+	@include mq($until: tablet) {
+
+		.m-obj-media--image-block {
+			width: 55%;
+		}
+
+		.m-obj-media--text-block {
+			margin-top: 18%;
+    		margin-left: 6%;
+
+    		.m-obj-media__txt-3 {
+				width: auto;
+			}
+		}
+
+		.m-obj-media__counter {
+			margin-top: 0;
+			margin-right: 0;
+		}
+	}
+
 	@include mq($until: mobile) {
 		width: auto;
 		float: none;
-		margin-top: $size-36;
+		margin-top: 7.35%;
+
+		.m-obj-media--image-block {
+			width: auto;
+		}
+
+		.m-obj-media--text-block {
+			margin-top: 5%;
+			margin-left: 0;
+		}
+
+		.m-obj-media__counter {
+			margin-top: $size-22;
+		}
 	}
 }
 
@@ -37,12 +95,12 @@
 .o-media__block-11--background-tbl {
 	position: absolute;
 	width: 74.12%;
-	padding-top: 22.5%;
-	bottom: -15%;
+	padding-top: 23.2%;
+    bottom: -18%;
 
 	@include mq($until: tablet) {
 		width: 84.4%;
-		padding-top: 28%;
+		padding-top: 26.5%;
 		bottom: -7%;
 	}
 

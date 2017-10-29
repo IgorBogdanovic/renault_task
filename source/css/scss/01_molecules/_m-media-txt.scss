@@ -1,12 +1,18 @@
 .m-obj-media__txt {
-	margin-top: $size-28;
+	margin-top: $size-24;
+	letter-spacing: $size-10*0.125;
+	line-height: 1.4;
 
 	@include mq($until: tablet) {
 		margin-top: $size-10;
+		letter-spacing: $size-10*0.1;
+    	line-height: 1.2;
 	}
 
 	@include mq($until: mobile) {
 		margin-top: $size-16;
+		letter-spacing: $size-10*0.15;
+    	line-height: 1.13;
 	}
 }
 
@@ -107,7 +113,9 @@
 }
 
 .m-obj-media__paragraph {
-	margin-top: $size-24;
+	margin-top: $size-18;
+	letter-spacing: $size-10*0.08;
+	line-height: 1.25;
 }
 
 .m-obj-media__paragraph-test {
