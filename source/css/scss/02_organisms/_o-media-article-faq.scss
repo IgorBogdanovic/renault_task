@@ -1,14 +1,106 @@
-.a-cmp-drop-down-circle {
+.o-media__block-article-slider--faq {
+	top: 56%;
+}
+
+.o-media__block-article-test--faq {
+	top: 56%;
+}
+
+.o-cmp-faq-reader {
+	width: 47.5rem;
+	margin-top: 3.5%;
+	margin-left: 20.25%;
+
+	@include mq($until: tablet) {
+		width: 39.582rem;
+		margin: auto;
+		margin-top: 8.7%;
+    }
+
+    @include mq($until: mobile) {
+    	width: 100%;
+    	margin-top: 3%;
+    }
+}
+
+.o-cmp-faq-reader__section {
+	background-color: $color-light-gray;
+	border-bottom: 1px solid $color-faq-border;
+	padding: 5.5% 5% 5% 7.7%;
+
+	@include mq($until: tablet) {
+		padding-top: 5%;
+    	padding-bottom: 4.5%;
+    }
+
+    @include mq($until: mobile) {
+    	padding-top: 9.5%;
+    	padding-bottom: 8.5%;
+    }
+}
+
+.o-cmp-faq-reader__section--no-border {
+	border-bottom: none;
+}
+
+.o-cmp-faq-reader__section__question__heading {
+	color: $color-dark-gray-2;
 	display: inline-block;
-	cursor: pointer;
+	width: 36.7rem;
+	padding-right: 5%;
+	padding-left: 2.5%;
+	letter-spacing: $size-10*0.12;
+	line-height: 1.5;
 
-	i {
-		color: $color-dark-gray-2;
-		border-radius: 50%;
-    	background-color: $color-dark-yellow;
-	}
+	@include mq($until: tablet) {
+		width: 30.45rem;
+		padding-left: 2%;
+		letter-spacing: $size-10*0.1;
+    }
 
-	&:hover {
-		transform: rotateX(180deg);
-	}
+    @include mq($until: mobile) {
+    	width: 33.5rem;
+    	padding-left: 0;
+    	letter-spacing: $size-10*0.16;
+    	line-height: 1.4;
+    }
+}
+
+.o-cmp-faq-reader__section__answer {
+	display: none;
+	width: 36.7rem;
+	margin-top: 6.2%;
+	padding-right: 5%;
+	padding-left: 2.5%;
+	letter-spacing: $size-10*0.09;
+	line-height: 1.4;
+
+	@include mq($until: tablet) {
+		width: 30.45rem;
+		margin-top: 6%;
+		padding-left: 2%;
+	    letter-spacing: $size-10*0.065;
+    }
+
+    @include mq($until: mobile) {
+    	width: 33.5rem;
+    	margin-top: 4%;
+    	padding-right: 0;
+    	padding-left: 0;
+	    letter-spacing: $size-10*0.1;
+	    line-height: 1.47;
+    }
+}
+
+.o-media__block-article__2--faq-margins {
+	padding-top: 2.5%;
+
+	@include mq($until: tablet) {
+		padding-top: 4.5%;
+    }
+
+    @include mq($until: mobile) {
+    	margin-top: 7%;
+    	padding-top: 0;
+    }
 }

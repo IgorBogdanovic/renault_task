@@ -1,0 +1,29 @@
+.a-cmp-drop-down-circle {
+	display: inline-block;
+	cursor: pointer;
+
+	i {
+		color: $color-dark-gray-2;
+		border-radius: 50%;
+    	background-color: $color-white;
+    	font-size: $size-40*1.1;
+	}
+
+	@include mq($until: tablet) {
+
+		i {
+    		font-size: $size-40*1.1;
+    	}
+    }
+
+    @include mq($until: mobile) {
+
+    	i {
+    		font-size: $size-50;
+    	}
+    }
+}
+
+.a-cmp-drop-down-circle--active {
+	transform: rotateX(180deg);
+}

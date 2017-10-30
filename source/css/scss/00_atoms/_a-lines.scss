@@ -5,18 +5,34 @@
     background-color: $color-lines-gray;
     width: 100%;
     height: 1px;
+}
+
+.a-h-line--renault-qa-1 {
+	top: 19.5%;
 
 	@include mq($until: tablet) {
 		display: none;
 	}
 }
 
-.a-h-line--1 {
-	top: 19.5%;
+.a-h-line--renault-qa-2 {
+	bottom: 0;
+
+	@include mq($until: tablet) {
+		display: none;
+	}
 }
 
-.a-h-line--2 {
-	bottom: 0;
+.a-h-line--more-qa-1 {
+	top: 9.3%;
+
+	@include mq($until: tablet) {
+		top: 5.6%;
+	}
+
+	@include mq($until: mobile) {
+		display: none;
+	}
 }
 
 .a-v-line {
@@ -25,14 +41,14 @@
 	z-index: -1;
     background-color: $color-lines-gray;
     width: 1px;
+}
+
+.a-v-line--renault-qa-1 {
+	top: 19.5%;
+	right: 30.8%;
+	height: 80.5%;
 
 	@include mq($until: tablet) {
 		display: none;
 	}
-}
-
-.a-v-line--1 {
-	top: 19.5%;
-	right: 30.8%;
-	height: 80.5%;
 }

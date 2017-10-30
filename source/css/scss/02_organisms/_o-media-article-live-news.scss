@@ -1,0 +1,9 @@
+.o-cmp-livenews-path {
+	letter-spacing: $size-10*0.06;
+    margin-bottom: $size-50*1.14;
+    margin-left: $size-50*1.72;
+
+	@include mq($until: tablet) {
+		display: none;
+	}
+}

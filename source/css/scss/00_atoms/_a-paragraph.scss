@@ -31,3 +31,18 @@
 		font-size: $size-26;
 	}
 }
+
+.a-cmp-paragraph--faq {
+	color: $color-dark-gray;
+	font : {
+		size: $size-16;
+	}
+
+	@include mq($until: tablet) {
+		font-size: $size-14;
+	}
+
+	@include mq($until: mobile) {
+		font-size: $size-28;
+	}
+}

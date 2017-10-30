@@ -17,3 +17,22 @@
 		margin-top: $size-30;
 	}
 }
+
+.a-cmp-heading--2--resultats {
+	font: {
+		size: $size-32;
+		weight: $font-weight-900;
+	}
+	text-transform: uppercase;
+	text-align: center;
+	letter-spacing: $size-10*0.07;
+
+	@include mq($until: tablet) {
+		font-size: $size-32;
+		letter-spacing: 0;
+	}
+
+	@include mq($until: mobile) {
+		font-size: $size-50*1.04;
+	}
+}
