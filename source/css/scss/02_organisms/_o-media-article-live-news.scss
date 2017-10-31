@@ -1,4 +1,4 @@
-.o-cmp-livenews-path {
+.o-cmp-live-news-path {
 	letter-spacing: $size-10*0.06;
     margin-bottom: $size-50*1.14;
     margin-left: $size-50*1.72;
@@ -6,4 +6,34 @@
 	@include mq($until: tablet) {
 		display: none;
 	}
+}
+
+.o-media__block-live-news__heading {
+	text-align: center;
+	width: 49.08%;
+	margin-top: 8%;
+	margin-bottom: 5.3%;
+
+	@include mq($until: tablet) {
+		margin-top: 3.5%;
+    	margin-bottom: 5.7%;
+    }
+
+    @include mq($until: mobile) {
+    	width: 100%;
+    	margin-top: 0;
+    	margin-bottom: 13.4%;
+    }
+}
+
+.o-list-latest-news--live-news {
+	margin-top: 7%;
+
+	@include mq($until: tablet) {
+		margin-top: 8%;
+    }
+
+    @include mq($until: mobile) {
+    	margin-top: 11%;
+    }
 }

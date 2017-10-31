@@ -53,3 +53,27 @@
 		font-size: $size-40;
 	}
 }
+
+.a-cmp-heading--1--live-news {
+	font: {
+		size: $size-70;
+		weight: $font-weight-900;
+	}
+	text-transform: uppercase;
+
+	@include mq($until: tablet) {
+		font-size: $size-36;
+	}
+
+	@include mq($until: mobile) {
+		font-size: $size-70;
+	}
+}
+
+.a-cmp-heading--1--all-tags {
+	font-size: $size-50;
+
+	@include mq($until: mobile) {
+		font-size: $size-70;
+	}
+}

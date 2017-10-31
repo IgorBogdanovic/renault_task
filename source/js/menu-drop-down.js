@@ -1,15 +1,41 @@
 $(document).ready(function() {
 
 	myBusinessDesktop.click(function(){
-    	myBusinessDesktop_ddMenu.slideToggle(500);
+
+		if (myBusinessDesktop_ddMenu.is(':visible')) {
+			myBusinessDesktop_ddMenu.slideUp(300);
+			return;
+		}
+
+		if (myVanDesktop_ddMenu.is(':visible')) {
+			myVanDesktop_ddMenu.slideUp(0);
+		}
+
+		myBusinessDesktop_ddMenu.slideDown(300);
+
     });
 
     myVanDesktop.click(function(){
-    	myVanDesktop_ddMenu.slideToggle(500);
+
+    	if (myVanDesktop_ddMenu.is(':visible')) {
+			myVanDesktop_ddMenu.slideUp(300);
+			return;
+		}
+
+		if (myBusinessDesktop_ddMenu.is(':visible')) {
+			myBusinessDesktop_ddMenu.slideUp(0);
+		}
+
+    	myVanDesktop_ddMenu.slideDown(300);
+
     });
 
     ddMenu.click(function(){
-		$(".o-nav__list--desktop__dd-menu:visible").slideUp(500);
+
+    	if (ddMenu.is(':visible')) {
+			ddMenu.slideUp(300);
+		}
+		
 	});
 
 });

@@ -1,0 +1,90 @@
+.o-cmp-cgu-path {
+	letter-spacing: $size-10*0.06;
+    margin-bottom: 4%;
+    margin-left: $size-50*1.72;
+
+	@include mq($until: tablet) {
+		display: none;
+	}
+}
+
+.o-media__block-cgu__heading {
+	text-align: center;
+}
+
+.o-media__block-cgu__content {
+	width: 87%;
+    margin: auto;
+	margin-top: 5.2%;
+
+	@include mq($until: tablet) {
+		width: 100%;
+		margin-top: 10%;
+    }
+
+    @include mq($until: mobile) {
+    	margin-top: 0;
+    }
+}
+
+.o-media__block-cgu__content__section__heading {
+	font : {
+		size: $size-24;
+		weight: $font-weight-700;
+	}
+	text-transform: uppercase;
+	letter-spacing: $size-10*0.12;
+    margin-top: 3.5%;
+
+	@include mq($until: tablet) {
+		letter-spacing: $size-10*0.1;
+    	margin-top: 6.5%;
+    }
+
+    @include mq($until: mobile) {
+    	font-size: $size-34;
+    	margin-top: 12%;
+    }
+}
+
+.o-media__block-cgu__content__section__txt {
+	font-size: $size-18;
+	color: $color-dark-gray;
+	letter-spacing: $size-10*0.09;
+	line-height: 1.45;
+
+	&:nth-child(odd) {
+		margin-top: 2.2%;
+	}
+
+	&:nth-child(even) {
+		margin-top: 2%;
+	}
+
+	@include mq($until: tablet) {
+		letter-spacing: $size-10*0.07;
+    	line-height: 1.45;
+
+    	&:nth-child(odd) {
+    		margin-top: 4%;
+    	}
+
+    	&:nth-child(even) {
+    		margin-top: 4%;
+    	}
+    }
+
+    @include mq($until: mobile) {
+    	font-size: $size-28;
+    	letter-spacing: $size-10*0.1;
+    	line-height: 1.47;
+
+    	&:nth-child(odd) {
+    		margin-top: 8%;
+    	}
+
+    	&:nth-child(even) {
+    		margin-top: 5%;
+    	}
+    }
+}

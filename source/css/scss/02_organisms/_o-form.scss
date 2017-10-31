@@ -18,21 +18,21 @@
 }
 
 .o-form__wrapper {
-	width: 91%;
     height: 100vh;
 	margin: auto;
-	padding-top: 24.5%;
-    padding-left: 11%;
+	padding-top: 40vh;
+	padding-left: 13.82%;
+	padding-right: 13.82%;
 
 	@include mq($until: tablet) {
-		width: 95%;
-		padding-top: 42.5%;
-    	padding-left: 5.4%;
+		padding-top: 35vh;
+	    padding-left: 7.8%;
+	    padding-right: 7.8%;
 	}
 
 	@include mq($until: mobile) {
-		padding-top: 54%;
-    	padding-left: 4%;
+	    padding-left: 6.25%;
+	    padding-right: 6.25%;
 	}
 }
 
@@ -46,12 +46,14 @@
 }
 
 .o-form__field__input {
+	opacity: 1;
 	width: 100%;
     font : {
 		    size: $size-40*2;
 		    weight: $font-weight-900;
 	  	}
     color: $color-white;
+    text-transform: uppercase;
 	border: none;
 	border-bottom: $size-10/10 $color-white solid;
 	background-color: transparent;
@@ -67,8 +69,8 @@
 
 .o-form__close {
 	position: absolute;
-	top: 4.4%;
-    right: 2.3%;
+	top: 3.72vh;
+    right: 2.35%;
 	color: $color-white;
 
 	i {
@@ -76,13 +78,13 @@
 	}
 
 	@include mq($until: tablet) {
-		top: 2.4%;
-    	right: 3.4%;
+		top: 2.53vh;
+    	right: 6%;
 	}
 
 	@include mq($until: mobile) {
-		top: 2.8%;
-    	right: 4.7%;
+		top: 2.64vh;
+    	right: 6.25%;
     	
     	i {
 			font-size: $size-45;

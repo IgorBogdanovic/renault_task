@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": 1509383777430,
+  "timestamp": 1509472365334,
   "graph": {
     "options": {
       "directed": true,
@@ -114,8 +114,8 @@
         "v": "00-atoms/03-buttons/02-menu-close.mustache",
         "value": {
           "compileState": "clean",
-          "lineagePath": "../../patterns/02-organisms-00-global-01-search/02-organisms-00-global-01-search.rendered.html",
-          "lineagePattern": "organisms-search"
+          "lineagePath": "../../patterns/02-organisms-00-global-00-nav/02-organisms-00-global-00-nav.rendered.html",
+          "lineagePattern": "organisms-nav"
         }
       },
       {
@@ -306,6 +306,14 @@
           "compileState": "clean",
           "lineagePath": "../../patterns/02-organisms-00-global-04-article-test-quel-vehicule/02-organisms-00-global-04-article-test-quel-vehicule.rendered.html",
           "lineagePattern": "organisms-article-test-quel-vehicule"
+        }
+      },
+      {
+        "v": "00-atoms/04-images/21-img-1156x527.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/02-organisms-12-404-02-article-404/02-organisms-12-404-02-article-404.rendered.html",
+          "lineagePattern": "organisms-article-404"
         }
       },
       {
@@ -944,8 +952,8 @@
         "v": "01-molecules/10-media-latest-news/04-media-latest-news-img-578x473.mustache",
         "value": {
           "compileState": "clean",
-          "lineagePath": "../../patterns/02-organisms-03-shp-04-article-latest-news/02-organisms-03-shp-04-article-latest-news.rendered.html",
-          "lineagePattern": "organisms-article-latest-news"
+          "lineagePath": "../../patterns/02-organisms-08-live-news-02-article-live-news/02-organisms-08-live-news-02-article-live-news.rendered.html",
+          "lineagePattern": "organisms-article-live-news"
         }
       },
       {
@@ -1197,7 +1205,9 @@
       {
         "v": "02-organisms/00-global/01-search.mustache",
         "value": {
-          "compileState": "clean"
+          "compileState": "clean",
+          "lineagePath": "../../patterns/02-organisms-00-global-00-nav/02-organisms-00-global-00-nav.rendered.html",
+          "lineagePattern": "organisms-nav"
         }
       },
       {
@@ -1396,6 +1406,30 @@
       },
       {
         "v": "02-organisms/08-live-news/02-article-live-news.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "02-organisms/09-all-tags/02-article-all-tags.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "02-organisms/10-cgu/02-article-cgu.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "02-organisms/11-terms/02-article-terms.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "02-organisms/12-404/02-article-404.mustache",
         "value": {
           "compileState": "clean"
         }
@@ -1750,6 +1784,21 @@
         "value": {}
       },
       {
+        "v": "02-organisms/00-global/01-search.mustache",
+        "w": "00-atoms/03-buttons/02-menu-close.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-organisms/00-global/01-search.mustache",
+        "w": "00-atoms/03-buttons/31-search-link.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-organisms/00-global/00-nav.mustache",
+        "w": "02-organisms/00-global/01-search.mustache",
+        "value": {}
+      },
+      {
         "v": "02-organisms/00-global/00-nav.mustache",
         "w": "00-atoms/03-buttons/03-menu-bar.mustache",
         "value": {}
@@ -1787,16 +1836,6 @@
       {
         "v": "02-organisms/00-global/00-nav.mustache",
         "w": "00-atoms/00-global/04-logo.mustache",
-        "value": {}
-      },
-      {
-        "v": "02-organisms/00-global/01-search.mustache",
-        "w": "00-atoms/03-buttons/02-menu-close.mustache",
-        "value": {}
-      },
-      {
-        "v": "02-organisms/00-global/01-search.mustache",
-        "w": "00-atoms/03-buttons/31-search-link.mustache",
         "value": {}
       },
       {
@@ -2507,6 +2546,16 @@
       {
         "v": "02-organisms/08-live-news/02-article-live-news.mustache",
         "w": "01-molecules/10-media-latest-news/03-media-latest-news-img-320x262.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-organisms/08-live-news/02-article-live-news.mustache",
+        "w": "01-molecules/10-media-latest-news/04-media-latest-news-img-578x473.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-organisms/12-404/02-article-404.mustache",
+        "w": "00-atoms/04-images/21-img-1156x527.mustache",
         "value": {}
       }
     ]

@@ -47,8 +47,12 @@
 .o-media__block-edit-picks__2__section-2 {
 	margin-top: 14.3%;
 
+	.m-obj-media__txt--on-left {
+		margin-top: 0;
+	}
+
 	@include mq($until: tablet) {
-		margin-top: 19%;
+		margin-top: 20.5%;
 	}
 
 	@include mq($until: mobile) {

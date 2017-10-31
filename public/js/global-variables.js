@@ -19,7 +19,9 @@ $(document).ready(function() {
 				> SEARCH <						
 ------------------------------------------*/
 
+var searchForm = $(".o-cmp-search-form");
 var searchIcon = $(".o-nav__search");
+var closeSearchIcon = $(".o-form__close");
 
 
 /*------------------------------------------
@@ -121,3 +123,10 @@ var carouselEnrichi = $('.o-media__enrichi-carousel');
 var carouselEnrichiSmall = $('.o-media__enrichi-carousel--small');
 var enrichiArrowLeft = $('.o-media__block-arrow-left--enrichi');
 var enrichiArrowRight = $('.o-media__block-arrow-right--enrichi');
+
+
+/*------------------------------------------
+				> FAQ READER <						
+------------------------------------------*/
+
+var faqReaderSection = $('.o-cmp-faq-reader__section');
