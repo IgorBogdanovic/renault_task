@@ -1,0 +1,59 @@
+/* The container */
+.m-cmp-test-radio-button {
+    display: block;
+    position: relative;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.m-cmp-test-radio-button input {
+    position: absolute;
+    opacity: 0;
+}
+
+/* Create a custom checkbox */
+.m-cmp-test-radio-button__checkmark {
+    border: 1px solid #e3e0e0;
+	border-radius: 50%;
+	background-color: $color-white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: $size-50*1.02;
+    width: $size-50*1.02;
+}
+
+/* When the checkbox is checked, add a blue background */
+.m-cmp-test-radio-button input:checked ~ .m-cmp-test-radio-button__checkmark {
+	border: 3px solid $color-white;
+    background-color: $color-light-gray;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.m-cmp-test-radio-button__checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the checkmark when checked */
+.m-cmp-test-radio-button input:checked ~ .m-cmp-test-radio-button__checkmark:after {
+    display: block;
+}
+
+/* Style the checkmark/indicator */
+.m-cmp-test-radio-button .m-cmp-test-radio-button__checkmark:after {
+    left: 50%;
+    bottom: 35%;
+    width: $size-10*1.7;
+    height: $size-40;
+    border: solid $color-dark-yellow;
+    border-width: 0 $size-10*0.3 $size-10*0.3 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}

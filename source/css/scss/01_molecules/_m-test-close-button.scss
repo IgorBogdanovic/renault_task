@@ -1,0 +1,22 @@
+.m-cmp-test-close-button {
+	display: inline-block;
+	cursor: pointer;
+
+    i {
+        font-size: $size-20*1.05;
+        border-radius: 50%;
+        border: 3px solid $color-dark-yellow;
+        background-color: $color-dark-yellow;
+        color: $color-white;
+    }
+
+	@include mq($until: tablet) {
+    }
+
+    @include mq($until: mobile) {
+
+    	i {
+    		font-size: $size-30;;
+    	}
+    }
+}

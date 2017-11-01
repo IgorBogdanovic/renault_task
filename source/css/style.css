@@ -1669,6 +1669,72 @@ a {
       top: 17%;
       height: 108.5%; } }
 
+/* The container */
+.m-cmp-test-radio-button {
+  display: block;
+  position: relative;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none; }
+
+/* Hide the browser's default checkbox */
+.m-cmp-test-radio-button input {
+  position: absolute;
+  opacity: 0; }
+
+/* Create a custom checkbox */
+.m-cmp-test-radio-button__checkmark {
+  border: 1px solid #e3e0e0;
+  border-radius: 50%;
+  background-color: #ffffff;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 3.6414rem;
+  width: 3.6414rem; }
+
+/* When the checkbox is checked, add a blue background */
+.m-cmp-test-radio-button input:checked ~ .m-cmp-test-radio-button__checkmark {
+  border: 3px solid #ffffff;
+  background-color: #f6f6f6; }
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.m-cmp-test-radio-button__checkmark:after {
+  content: "";
+  position: absolute;
+  display: none; }
+
+/* Show the checkmark when checked */
+.m-cmp-test-radio-button input:checked ~ .m-cmp-test-radio-button__checkmark:after {
+  display: block; }
+
+/* Style the checkmark/indicator */
+.m-cmp-test-radio-button .m-cmp-test-radio-button__checkmark:after {
+  left: 50%;
+  bottom: 35%;
+  width: 1.207rem;
+  height: 2.86rem;
+  border: solid #ffcc33;
+  border-width: 0 0.213rem 0.213rem 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg); }
+
+.m-cmp-test-close-button {
+  display: inline-block;
+  cursor: pointer; }
+  .m-cmp-test-close-button i {
+    font-size: 1.5015rem;
+    border-radius: 50%;
+    border: 3px solid #ffcc33;
+    background-color: #ffcc33;
+    color: #ffffff; }
+  @media (max-width: 40.0525em) {
+    .m-cmp-test-close-button i {
+      font-size: 2.14rem; } }
+
 .m-obj-media__img {
   position: relative; }
 
@@ -5989,6 +6055,238 @@ a {
         font-size: 1.5015rem;
         letter-spacing: 0.0923rem;
         padding: 2.14rem 4.28rem; } }
+
+.o-cmp-intro-img-incl-txt {
+  float: left;
+  width: 44.118%; }
+  @media (max-width: 64.0525em) {
+    .o-cmp-intro-img-incl-txt {
+      float: none;
+      width: 100%; } }
+
+.o-cmp-intro-img-incl-txt__picture img {
+  width: 100%; }
+
+.o-cmp-intro-img-incl-txt__heading {
+  top: 39%;
+  left: 30%;
+  letter-spacing: 0.0568rem;
+  line-height: 1.2; }
+  @media (max-width: 64.0525em) {
+    .o-cmp-intro-img-incl-txt__heading {
+      top: 35.5%;
+      left: 25%; }
+      .o-cmp-intro-img-incl-txt__heading .a-cmp-heading--3d {
+        font-size: 3.43rem; }
+      .o-cmp-intro-img-incl-txt__heading .a-cmp-heading--3e {
+        font-size: 3.21rem; } }
+  @media (max-width: 40.0525em) {
+    .o-cmp-intro-img-incl-txt__heading {
+      top: 42%;
+      left: 20%;
+      letter-spacing: 0.071rem; }
+      .o-cmp-intro-img-incl-txt__heading .a-cmp-heading--3d {
+        font-size: 3.57rem; }
+      .o-cmp-intro-img-incl-txt__heading .a-cmp-heading--3e {
+        font-size: 3.3605rem; } }
+
+.o-cmp-psytest-intro-wrapper {
+  float: right;
+  width: 55.882%; }
+  @media (max-width: 64.0525em) {
+    .o-cmp-psytest-intro-wrapper {
+      float: none;
+      width: 100%; } }
+
+.o-cmp-psytest-intro-block {
+  width: 53%;
+  margin-top: 22.5%; }
+  @media (max-width: 64.0525em) {
+    .o-cmp-psytest-intro-block {
+      width: 63%;
+      margin-top: 0; } }
+  @media (max-width: 40.0525em) {
+    .o-cmp-psytest-intro-block {
+      width: 87.5%; } }
+
+.o-cmp-psytest-intro-block__heading {
+  margin-top: 10.5%;
+  letter-spacing: 0.1207rem;
+  line-height: 1.25; }
+  @media (max-width: 64.0525em) {
+    .o-cmp-psytest-intro-block__heading {
+      letter-spacing: 0.1065rem;
+      line-height: 1.15; } }
+  @media (max-width: 40.0525em) {
+    .o-cmp-psytest-intro-block__heading {
+      margin-top: 9.5%;
+      letter-spacing: 0.1633rem;
+      line-height: 1.03; } }
+
+.a-obj-h4-dim-40-24-24 {
+  font-size: 1.71rem;
+  font-weight: 900; }
+  @media (max-width: 40.0525em) {
+    .a-obj-h4-dim-40-24-24 {
+      font-size: 2.86rem; } }
+
+.o-cmp-psytest-intro-block__txt {
+  color: #7e7e7e;
+  margin-top: 4.5%;
+  letter-spacing: 0.06035rem;
+  line-height: 1.4; }
+  @media (max-width: 64.0525em) {
+    .o-cmp-psytest-intro-block__txt {
+      margin-top: 5%;
+      letter-spacing: 0.0497rem; } }
+  @media (max-width: 40.0525em) {
+    .o-cmp-psytest-intro-block__txt {
+      margin-top: 3%;
+      letter-spacing: 0.0781rem;
+      line-height: 1.47; } }
+
+.a-obj-p-dim-28-16-16 {
+  font-size: 1.14rem; }
+  @media (max-width: 40.0525em) {
+    .a-obj-p-dim-28-16-16 {
+      font-size: 2rem; } }
+
+.o-cmp-psytest-intro-block__button {
+  margin-top: 9%; }
+  .o-cmp-psytest-intro-block__button .a-cmp-button {
+    background-color: #ffcc33;
+    font-size: 1rem;
+    letter-spacing: 0.071rem;
+    padding: 1.43rem 3.003rem; }
+  @media (max-width: 64.0525em) {
+    .o-cmp-psytest-intro-block__button {
+      text-align: center; } }
+  @media (max-width: 40.0525em) {
+    .o-cmp-psytest-intro-block__button {
+      margin-top: 11%; }
+      .o-cmp-psytest-intro-block__button .a-cmp-button {
+        font-size: 1.5015rem;
+        padding: 2.14rem 4.4268rem; } }
+
+.o-cmp-psytest-block-test {
+  position: relative;
+  border-bottom: 1px solid #ececec;
+  background-color: #f6f6f6;
+  width: 50%; }
+  @media (max-width: 64.0525em) {
+    .o-cmp-psytest-block-test {
+      width: 100%; } }
+
+.o-cmp-psytest-block-test__checkbox--img {
+  float: left;
+  width: 21.778%; }
+  @media (max-width: 64.0525em) {
+    .o-cmp-psytest-block-test__checkbox--img {
+      width: 23.539%; } }
+  @media (max-width: 40.0525em) {
+    .o-cmp-psytest-block-test__checkbox--img {
+      border-right: 1px solid #ececec;
+      width: 25.715%; } }
+
+.o-cmp-psytest-block-test__checkbox--img__img img {
+  width: 100%; }
+
+@media (max-width: 40.0525em) {
+  .o-cmp-psytest-block-test__checkbox--img__img img {
+    height: 28.9vw; } }
+
+.o-cmp-psytest-block-test__checkbox--img__radio-button {
+  position: absolute;
+  top: 36.5%;
+  right: 14.5%; }
+  @media (max-width: 64.0525em) {
+    .o-cmp-psytest-block-test__checkbox--img__radio-button {
+      top: 35%;
+      right: 11.4%; } }
+  @media (max-width: 40.0525em) {
+    .o-cmp-psytest-block-test__checkbox--img__radio-button {
+      position: static;
+      height: 42.188vw; }
+      .o-cmp-psytest-block-test__checkbox--img__radio-button .m-cmp-test-radio-button {
+        top: 40%;
+        left: 32.5%; } }
+
+.o-cmp-psytest-block-test__question {
+  float: right;
+  margin-top: 6.4%;
+  width: 78.222%;
+  padding: 0 22% 0 7.3%; }
+  @media (max-width: 64.0525em) {
+    .o-cmp-psytest-block-test__question {
+      width: 76.461%;
+      padding: 0 19% 0 6.5%; } }
+  @media (max-width: 40.0525em) {
+    .o-cmp-psytest-block-test__question {
+      margin-top: 13.3%;
+      width: 74.285%;
+      padding: 0 3% 0 8%; } }
+
+.o-cmp-psytest-block-test__question__heading {
+  color: #6e6d6d;
+  font-size: 1.29rem;
+  font-weight: 900;
+  letter-spacing: 0.0852rem;
+  line-height: 1.5; }
+  @media (max-width: 64.0525em) {
+    .o-cmp-psytest-block-test__question__heading {
+      letter-spacing: 0.0852rem;
+      line-height: 1.5; } }
+  @media (max-width: 40.0525em) {
+    .o-cmp-psytest-block-test__question__heading {
+      font-size: 2rem;
+      letter-spacing: 0.142rem; } }
+
+.o-cmp-psytest-block-test__question__txt {
+  color: #7e7e7e;
+  font-size: 1.14rem;
+  margin-top: 2.2%;
+  letter-spacing: 0.0568rem;
+  line-height: 1.4; }
+  @media (max-width: 64.0525em) {
+    .o-cmp-psytest-block-test__question__txt {
+      margin-top: 2.2%;
+      letter-spacing: 0.0568rem;
+      line-height: 1.4; } }
+  @media (max-width: 40.0525em) {
+    .o-cmp-psytest-block-test__question__txt {
+      font-size: 2rem;
+      margin-top: 8%;
+      letter-spacing: 0.1065rem;
+      line-height: 1.5; } }
+
+.o-cmp-psytest-block-head {
+  font-size: 2.14rem;
+  font-weight: 900;
+  width: 54.3rem; }
+  @media (max-width: 64.0525em) {
+    .o-cmp-psytest-block-head {
+      width: 40rem; } }
+
+.o-cmp-psytest-block-head__counter {
+  margin-top: 5%;
+  line-height: 0; }
+  @media (max-width: 40.0525em) {
+    .o-cmp-psytest-block-head__counter {
+      letter-spacing: 0.071rem; } }
+
+.o-cmp-psytest-block-head__counter__slash {
+  color: #ffcc33;
+  font-size: 3.57rem; }
+
+.o-cmp-psytest-block-head__counter__number {
+  vertical-align: top; }
+
+@media (max-width: 40.0525em) {
+  .o-cmp-psytest-block-head__heading {
+    font-size: 2.86rem;
+    margin-top: 9.5%;
+    letter-spacing: 0.1917rem;
+    line-height: 1.1; } }
 
 .o-footer {
   max-width: 1700px;

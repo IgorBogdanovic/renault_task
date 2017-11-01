@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": 1509472365334,
+  "timestamp": 1509559405391,
   "graph": {
     "options": {
       "directed": true,
@@ -285,7 +285,7 @@
         }
       },
       {
-        "v": "00-atoms/04-images/10-img-1700x700.mustache",
+        "v": "00-atoms/04-images/06-img-1700x700.mustache",
         "value": {
           "compileState": "clean",
           "lineagePath": "../../patterns/02-organisms-06-article-faq-01-article-faq-header/02-organisms-06-article-faq-01-article-faq-header.rendered.html",
@@ -293,7 +293,7 @@
         }
       },
       {
-        "v": "00-atoms/04-images/18-img-1354x700.mustache",
+        "v": "00-atoms/04-images/08-img-1354x700.mustache",
         "value": {
           "compileState": "clean",
           "lineagePath": "../../patterns/02-organisms-04-shp-faq-01-shp-faq-header/02-organisms-04-shp-faq-01-shp-faq-header.rendered.html",
@@ -301,7 +301,7 @@
         }
       },
       {
-        "v": "00-atoms/04-images/20-img-1350x440.mustache",
+        "v": "00-atoms/04-images/10-img-1350x440.mustache",
         "value": {
           "compileState": "clean",
           "lineagePath": "../../patterns/02-organisms-00-global-04-article-test-quel-vehicule/02-organisms-00-global-04-article-test-quel-vehicule.rendered.html",
@@ -309,7 +309,7 @@
         }
       },
       {
-        "v": "00-atoms/04-images/21-img-1156x527.mustache",
+        "v": "00-atoms/04-images/12-img-1156x527.mustache",
         "value": {
           "compileState": "clean",
           "lineagePath": "../../patterns/02-organisms-12-404-02-article-404/02-organisms-12-404-02-article-404.rendered.html",
@@ -317,7 +317,7 @@
         }
       },
       {
-        "v": "00-atoms/04-images/22-img-945x585.mustache",
+        "v": "00-atoms/04-images/14-img-945x585.mustache",
         "value": {
           "compileState": "clean",
           "lineagePath": "../../patterns/02-organisms-05-article-04-article-diaporama-module/02-organisms-05-article-04-article-diaporama-module.rendered.html",
@@ -325,7 +325,7 @@
         }
       },
       {
-        "v": "00-atoms/04-images/23-img-835x510.mustache",
+        "v": "00-atoms/04-images/16-img-835x510.mustache",
         "value": {
           "compileState": "clean",
           "lineagePath": "../../patterns/02-organisms-02-home-page-04-article-fan-de-vu/02-organisms-02-home-page-04-article-fan-de-vu.rendered.html",
@@ -333,7 +333,7 @@
         }
       },
       {
-        "v": "00-atoms/04-images/24-img-770x570.mustache",
+        "v": "00-atoms/04-images/18-img-770x570.mustache",
         "value": {
           "compileState": "clean",
           "lineagePath": "../../patterns/02-organisms-05-article-04-article-diaporama-module/02-organisms-05-article-04-article-diaporama-module.rendered.html",
@@ -341,7 +341,7 @@
         }
       },
       {
-        "v": "00-atoms/04-images/25-img-690x955.mustache",
+        "v": "00-atoms/04-images/21-img-690x955.mustache",
         "value": {
           "compileState": "clean",
           "lineagePath": "../../patterns/02-organisms-05-article-07-article-enrichi/02-organisms-05-article-07-article-enrichi.rendered.html",
@@ -349,7 +349,7 @@
         }
       },
       {
-        "v": "00-atoms/04-images/26-img-664x634.mustache",
+        "v": "00-atoms/04-images/22-img-664x634.mustache",
         "value": {
           "compileState": "clean",
           "lineagePath": "../../patterns/01-molecules-08-media-cote-business-08-media-cote-business-portrait/01-molecules-08-media-cote-business-08-media-cote-business-portrait.rendered.html",
@@ -357,7 +357,7 @@
         }
       },
       {
-        "v": "00-atoms/04-images/27-img-664x375.mustache",
+        "v": "00-atoms/04-images/23-img-664x375.mustache",
         "value": {
           "compileState": "clean",
           "lineagePath": "../../patterns/02-organisms-05-article-07-article-enrichi/02-organisms-05-article-07-article-enrichi.rendered.html",
@@ -365,7 +365,7 @@
         }
       },
       {
-        "v": "00-atoms/04-images/28-img-664x358.mustache",
+        "v": "00-atoms/04-images/24-img-664x358.mustache",
         "value": {
           "compileState": "clean",
           "lineagePath": "../../patterns/02-organisms-05-article-06-carousel-enrichi/02-organisms-05-article-06-carousel-enrichi.rendered.html",
@@ -373,7 +373,7 @@
         }
       },
       {
-        "v": "00-atoms/04-images/29-img-640x550.mustache",
+        "v": "00-atoms/04-images/25-img-640x550.mustache",
         "value": {
           "compileState": "clean",
           "lineagePath": "../../patterns/02-organisms-05-article-04-article-diaporama-module/02-organisms-05-article-04-article-diaporama-module.rendered.html",
@@ -552,8 +552,8 @@
         "v": "01-molecules/01-media-test-quel-vehicule/01-heading-test-quel-vehicule.mustache",
         "value": {
           "compileState": "clean",
-          "lineagePath": "../../patterns/02-organisms-00-global-05-article-test-quel-vehicule-small-desktop-version/02-organisms-00-global-05-article-test-quel-vehicule-small-desktop-version.rendered.html",
-          "lineagePattern": "organisms-article-test-quel-vehicule-small-desktop-version"
+          "lineagePath": "../../patterns/02-organisms-13-psy-test-01-psy-test-intro/02-organisms-13-psy-test-01-psy-test-intro.rendered.html",
+          "lineagePattern": "organisms-psy-test-intro"
         }
       },
       {
@@ -1197,6 +1197,20 @@
         }
       },
       {
+        "v": "01-molecules/16-psy-test/05-test-radio-button.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/02-organisms-13-psy-test-02-psy-test-section-test-with-image/02-organisms-13-psy-test-02-psy-test-section-test-with-image.rendered.html",
+          "lineagePattern": "organisms-psy-test-section-test-with-image"
+        }
+      },
+      {
+        "v": "01-molecules/16-psy-test/06-test-close-button.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
         "v": "02-organisms/00-global/00-nav.mustache",
         "value": {
           "compileState": "clean"
@@ -1435,6 +1449,24 @@
         }
       },
       {
+        "v": "02-organisms/13-psy-test/01-psy-test-intro.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "02-organisms/13-psy-test/02-psy-test-section-test-with-image.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "02-organisms/13-psy-test/05-psy-test-article.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
         "v": "/Users/igor/renault_task/source/_meta/_00-head.mustache",
         "value": {
           "compileState": null
@@ -1620,7 +1652,7 @@
       },
       {
         "v": "01-molecules/08-media-cote-business/08-media-cote-business-portrait.mustache",
-        "w": "00-atoms/04-images/26-img-664x634.mustache",
+        "w": "00-atoms/04-images/22-img-664x634.mustache",
         "value": {}
       },
       {
@@ -1784,6 +1816,11 @@
         "value": {}
       },
       {
+        "v": "01-molecules/16-psy-test/06-test-close-button.mustache",
+        "w": "00-atoms/03-buttons/02-close-icon.mustache",
+        "value": {}
+      },
+      {
         "v": "02-organisms/00-global/01-search.mustache",
         "w": "00-atoms/03-buttons/02-menu-close.mustache",
         "value": {}
@@ -1870,7 +1907,7 @@
       },
       {
         "v": "02-organisms/00-global/04-article-test-quel-vehicule.mustache",
-        "w": "00-atoms/04-images/20-img-1350x440.mustache",
+        "w": "00-atoms/04-images/10-img-1350x440.mustache",
         "value": {}
       },
       {
@@ -2075,7 +2112,7 @@
       },
       {
         "v": "02-organisms/02-home-page/04-article-fan-de-vu.mustache",
-        "w": "00-atoms/04-images/23-img-835x510.mustache",
+        "w": "00-atoms/04-images/16-img-835x510.mustache",
         "value": {}
       },
       {
@@ -2175,7 +2212,7 @@
       },
       {
         "v": "02-organisms/03-shp/01-shp-header.mustache",
-        "w": "00-atoms/04-images/18-img-1354x700.mustache",
+        "w": "00-atoms/04-images/08-img-1354x700.mustache",
         "value": {}
       },
       {
@@ -2245,7 +2282,7 @@
       },
       {
         "v": "02-organisms/04-shp-faq/01-shp-faq-header.mustache",
-        "w": "00-atoms/04-images/18-img-1354x700.mustache",
+        "w": "00-atoms/04-images/08-img-1354x700.mustache",
         "value": {}
       },
       {
@@ -2310,17 +2347,17 @@
       },
       {
         "v": "02-organisms/05-article/01-article-header.mustache",
-        "w": "00-atoms/04-images/10-img-1700x700.mustache",
+        "w": "00-atoms/04-images/06-img-1700x700.mustache",
         "value": {}
       },
       {
         "v": "02-organisms/05-article/02-article-video-header.mustache",
-        "w": "00-atoms/04-images/10-img-1700x700.mustache",
+        "w": "00-atoms/04-images/06-img-1700x700.mustache",
         "value": {}
       },
       {
         "v": "02-organisms/05-article/03-article-diaporama-header.mustache",
-        "w": "00-atoms/04-images/10-img-1700x700.mustache",
+        "w": "00-atoms/04-images/06-img-1700x700.mustache",
         "value": {}
       },
       {
@@ -2355,17 +2392,17 @@
       },
       {
         "v": "02-organisms/05-article/04-article-diaporama-module.mustache",
-        "w": "00-atoms/04-images/22-img-945x585.mustache",
+        "w": "00-atoms/04-images/14-img-945x585.mustache",
         "value": {}
       },
       {
         "v": "02-organisms/05-article/04-article-diaporama-module.mustache",
-        "w": "00-atoms/04-images/24-img-770x570.mustache",
+        "w": "00-atoms/04-images/18-img-770x570.mustache",
         "value": {}
       },
       {
         "v": "02-organisms/05-article/04-article-diaporama-module.mustache",
-        "w": "00-atoms/04-images/29-img-640x550.mustache",
+        "w": "00-atoms/04-images/25-img-640x550.mustache",
         "value": {}
       },
       {
@@ -2405,7 +2442,7 @@
       },
       {
         "v": "02-organisms/05-article/06-carousel-enrichi.mustache",
-        "w": "00-atoms/04-images/28-img-664x358.mustache",
+        "w": "00-atoms/04-images/24-img-664x358.mustache",
         "value": {}
       },
       {
@@ -2425,7 +2462,7 @@
       },
       {
         "v": "02-organisms/05-article/07-article-enrichi.mustache",
-        "w": "00-atoms/04-images/25-img-690x955.mustache",
+        "w": "00-atoms/04-images/21-img-690x955.mustache",
         "value": {}
       },
       {
@@ -2440,7 +2477,7 @@
       },
       {
         "v": "02-organisms/05-article/07-article-enrichi.mustache",
-        "w": "00-atoms/04-images/27-img-664x375.mustache",
+        "w": "00-atoms/04-images/23-img-664x375.mustache",
         "value": {}
       },
       {
@@ -2450,7 +2487,7 @@
       },
       {
         "v": "02-organisms/06-article-faq/01-article-faq-header.mustache",
-        "w": "00-atoms/04-images/10-img-1700x700.mustache",
+        "w": "00-atoms/04-images/06-img-1700x700.mustache",
         "value": {}
       },
       {
@@ -2555,7 +2592,17 @@
       },
       {
         "v": "02-organisms/12-404/02-article-404.mustache",
-        "w": "00-atoms/04-images/21-img-1156x527.mustache",
+        "w": "00-atoms/04-images/12-img-1156x527.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-organisms/13-psy-test/01-psy-test-intro.mustache",
+        "w": "01-molecules/01-media-test-quel-vehicule/01-heading-test-quel-vehicule.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-organisms/13-psy-test/02-psy-test-section-test-with-image.mustache",
+        "w": "01-molecules/16-psy-test/05-test-radio-button.mustache",
         "value": {}
       }
     ]

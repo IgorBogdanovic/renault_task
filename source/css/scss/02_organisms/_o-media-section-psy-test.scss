@@ -1,0 +1,127 @@
+.o-cmp-psytest-block-test {
+
+	@include mq($until: tablet) {
+    }
+
+    @include mq($until: mobile) {
+    }
+}
+
+.o-cmp-psytest-block-test {
+	position: relative;
+	border-bottom: 1px solid $color-lines-gray;
+	background-color: $color-light-gray;
+	width: 50%;
+
+	@include mq($until: tablet) {
+		width: 100%;
+    }
+}
+
+.o-cmp-psytest-block-test__checkbox--img {
+	float: left;
+	width: 21.778%;
+
+	@include mq($until: tablet) {
+		width: 23.539%;
+    }
+
+    @include mq($until: mobile) {
+    	border-right: 1px solid $color-lines-gray;
+    	width: 25.715%;
+    }
+}
+
+.o-cmp-psytest-block-test__checkbox--img__img {
+
+	img {
+		width: 100%;
+	}
+
+    @include mq($until: mobile) {
+
+    	img {
+    		height: 28.9vw;
+    	}
+    }
+}
+
+.o-cmp-psytest-block-test__checkbox--img__radio-button {
+	position: absolute;
+	top: 36.5%;
+	right: 14.5%;
+
+	@include mq($until: tablet) {
+		top: 35%;
+    	right: 11.4%;
+    }
+
+    @include mq($until: mobile) {
+    	position: static;
+    	height: 42.188vw;
+
+    	.m-cmp-test-radio-button {
+    		top: 40%;
+    		left: 32.5%;
+    	}
+    }
+}
+
+.o-cmp-psytest-block-test__question {
+	float: right;
+	margin-top: 6.4%;
+    width: 78.222%;
+    padding: 0 22% 0 7.3%;
+
+	@include mq($until: tablet) {
+	    width: 76.461%;
+	    padding: 0 19% 0 6.5%;
+    }
+
+    @include mq($until: mobile) {
+    	margin-top: 13.3%;
+    	width: 74.285%;
+    	padding: 0 3% 0 8%;
+    }
+}
+
+.o-cmp-psytest-block-test__question__heading {
+	color: $color-dark-gray-2;
+	font : {
+		size: $size-18;
+		weight: $font-weight-900;
+	}
+	letter-spacing: $size-10*0.12;
+	line-height: 1.5;
+
+	@include mq($until: tablet) {
+		letter-spacing: $size-10*0.12;
+	    line-height: 1.5;
+    }
+
+    @include mq($until: mobile) {
+    	font-size: $size-28;
+    	letter-spacing: $size-10*0.2;
+    }
+}
+
+.o-cmp-psytest-block-test__question__txt {
+	color: $color-dark-gray;
+	font-size: $size-16;
+	margin-top: 2.2%;
+    letter-spacing: $size-10*0.08;
+    line-height: 1.4;
+
+	@include mq($until: tablet) {
+		margin-top: 2.2%;
+	    letter-spacing: $size-10*0.08;
+	    line-height: 1.4;
+    }
+
+    @include mq($until: mobile) {
+    	font-size: $size-28;
+	    margin-top: 8%;
+	    letter-spacing: $size-10*0.15;
+	    line-height: 1.5;
+    }
+}
