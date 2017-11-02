@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": 1509559405391,
+  "timestamp": 1509638325333,
   "graph": {
     "options": {
       "directed": true,
@@ -1200,14 +1200,16 @@
         "v": "01-molecules/16-psy-test/05-test-radio-button.mustache",
         "value": {
           "compileState": "clean",
-          "lineagePath": "../../patterns/02-organisms-13-psy-test-02-psy-test-section-test-with-image/02-organisms-13-psy-test-02-psy-test-section-test-with-image.rendered.html",
-          "lineagePattern": "organisms-psy-test-section-test-with-image"
+          "lineagePath": "../../patterns/02-organisms-13-psy-test-03-psy-test-section-test-no-image/02-organisms-13-psy-test-03-psy-test-section-test-no-image.rendered.html",
+          "lineagePattern": "organisms-psy-test-section-test-no-image"
         }
       },
       {
         "v": "01-molecules/16-psy-test/06-test-close-button.mustache",
         "value": {
-          "compileState": "clean"
+          "compileState": "clean",
+          "lineagePath": "../../patterns/02-organisms-13-psy-test-03-psy-test-section-test-no-image/02-organisms-13-psy-test-03-psy-test-section-test-no-image.rendered.html",
+          "lineagePattern": "organisms-psy-test-section-test-no-image"
         }
       },
       {
@@ -1457,7 +1459,17 @@
       {
         "v": "02-organisms/13-psy-test/02-psy-test-section-test-with-image.mustache",
         "value": {
-          "compileState": "clean"
+          "compileState": "clean",
+          "lineagePath": "../../patterns/02-organisms-13-psy-test-05-psy-test-article/02-organisms-13-psy-test-05-psy-test-article.rendered.html",
+          "lineagePattern": "organisms-psy-test-article"
+        }
+      },
+      {
+        "v": "02-organisms/13-psy-test/03-psy-test-section-test-no-image.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/02-organisms-13-psy-test-05-psy-test-article/02-organisms-13-psy-test-05-psy-test-article.rendered.html",
+          "lineagePattern": "organisms-psy-test-article"
         }
       },
       {
@@ -2602,7 +2614,32 @@
       },
       {
         "v": "02-organisms/13-psy-test/02-psy-test-section-test-with-image.mustache",
+        "w": "01-molecules/16-psy-test/06-test-close-button.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-organisms/13-psy-test/02-psy-test-section-test-with-image.mustache",
         "w": "01-molecules/16-psy-test/05-test-radio-button.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-organisms/13-psy-test/03-psy-test-section-test-no-image.mustache",
+        "w": "01-molecules/16-psy-test/06-test-close-button.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-organisms/13-psy-test/03-psy-test-section-test-no-image.mustache",
+        "w": "01-molecules/16-psy-test/05-test-radio-button.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-organisms/13-psy-test/05-psy-test-article.mustache",
+        "w": "02-organisms/13-psy-test/02-psy-test-section-test-with-image.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-organisms/13-psy-test/05-psy-test-article.mustache",
+        "w": "02-organisms/13-psy-test/03-psy-test-section-test-no-image.mustache",
         "value": {}
       }
     ]

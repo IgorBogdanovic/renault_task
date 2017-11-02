@@ -1,35 +1,35 @@
 .o-cmp-psytest-block-head {
-
-	@include mq($until: tablet) {
-    }
-
-    @include mq($until: mobile) {
-    }
-}
-
-.o-cmp-psytest-block-head {
 	font : {
 		size: $size-30;
 		weight: $font-weight-900;
 	}
-	width: 54.3rem;
+	width: 100%;
+    margin-bottom: 3.4%;
+    padding: 0 14.5%;
 
 	@include mq($until: tablet) {
-		width: 40rem;
+        margin-bottom: 14.7%;
+        padding: 0;
     }
 
     @include mq($until: mobile) {
+        width: 40rem;
+        margin-bottom: 12%;
     }
 }
 
 .o-cmp-psytest-block-head__counter {
-	margin-top: 5%;
+    display: inline-block;
     line-height: 0;
+	margin-top: 5%;
+    letter-spacing: $size-10*0.1;
 
 	@include mq($until: tablet) {
+        letter-spacing: $size-10*0.07;
     }
 
     @include mq($until: mobile) {
+        display: block;
 	    letter-spacing: $size-10*0.1;
     }
 }
@@ -37,33 +37,137 @@
 .o-cmp-psytest-block-head__counter__slash {
 	color: $color-dark-yellow;
 	font-size: $size-50;
-
-	@include mq($until: tablet) {
-    }
-
-    @include mq($until: mobile) {
-    }
 }
 
 .o-cmp-psytest-block-head__counter__number {
 	vertical-align: top;
-
-	@include mq($until: tablet) {
-    }
-
-    @include mq($until: mobile) {
-    }
 }
 
 .o-cmp-psytest-block-head__heading {
+    vertical-align: sub;
+    display: inline-block;
+    font-size: $size-30;
+    width: 65%;
+    margin-left: 5.75%;
+    letter-spacing: $size-10*0.21;
 
 	@include mq($until: tablet) {
+        width: 70%;
+        margin-left: 8.5%;
+        letter-spacing: $size-10*0.2;
     }
 
     @include mq($until: mobile) {
+        display: block;
+        width: 100%;
+        margin-top: 9.5%;
+        margin-left: 0;
     	font-size: $size-40;
-    	margin-top: 9.5%;
 	    letter-spacing: $size-10*0.27;
 	    line-height: 1.1;
     }
+}
+
+.o-cmp-psytest-block-content {
+    margin: 0 10.295%;
+
+    @include mq($until: tablet) {
+        margin: 0 7.7935%;
+    }
+
+    @include mq($until: mobile) {
+        margin: 0 6.25%;
+    }
+}
+
+.o-cmp-psytest-block-content--left {
+    float: left;
+    width: 50%;
+    border-right: 1px solid $color-lines-gray;
+
+    @include mq($until: tablet) {
+        float: none;
+        width: 100%;
+        border-right: none;
+    }
+}
+
+.o-cmp-psytest-block-content--right {
+    float: right;
+    width: 50%;
+
+    @include mq($until: tablet) {
+        float: none;
+        width: 100%;
+    }
+}
+
+.o-cmp-psytest-block-content__test-unit {
+
+    .o-media__wrapper-1 {
+        margin: 0;
+    }
+
+    .o-cmp-psytest-block-test {
+        width: 100%;
+    }
+}
+
+.o-cmp-psytest-block-content__test-unit--no-border-dsk {
+
+    .o-cmp-psytest-block-test {
+        border-bottom: none;
+    }
+
+    @include mq($until: tablet) {
+        
+        .o-cmp-psytest-block-test {
+            border-bottom: 1px solid $color-lines-gray;
+        }
+    }
+}
+
+.o-cmp-psytest-block-content__test-unit--no-border {
+
+    .o-cmp-psytest-block-test {
+        border-bottom: none;
+    }
+}
+
+.o-cmp-psytest-block-button {
+    margin-top: 2.8%;
+
+    .a-cmp-button {
+        font-size: $size-14;
+        letter-spacing: $size-10*0.07;
+        padding: $size-20 $size-50*1.24;
+
+        i {
+            display: none;
+            font-size: $size-34;
+            vertical-align: middle;
+            width: $size-50*1.24;
+            margin-right: -$size-38;
+        }
+    }
+
+    .a-cmp-button--hover--psy:hover {
+        background-color: $color-black;
+        color: $color-white;
+        -webkit-transition: background-color 350ms, color 350ms;
+        transition: background-color 350ms, color 350ms;
+        padding: $size-12 $size-50*1.04;
+
+        i {
+            display: inline-block;
+        }
+    }
+
+    @include mq($until: tablet) {
+        display: none;
+    }
+}
+
+.o-cmp-psytest-block-button--confirmed {
+    background-color: $color-dark-yellow;
 }

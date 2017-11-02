@@ -130,3 +130,13 @@ var enrichiArrowRight = $('.o-media__block-arrow-right--enrichi');
 ------------------------------------------*/
 
 var faqReaderSection = $('.o-cmp-faq-reader__section');
+
+
+/*------------------------------------------
+				> PSY TEST <						
+------------------------------------------*/
+
+var psyTestAllBlocks = $('.o-cmp-psytest-block-content');
+var psyTestRadioButton = $('.m-cmp-test-radio-button');
+var psyTestRadioButtonInput = $('.m-cmp-test-radio-button__input');
+var psyTestCloseButton = $('.o-cmp-psytest-block-test__confirm__close');

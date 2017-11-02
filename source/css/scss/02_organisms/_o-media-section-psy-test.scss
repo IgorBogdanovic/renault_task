@@ -1,9 +1,54 @@
-.o-cmp-psytest-block-test {
+.o-cmp-psytest-block-test__confirm {
+	display: none;
+	z-index: 1;
+	position: absolute;
+	background-color: rgba(0,0,0,0.5);
+	width: 100%;
+    height: 100%;
+}
+
+.o-cmp-psytest-block-test__confirm__close {
+	display: none;
+	position: absolute;
 
 	@include mq($until: tablet) {
+		display: block;
+		top: -5%;
+    	right: -1%;
     }
 
     @include mq($until: mobile) {
+    	top: -2.5%;
+    	right: -1.5%;
+    }
+}
+
+.o-cmp-psytest-block-test__confirm__button {
+	text-align: center;
+	display: none;
+
+	.a-cmp-button {
+		background-color: $color-dark-yellow;
+	}
+
+	@include mq($until: tablet) {
+		display: block;
+		margin-top: 10%;
+
+		.a-cmp-button {
+			font-size: $size-16;
+			padding: $size-20 $size-50*1.2;
+		}
+    }
+
+    @include mq($until: mobile) {
+    	margin-top: 36.5%;
+
+    	.a-cmp-button {
+			font-size: $size-10*1.9;
+			letter-spacing: $size-10*0.1;
+			padding: $size-30 $size-50*1.72;
+		}
     }
 }
 
@@ -19,6 +64,20 @@
 }
 
 .o-cmp-psytest-block-test__checkbox--img {
+	float: left;
+	width: 21.778%;
+
+	@include mq($until: tablet) {
+		width: 23.539%;
+    }
+
+    @include mq($until: mobile) {
+    	border-right: 1px solid $color-lines-gray;
+    	width: 25.715%;
+    }
+}
+
+.o-cmp-psytest-block-test__checkbox--no-img {
 	float: left;
 	width: 21.778%;
 
@@ -67,6 +126,27 @@
     }
 }
 
+.o-cmp-psytest-block-test__checkbox--no-img__radio-button {
+	position: absolute;
+	top: 36.5%;
+	right: 14.5%;
+
+	@include mq($until: tablet) {
+		top: 35%;
+    	right: 11.3%;
+    }
+
+    @include mq($until: mobile) {
+    	position: static;
+    	height: 71vw;
+
+    	.m-cmp-test-radio-button {
+    		top: 42.8%;
+    		left: 32%;
+    	}
+    }
+}
+
 .o-cmp-psytest-block-test__question {
 	float: right;
 	margin-top: 6.4%;
@@ -81,6 +161,26 @@
     @include mq($until: mobile) {
     	margin-top: 13.3%;
     	width: 74.285%;
+    	padding: 0 3% 0 8%;
+    }
+}
+
+.o-cmp-psytest-block-test__question--no-img {
+	float: right;
+	margin-top: 6.4%;
+    width: 100%;
+    height: 10rem;
+    padding: 0 22% 0 11.3%;
+
+	@include mq($until: tablet) {
+		height: 10.458rem;
+	    padding: 0 19% 0 9.5%;
+    }
+
+    @include mq($until: mobile) {
+    	margin-top: 13.3%;
+    	width: 74.285%;
+    	height: auto;
     	padding: 0 3% 0 8%;
     }
 }
