@@ -1,0 +1,204 @@
+.o-cmp-psytest-resultats__heading {
+    color: $color-dark-yellow;
+    text-align: center;
+    font : {
+        size: $size-40*1.1;
+        weight: $font-weight-900;
+    }
+    letter-spacing: $size-10*0.27;
+    float: right;
+    width: 36.3%;
+    margin-top: 11.3%;
+
+    @include mq($until: tablet) {
+        letter-spacing: $size-10*0.26;
+        float: none;
+        width: 100%;
+        margin-top: 0;
+    }
+
+    @include mq($until: mobile) {
+        font-size: $size-50;
+        margin-bottom: 2%;
+        letter-spacing: $size-10*0.21;
+    }
+}
+
+.o-cmp-psytest-resultats__img {
+    float: left;
+    width: 45.556%;
+    margin-top: 5%;
+    margin-left: 12.5%;
+
+    img {
+        width: 100%;
+    }
+
+    @include mq($until: tablet) {
+        float: none;
+        width: 94.616%;
+        margin: auto;
+    }
+
+    @include mq($until: mobile) {
+        width: 112.458%;
+        margin-left: -5.4%;
+    }
+}
+
+.o-cmp-psytest-resultats__social {
+    position: absolute;
+    top: 51%;
+    left: 2%;
+    width: 3.916%;
+
+    .m-obj-social--fb a {
+        padding: 21% 0;
+    }
+
+    .m-obj-social--twitter a {
+        padding: 22.1% 0;
+    }
+
+    .m-obj-social--mail a {
+        padding: 22.1% 0;
+    }
+
+    .o-media__block__slider__background--vertical {
+        width: 80%;
+        height: 125%;
+        top: -12%;
+        left: 35%;
+    }
+
+    @include mq($until: tablet) {
+        position: static;
+        width: 42.5%;
+        margin-left: 30.75%;
+
+        .m-obj-social--fb a {
+            padding: 29.52% 0;
+        }
+
+        .m-obj-social--twitter a {
+            padding: 30.35% 0;
+        }
+
+        .m-obj-social--mail a {
+            padding: 30.35% 0;
+        }
+    }
+
+    @include mq($until: mobile) {
+        width: 73%;
+        margin-top: 8%;
+        margin-left: 13.3%;
+
+        .m-obj-social--fb a {
+            padding: 29.9% 0;
+        }
+
+        .m-obj-social--twitter a {
+            padding: 30.94% 0;
+        }
+
+        .m-obj-social--mail a {
+            padding: 30.94% 0;
+        }
+    }
+}
+
+.o-cmp-psytest-resultats__txt {
+    color: $color-dark-gray;
+    font-size: $size-16;
+    float: right;
+    width: 36.3%;
+    margin-top: 1.5%;
+    letter-spacing: $size-10*0.08;
+    line-height: 1.4;
+
+    @include mq($until: tablet) {
+        float: none;
+        width: 100%;
+        margin-top: 14.5%;
+        padding-left: 6.5%;
+        padding-right: 6.5%;
+        letter-spacing: $size-10*0.07;
+    }
+
+    @include mq($until: mobile) {
+        font-size: $size-28;
+        margin-top: 13%;
+        padding-left: 0;
+        padding-right: 0;
+        letter-spacing: $size-10*0.105;
+        line-height: 1.47;
+    }
+}
+
+.o-cmp-psytest-resultats__button {
+    text-align: center;
+    float: right;
+    width: 36.3%;
+    margin-top: 2%;
+
+    .a-cmp-button {
+        font-size: $size-14;
+        letter-spacing: $size-10*0.07;
+    }
+
+    @include mq($until: tablet) {
+        float: none;
+        width: 100%;
+        margin-top: 9.4%;
+    }
+
+    @include mq($until: mobile) {
+        margin-top: 13.5%;
+
+        .a-cmp-button {
+            font-size: $size-20*1.05;
+            letter-spacing: $size-10*0.1;
+        }
+    }
+}
+
+.o-cmp-psytest-resultats__button__1 {
+    display: inline-block;
+
+    .a-cmp-button {
+        background-color: $color-dark-yellow;
+        padding: $size-22 $size-26;
+    }
+
+    @include mq($until: mobile) {
+        display: block;
+
+        .a-cmp-button {
+            padding: $size-30 $size-40;
+        }
+    }
+}
+
+.o-cmp-psytest-resultats__button__2 {
+    display: inline-block;
+    margin-left: 4.5%;
+
+    .a-cmp-button {
+        padding: $size-22 $size-50*1.68;
+    }
+
+    @include mq($until: tablet) {
+        margin-left: 3%;
+    }
+
+    @include mq($until: mobile) {
+        display: block;
+        margin-top: 6%;
+        margin-left: 0;
+
+        .a-cmp-button {
+            padding: $size-30 $size-50*2.48;
+        }
+    }
+}

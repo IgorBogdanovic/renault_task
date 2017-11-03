@@ -138,6 +138,7 @@
     margin-top: 2.8%;
 
     .a-cmp-button {
+        pointer-events: none;
         font-size: $size-14;
         letter-spacing: $size-10*0.07;
         padding: $size-20 $size-50*1.24;
@@ -151,7 +152,12 @@
         }
     }
 
-    .a-cmp-button--hover--psy:hover {
+    .a-cmp-button-psy--confirmed {
+        pointer-events: auto;
+        background-color: $color-dark-yellow;
+    }
+
+    .a-cmp-button-psy--confirmed:hover {
         background-color: $color-black;
         color: $color-white;
         -webkit-transition: background-color 350ms, color 350ms;
@@ -166,8 +172,4 @@
     @include mq($until: tablet) {
         display: none;
     }
-}
-
-.o-cmp-psytest-block-button--confirmed {
-    background-color: $color-dark-yellow;
 }

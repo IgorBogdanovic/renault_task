@@ -136,7 +136,10 @@ var faqReaderSection = $('.o-cmp-faq-reader__section');
 				> PSY TEST <						
 ------------------------------------------*/
 
-var psyTestAllBlocks = $('.o-cmp-psytest-block-content');
+//var psyTestAllBlocks = $('.o-cmp-psytest-block-content');
+var psyTestBlock = $('.o-cmp-psytest-block-test');
+var psyTestConfirmPopUp = $('.o-cmp-psytest-block-test__confirm');
 var psyTestRadioButton = $('.m-cmp-test-radio-button');
-var psyTestRadioButtonInput = $('.m-cmp-test-radio-button__input');
+//var psyTestRadioButtonInput = $('.m-cmp-test-radio-button__input');
 var psyTestCloseButton = $('.o-cmp-psytest-block-test__confirm__close');
+var psyTestButton = $('.o-cmp-psytest-block-button').find('.a-cmp-button');
