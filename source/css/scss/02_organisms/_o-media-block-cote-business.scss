@@ -177,8 +177,8 @@
 
 	@include mq($until: mobile) {
 		float: none;
-		width: auto;
-		margin-top: 18%;
+		width: 100%;
+		margin-top: 12.4%;
 
 		.m-obj-media__txt-4 {
 			top: 16%;
@@ -194,7 +194,7 @@
 		}
 
 		.m-obj-media__txt-4__button {
-			margin-top: 25%;
+			margin-top: 11.5%;
 
 			.a-cmp-button {
 				letter-spacing: $size-10*0.1;
@@ -203,7 +203,7 @@
 		}
 
 		.m-obj-media__counter-abs {
-			right: 10.5%;
+			right: 8%;
 
 			.a-cmp-caret--margin-right {
 				margin-right: $size-16;

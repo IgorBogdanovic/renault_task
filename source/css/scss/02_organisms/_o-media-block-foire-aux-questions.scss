@@ -37,7 +37,7 @@
 	@include mq($until: tablet) {
 
 		.m-obj-media--image-block {
-			width: 55%;
+			width: 54.2%;
 		}
 
 		.m-obj-media--text-block {
@@ -51,17 +51,18 @@
 
 		.m-obj-media__counter {
 			margin-top: 0;
-			margin-right: 0;
+			margin-right: 1.5%;
 		}
 	}
 
 	@include mq($until: mobile) {
-		width: auto;
+		width: 100%;
 		float: none;
 		margin-top: 7.35%;
 
 		.m-obj-media--image-block {
-			width: auto;
+			display: inline-block;
+			width: 97.5%;
 		}
 
 		.m-obj-media--text-block {
@@ -70,7 +71,7 @@
 		}
 
 		.m-obj-media__counter {
-			margin-top: $size-22;
+			margin-top: $size-16;
 		}
 	}
 }

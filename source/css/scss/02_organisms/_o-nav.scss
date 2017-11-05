@@ -1,10 +1,13 @@
 .o-cmp-search-form {
+	z-index: 2;
 	display: none;
-	position: absolute;
+	position: fixed;
+	left: 0;
 	width: 100%;
 }
 
 .o-nav {
+	z-index: 1;
 	max-width: 1700px;
 	width: 100%;
 	position: fixed;
@@ -20,6 +23,8 @@
 }
 
 .o-nav__list--tbl-mob {
+	z-index: 1;
+	background-color: $color-white;
 	display: none;
 
 	@include mq($until: tablet) {
@@ -28,7 +33,7 @@
 		position: absolute;
 		top: 100%;
 		width: 72.65%;
-		height: 86.1vh;
+		height: 100vh;
 		overflow-y: auto;
 		padding-top: $size-70*1.02;
 		list-style-type: none;
@@ -238,6 +243,7 @@
 }
 
 .o-nav__list--desktop__dd-menu {
+	z-index: 1;
 	display: none;
 	position: absolute;
     top: 100%;

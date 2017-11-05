@@ -14,7 +14,7 @@
 
 	@include mq($until: mobile) {
 		font-size: $size-30;
-		margin-top: $size-30;
+		margin-top: $size-20;
 	}
 }
 

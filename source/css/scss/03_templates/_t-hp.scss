@@ -1,0 +1,107 @@
+.t-cmp-hp-header {
+	padding-top: 3.6%;
+
+	@include mq($until: tablet) {
+		padding-top: 10.9%;
+	}
+
+  	@include mq($until: mobile) {
+  		padding-top: 13%;
+	}
+}
+
+.t-cmp-article-news-de-la-semaine {
+	margin-top: 3.7%;
+
+	@include mq($until: tablet) {
+		margin-top: 2.6%;
+	}
+
+  	@include mq($until: mobile) {
+  		margin-top: 6%;
+	}
+}
+
+.t-cmp-article-fan-de-vu {
+	margin-top: 6.3%;
+
+	@include mq($until: tablet) {
+		margin-top: 8.6%;
+	}
+
+  	@include mq($until: mobile) {
+  		margin-top: 15.6%;
+	}
+}
+
+.t-cmp-article-vu-and-astuces {
+	margin-top: 7.6%;
+
+	@include mq($until: tablet) {
+		margin-top: 10.9%;
+	}
+
+  	@include mq($until: mobile) {
+  		margin-top: 14.5%;
+	}
+}
+
+.t-cmp-article-foire-aux-questions {
+	margin-top: 37.3%;
+
+	@include mq($until: tablet) {
+		margin-top: 41.7%;
+	}
+
+  	@include mq($until: mobile) {
+  		margin-top: 17%;
+	}
+}
+
+.t-cmp-article-cote-business {
+	margin-top: 12.2%;
+
+	@include mq($until: tablet) {
+		margin-top: 16.8%;
+	}
+
+  	@include mq($until: mobile) {
+  		margin-top: 17.4%;
+	}
+}
+
+.t-cmp-hp-article-test-quel-vehicule {
+	margin-top: 6.8%;
+
+	@include mq($until: tablet) {
+		margin-top: 8.4%;
+	}
+
+  	@include mq($until: mobile) {
+  		margin-top: 12.5%;
+	}
+}
+
+.t-cmp-hp-article-les-plus-lus {
+	margin-top: 7%;
+
+	@include mq($until: tablet) {
+		margin-top: 12%;
+	}
+
+  	@include mq($until: mobile) {
+  		margin-top: 19%;
+	}
+}
+
+.t-cmp-hp-footer {
+	margin-top: 9.5%;
+
+	@include mq($until: tablet) {
+		margin-top: 13.5%;
+	}
+
+  	@include mq($until: mobile) {
+  		margin-top: 25.6%;
+	}
+}
