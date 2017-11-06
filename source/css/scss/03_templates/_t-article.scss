@@ -1,0 +1,96 @@
+.t-cmp-article-diaporama-module {
+	z-index: 2;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: $color-white;
+	padding-bottom: 13.35%;
+	display: block;
+	visibility: hidden;
+
+	@include mq($until: tablet) {
+		padding-bottom: 0;
+	}
+}
+
+.t-cmp-article-diaporama-module--visible {
+	visibility: visible;
+}
+
+.t-cmp-article-main--blur {
+	-webkit-filter: blur(3px);
+    filter: blur(3px);
+}
+
+.t-cmp-article-header {
+	padding-top: 3.6%;
+
+	@include mq($until: tablet) {
+		padding-top: 10.9%;
+	}
+
+  	@include mq($until: mobile) {
+  		padding-top: 13%;
+	}
+}
+
+.t-cmp-article {
+	margin-top: 3%;
+
+	@include mq($until: tablet) {
+		margin-top: 3.7%;
+	}
+
+  	@include mq($until: mobile) {
+  		margin-top: 3%;
+	}
+}
+
+.t-cmp-article-article-test-quel-vehicule {
+	display: none;
+
+	@include mq($until: tablet) {
+		display: block;
+		margin-top: 2%;
+	}
+
+  	@include mq($until: mobile) {
+  		margin-top: 14.7%;
+	}
+}
+
+.t-cmp-article-article-article-lies {
+	margin-top: 7.6%;
+
+	@include mq($until: tablet) {
+		margin-top: 11.2%;
+	}
+
+  	@include mq($until: mobile) {
+  		margin-top: 12%;
+	}
+}
+
+.t-cmp-article-article-les-plus-lus {
+	margin-top: 9.25%;
+
+	@include mq($until: tablet) {
+		margin-top: 9.5%;
+	}
+
+  	@include mq($until: mobile) {
+  		margin-top: 6.8%;
+	}
+}
+
+.t-cmp-article-footer {
+	margin-top: 10%;
+
+	@include mq($until: tablet) {
+		margin-top: 13.5%;
+	}
+
+  	@include mq($until: mobile) {
+  		margin-top: 23%;
+	}
+}

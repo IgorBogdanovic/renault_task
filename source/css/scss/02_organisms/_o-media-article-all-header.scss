@@ -3,21 +3,21 @@
 
     @include mq($until: tablet) {
     	.a-cmp-media-w1700 {
-	    	height: 28.25rem;
+	    	height: 27.7rem;
 	    }
 	}
 
 	@include mq($until: mobile) {
 		.a-cmp-media-w1700 {
-	    	height: 23.4rem;
+	    	height: 23rem;
 	    }
 	}
 }
 
 .o-media__header-article-img--background {
 	z-index: -1;
-	-webkit-filter: brightness(10%);
-	filter: brightness(10%);
+	-webkit-filter: brightness(30%);
+	filter: brightness(30%);
 }
 
 .o-media__header-article-video {
@@ -31,11 +31,11 @@
     	width: 100%;
     	bottom: 0;
     	left: 0;
-	    height: 28.25rem;
+	    height: 27.7rem;
 	}
 
 	@include mq($until: mobile) {
-		height: 23.4rem;
+		height: 23rem;
 	}
 }
 

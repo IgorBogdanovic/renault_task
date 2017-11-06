@@ -136,6 +136,10 @@ var faqReaderSection = $('.o-cmp-faq-reader__section');
 				> PSY TEST <						
 ------------------------------------------*/
 
+var psyTestIntro = $('.t-cmp-psy-test__intro');
+var psyTestArticle = $('.t-cmp-psy-test__article');
+var psyTestResultats = $('.t-cmp-psy-test__resultats');
+var psyTestStartButton = $('.o-cmp-psytest-intro-block__button').find('.a-cmp-button');
 //var psyTestAllBlocks = $('.o-cmp-psytest-block-content');
 var psyTestBlock = $('.o-cmp-psytest-block-test');
 var psyTestConfirmPopUp = $('.o-cmp-psytest-block-test__confirm');
@@ -143,3 +147,15 @@ var psyTestRadioButton = $('.m-cmp-test-radio-button');
 //var psyTestRadioButtonInput = $('.m-cmp-test-radio-button__input');
 var psyTestCloseButton = $('.o-cmp-psytest-block-test__confirm__close');
 var psyTestButton = $('.o-cmp-psytest-block-button').find('.a-cmp-button');
+var psyTestButtonMob = $('.o-cmp-psytest-block-test__confirm__button').find('.a-cmp-button');
+var psyTestRestartButton = $('.o-cmp-psytest-resultats__button__2').find('.a-cmp-button');
+
+
+/*------------------------------------------
+		> ARTICLE DIAPORAMA TEMPLATE <						
+------------------------------------------*/
+
+var diaporamaModule = $('.t-cmp-article-diaporama-module');
+var diaporamaModuleClose = $('.o-media__block-module__close');
+var articleDiaporamaMain = $('.t-cmp-article-main');
+var articleDiaporamaSlideshow = $('.o-media__button-article');

@@ -1,0 +1,53 @@
+{
+	"title" : "Article diaporama",
+    "img": {
+		"img-1700x700": {
+    		"src": "../../images/page-04/hero.png"
+    	},
+    	"img-945x585": {
+    		"src": "../../images/page-06/diaporama-945.png"
+    	},
+    	"img-770x570": {
+    		"src": "../../images/page-06/diaporama-770.png"
+    	},
+    	"img-640x550": {
+    		"src": "../../images/page-06/diaporama-640.png"
+    	},
+    	"img-100x80": {
+    		"src": "../../images/page-06/diaporama-100.png"
+    	},
+    	"img-320x262": {
+    		"src": "../../images/articles-lies-320.png"
+    	},
+    	"img-321x423": {
+    		"src": "../../images/articles-lies-321.png"
+    	},
+    	"img-344x454": {
+    		"src": "../../images/articles-lies-344.png"
+    	},
+    	"img-578x473": {
+    		"src": "../../images/articles-lies-578.png"
+    	},
+    	"img-640x492": {
+    		"src": "../../images/test-bg-mob.png"
+    	},
+    	"img-1350x440": {
+    		"src": "../../images/test-bg.png"
+    	},
+    	"img-405x490": {
+    		"src": "../../images/test-bg-dsk-small.png"
+    	},
+    	"img-362x155": {
+    		"src": "../../images/test-362x155.png"
+    	},
+    	"img-352x165": {
+    		"src": "../../images/test-352x165.png"
+    	},
+    	"img-362x188": {
+    		"src": "../../images/test-362x188.png"
+    	},
+    	"img-235x192": {
+    		"src": "../../images/lpl-235.png"
+    	}
+    }
+}

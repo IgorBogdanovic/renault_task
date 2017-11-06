@@ -4,7 +4,7 @@
 
 	@include mq($until: tablet) {
 		width: 91.95%;
-		height: $size-70*5.65;
+		height: 27.8rem;
 	}
 
 	@include mq($until: mobile) {

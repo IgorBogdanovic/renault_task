@@ -1,0 +1,23 @@
+.t-cmp-article-tags-cgu-terms-404 {
+	padding-top: 6%;
+
+	@include mq($until: tablet) {
+		padding-top: 20.5%;
+	}
+
+  	@include mq($until: mobile) {
+  		padding-top: 29%;
+	}
+}
+
+.t-cmp-tags-cgu-terms-404-footer {
+	margin-top: 7%;
+
+	@include mq($until: tablet) {
+		margin-top: 17%;
+	}
+
+  	@include mq($until: mobile) {
+  		margin-top: 23%;
+	}
+}

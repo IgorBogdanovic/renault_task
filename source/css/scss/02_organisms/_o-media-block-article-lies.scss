@@ -98,13 +98,13 @@
 .o-media__block-arcl-lies__3 {
 	float: left;
 	width: 49.26%;
-	margin-top: 8%;
+	margin-top: 8.5%;
 	letter-spacing: $size-10*0.12;
     line-height: 1.37;
 
     @include mq($until: tablet) {
     	width: 49.23%;
-    	margin-top: 5%;
+    	margin-top: 2.3%;
     	letter-spacing: $size-10*0.1;
     	line-height: 1.25;
 	}
@@ -147,13 +147,13 @@
 .o-media__block-arcl-lies__4 {
 	float: right;
 	width: 49.26%;
-	margin-top: 6.4%;
+	margin-top: 6.9%;
 	letter-spacing: $size-10*0.12;
     line-height: 1.37;
 
     @include mq($until: tablet) {
     	width: 49.23%;
-    	margin-top: 5%;
+    	margin-top: 2.3%;
     	letter-spacing: $size-10*0.1;
     	line-height: 1.25;
 	}

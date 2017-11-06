@@ -1,0 +1,62 @@
+.t-cmp-psy-test__intro {
+	padding-top: 3.6%;
+	display: block;
+
+	@include mq($until: tablet) {
+		padding-top: 10.9%;
+	}
+
+  	@include mq($until: mobile) {
+  		padding-top: 13%;
+	}
+}
+
+.t-cmp-psy-test__article {
+	padding-top: 5.8%;
+	display: none;
+
+	@include mq($until: tablet) {
+		padding-top: 23%;
+	}
+
+  	@include mq($until: mobile) {
+  		padding-top: 25%;
+	}
+}
+
+.t-cmp-psy-test__resultats {
+	padding-top: 3.6%;
+	display: none;
+
+	@include mq($until: tablet) {
+		padding-top: 24%;
+	}
+
+  	@include mq($until: mobile) {
+  		padding-top: 30%;
+	}
+}
+
+.t-cmp-psy-test-les-plus-lus {
+	margin-top: 6.15%;
+
+	@include mq($until: tablet) {
+		margin-top: 13.3%;
+	}
+
+  	@include mq($until: mobile) {
+  		margin-top: 19%;
+	}
+}
+
+.t-cmp-psy-test-footer {
+	margin-top: 10%;
+
+	@include mq($until: tablet) {
+		margin-top: 12%;
+	}
+
+  	@include mq($until: mobile) {
+  		margin-top: 27%;
+	}
+}

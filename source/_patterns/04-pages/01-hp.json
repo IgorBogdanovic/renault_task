@@ -1,0 +1,50 @@
+{
+	"title" : "Home Page",
+    "img": {
+		"img-1700x875": {
+    		"src": "../../images/page-01/hero.png"
+    	},
+    	"img-235x310": {
+    		"src": "../../images/page-01/news-de-la-semaine-235.png"
+    	},
+    	"img-405x535": {
+    		"src": "../../images/page-01/news-de-la-semaine-405.png"
+    	},
+    	"img-578x473": {
+    		"src": "../../images/page-01/news-de-la-semaine-578.png"
+    	},
+    	"img-320x262": {
+    		"src": "../../images/page-01/news-de-la-semaine-320.png"
+    	},
+    	"img-835x510": {
+    		"src": "../../images/page-01/fan-de-vu-835.png"
+    	},
+    	"img-321x423": {
+    		"src": "../../images/page-01/vu-astuces-321.png"
+    	},
+    	"img-490x410": {
+    		"src": "../../images/page-01/foire-490.png"
+    	},
+    	"img-664x634": {
+    		"src": "../../images/page-01/portrait.png"
+    	},
+    	"img-640x492": {
+    		"src": "../../images/test-bg-mob.png"
+    	},
+    	"img-1350x440": {
+    		"src": "../../images/test-bg.png"
+    	},
+    	"img-362x155": {
+    		"src": "../../images/test-362x155.png"
+    	},
+    	"img-352x165": {
+    		"src": "../../images/test-352x165.png"
+    	},
+    	"img-362x188": {
+    		"src": "../../images/test-362x188.png"
+    	},
+    	"img-235x192": {
+    		"src": "../../images/lpl-235.png"
+    	}
+    }
+}

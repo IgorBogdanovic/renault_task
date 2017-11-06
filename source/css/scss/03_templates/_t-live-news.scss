@@ -1,0 +1,47 @@
+.t-cmp-article-live-news {
+	padding-top: 6%;
+
+	@include mq($until: tablet) {
+		padding-top: 21.5%;
+	}
+
+  	@include mq($until: mobile) {
+  		padding-top: 29.7%;
+	}
+}
+
+.t-cmp-live-news-article-test-quel-vehicule {
+	margin-top: 8.4%;
+
+	@include mq($until: tablet) {
+		margin-top: 10.3%;
+	}
+
+  	@include mq($until: mobile) {
+  		margin-top: 20%;
+	}
+}
+
+.t-cmp-live-news-article-les-plus-lus {
+	margin-top: 7.7%;
+
+	@include mq($until: tablet) {
+		margin-top: 12.3%;
+	}
+
+  	@include mq($until: mobile) {
+  		margin-top: 19%;
+	}
+}
+
+.t-cmp-live-news-footer {
+	margin-top: 10%;
+
+	@include mq($until: tablet) {
+		margin-top: 12.5%;
+	}
+
+  	@include mq($until: mobile) {
+  		margin-top: 23%;
+	}
+}

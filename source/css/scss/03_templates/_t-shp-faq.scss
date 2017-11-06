@@ -1,0 +1,59 @@
+.t-cmp-shp-faq-header {
+	padding-top: 3.6%;
+
+	@include mq($until: tablet) {
+		padding-top: 10.9%;
+	}
+
+  	@include mq($until: mobile) {
+  		padding-top: 13%;
+	}
+}
+
+.t-cmp-article-qa-list {
+	margin-top: 3.25%;
+
+	@include mq($until: tablet) {
+		margin-top: 19.2%;
+	}
+
+  	@include mq($until: mobile) {
+  		margin-top: 10.5%;
+	}
+}
+
+.t-cmp-shp-faq-article-test-quel-vehicule {
+	margin-top: 10.5%;
+
+	@include mq($until: tablet) {
+		margin-top: 12.6%;
+	}
+
+  	@include mq($until: mobile) {
+  		margin-top: 7%;
+	}
+}
+
+.t-cmp-shp-faq-article-les-plus-lus {
+	margin-top: 7.7%;
+
+	@include mq($until: tablet) {
+		margin-top: 12%;
+	}
+
+  	@include mq($until: mobile) {
+  		margin-top: 19%;
+	}
+}
+
+.t-cmp-shp-faq-footer {
+	margin-top: 10%;
+
+	@include mq($until: tablet) {
+		margin-top: 13.5%;
+	}
+
+  	@include mq($until: mobile) {
+  		margin-top: 23%;
+	}
+}

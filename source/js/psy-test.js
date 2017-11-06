@@ -1,5 +1,33 @@
 $(document).ready(function() {
 
+	psyTestStartButton.click(function() {
+
+		psyTestIntro.hide();
+		psyTestArticle.show();
+
+	});
+
+	psyTestButtonMob.click(function() {
+
+		psyTestArticle.hide();
+		psyTestResultats.show();
+
+	});
+
+	psyTestButton.click(function() {
+
+		psyTestArticle.hide();
+		psyTestResultats.show();
+
+	});
+
+	psyTestRestartButton.click(function() {
+
+		psyTestResultats.hide();
+		psyTestIntro.show();
+
+	});
+
 	psyTestRadioButton.click(function() {
 
 		$(this).addClass('checked');
