@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": 1509994312524,
+  "timestamp": 1510079554014,
   "graph": {
     "options": {
       "directed": true,
@@ -1623,43 +1623,57 @@
       {
         "v": "03-templates/09-psy-test.mustache",
         "value": {
-          "compileState": "clean"
+          "compileState": "clean",
+          "lineagePath": "../../patterns/04-pages-09-psy-test/04-pages-09-psy-test.rendered.html",
+          "lineagePattern": "pages-psy-test"
         }
       },
       {
         "v": "03-templates/10-resultats.mustache",
         "value": {
-          "compileState": "clean"
+          "compileState": "clean",
+          "lineagePath": "../../patterns/04-pages-10-resultats/04-pages-10-resultats.rendered.html",
+          "lineagePattern": "pages-resultats"
         }
       },
       {
         "v": "03-templates/11-resultats-none.mustache",
         "value": {
-          "compileState": "clean"
+          "compileState": "clean",
+          "lineagePath": "../../patterns/04-pages-11-resultats-none/04-pages-11-resultats-none.rendered.html",
+          "lineagePattern": "pages-resultats-none"
         }
       },
       {
         "v": "03-templates/12-live-news.mustache",
         "value": {
-          "compileState": "clean"
+          "compileState": "clean",
+          "lineagePath": "../../patterns/04-pages-12-live-news/04-pages-12-live-news.rendered.html",
+          "lineagePattern": "pages-live-news"
         }
       },
       {
         "v": "03-templates/13-all-tags.mustache",
         "value": {
-          "compileState": "clean"
+          "compileState": "clean",
+          "lineagePath": "../../patterns/04-pages-13-all-tags/04-pages-13-all-tags.rendered.html",
+          "lineagePattern": "pages-all-tags"
         }
       },
       {
         "v": "03-templates/14-cgu.mustache",
         "value": {
-          "compileState": "clean"
+          "compileState": "clean",
+          "lineagePath": "../../patterns/04-pages-14-cgu/04-pages-14-cgu.rendered.html",
+          "lineagePattern": "pages-cgu"
         }
       },
       {
         "v": "03-templates/15-terms.mustache",
         "value": {
-          "compileState": "clean"
+          "compileState": "clean",
+          "lineagePath": "../../patterns/04-pages-15-terms/04-pages-15-terms.rendered.html",
+          "lineagePattern": "pages-terms"
         }
       },
       {
@@ -1714,6 +1728,48 @@
       },
       {
         "v": "04-pages/08-article-faq.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "04-pages/09-psy-test.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "04-pages/10-resultats.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "04-pages/11-resultats-none.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "04-pages/12-live-news.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "04-pages/13-all-tags.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "04-pages/14-cgu.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "04-pages/15-terms.mustache",
         "value": {
           "compileState": "clean"
         }
@@ -3396,6 +3452,41 @@
       {
         "v": "04-pages/08-article-faq.mustache",
         "w": "03-templates/08-article-faq.mustache",
+        "value": {}
+      },
+      {
+        "v": "04-pages/09-psy-test.mustache",
+        "w": "03-templates/09-psy-test.mustache",
+        "value": {}
+      },
+      {
+        "v": "04-pages/10-resultats.mustache",
+        "w": "03-templates/10-resultats.mustache",
+        "value": {}
+      },
+      {
+        "v": "04-pages/11-resultats-none.mustache",
+        "w": "03-templates/11-resultats-none.mustache",
+        "value": {}
+      },
+      {
+        "v": "04-pages/12-live-news.mustache",
+        "w": "03-templates/12-live-news.mustache",
+        "value": {}
+      },
+      {
+        "v": "04-pages/13-all-tags.mustache",
+        "w": "03-templates/13-all-tags.mustache",
+        "value": {}
+      },
+      {
+        "v": "04-pages/14-cgu.mustache",
+        "w": "03-templates/14-cgu.mustache",
+        "value": {}
+      },
+      {
+        "v": "04-pages/15-terms.mustache",
+        "w": "03-templates/15-terms.mustache",
         "value": {}
       },
       {

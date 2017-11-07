@@ -35,10 +35,10 @@
 }
 
 .t-cmp-article-vu-and-astuces {
-	margin-top: 7.6%;
+	margin-top: -2.4%;
 
 	@include mq($until: tablet) {
-		margin-top: 10.9%;
+		margin-top: -0.8%;
 	}
 
   	@include mq($until: mobile) {
@@ -47,22 +47,22 @@
 }
 
 .t-cmp-article-foire-aux-questions {
-	margin-top: 37.3%;
+	margin-top: 3.8%;
 
 	@include mq($until: tablet) {
-		margin-top: 41.7%;
+		margin-top: 3.7%;
 	}
 
   	@include mq($until: mobile) {
-  		margin-top: 17%;
+  		margin-top: 10%;
 	}
 }
 
 .t-cmp-article-cote-business {
-	margin-top: 12.2%;
+	margin-top: 3.4%;
 
 	@include mq($until: tablet) {
-		margin-top: 16.8%;
+		margin-top: 8.8%;
 	}
 
   	@include mq($until: mobile) {
@@ -71,10 +71,10 @@
 }
 
 .t-cmp-hp-article-test-quel-vehicule {
-	margin-top: 6.8%;
+	margin-top: 13.6%;
 
 	@include mq($until: tablet) {
-		margin-top: 8.4%;
+		margin-top: 11.4%;
 	}
 
   	@include mq($until: mobile) {
@@ -83,7 +83,7 @@
 }
 
 .t-cmp-hp-article-les-plus-lus {
-	margin-top: 7%;
+	margin-top: 4.3%;
 
 	@include mq($until: tablet) {
 		margin-top: 12%;
@@ -104,4 +104,72 @@
   	@include mq($until: mobile) {
   		margin-top: 25.6%;
 	}
+}
+
+.a-h-line--tmp {
+	width: 71.6181%;
+	margin: auto;
+}
+
+.t-cmp-line--no-tbl {
+
+	@include mq($until: tablet) {
+  		display: none;
+	}
+}
+
+.t-cmp-line--no-mob {
+
+	@include mq($until: mobile) {
+  		display: none;
+	}
+}
+
+.t-cmp-hp-line-1 {
+	margin-top: 10%;
+
+	@include mq($until: tablet) {
+		width: 89.8%;
+		margin-top: 11.7%;
+		margin-left: 2.2%;
+	}
+}
+
+.t-cmp-hp-line-2 {
+	margin-top: 33.5%;
+
+	@include mq($until: tablet) {
+		width: 89.8%;
+		margin-top: 38%;
+    	margin-right: 2.2%;
+	}
+
+  	@include mq($until: mobile) {
+  		width: 87.5%;
+  		margin: auto;
+  		margin-top: 7%;
+	}
+}
+
+.t-cmp-hp-line-3 {
+	margin-top: 8.8%;
+
+	@include mq($until: tablet) {
+		width: 89.8%;
+		margin-top: 8%;
+    	margin-right: 2.2%;
+	}
+}
+
+.t-cmp-hp-line-4 {
+	margin-top: -6.8%;
+
+	@include mq($until: tablet) {
+		width: 84%;
+	    margin-top: -3%;
+	}
+}
+
+.t-cmp-hp-line-5 {
+	margin-top: 2.7%;
 }

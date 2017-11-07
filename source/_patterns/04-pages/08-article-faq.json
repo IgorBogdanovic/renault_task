@@ -2,34 +2,34 @@
 	"title" : "Article faq",
     "img": {
 		"img-1700x700": {
-    		"src": "../../images/page-08/hero.png"
+    		"src": "../../images/page-08/hero.jpg"
     	},
         "img-490x410": {
-            "src": "../../images/page-08/more-qa-490.png"
+            "src": "../../images/page-08/more-qa-490.jpg"
         },
         "img-185x152": {
-            "src": "../../images/page-08/more-qa-185.png"
+            "src": "../../images/page-08/more-qa-185.jpg"
         },
     	"img-320x262": {
-    		"src": "../../images/articles-lies-320.png"
+    		"src": "../../images/articles-lies-320.jpg"
     	},
     	"img-321x423": {
-    		"src": "../../images/articles-lies-321.png"
+    		"src": "../../images/articles-lies-321.jpg"
     	},
     	"img-344x454": {
-    		"src": "../../images/articles-lies-344.png"
+    		"src": "../../images/articles-lies-344.jpg"
     	},
     	"img-578x473": {
-    		"src": "../../images/articles-lies-578.png"
+    		"src": "../../images/articles-lies-578.jpg"
     	},
     	"img-640x492": {
-    		"src": "../../images/test-bg-mob.png"
+    		"src": "../../images/test-bg-mob.jpg"
     	},
     	"img-1350x440": {
-    		"src": "../../images/test-bg.png"
+    		"src": "../../images/test-bg.jpg"
     	},
     	"img-405x490": {
-    		"src": "../../images/test-bg-dsk-small.png"
+    		"src": "../../images/test-bg-dsk-small.jpg"
     	},
     	"img-362x155": {
     		"src": "../../images/test-362x155.png"
@@ -41,7 +41,7 @@
     		"src": "../../images/test-362x188.png"
     	},
     	"img-235x192": {
-    		"src": "../../images/lpl-235.png"
+    		"src": "../../images/lpl-235.jpg"
     	}
     }
 }

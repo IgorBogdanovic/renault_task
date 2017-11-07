@@ -76,7 +76,6 @@
     width: 10%;
     position: absolute;
     top: 26.4%;
-    left: 0;
 
     .o-media__block__slider__background--vertical {
         height: 125%;
@@ -218,4 +217,14 @@
             letter-spacing: $size-10*0.1;
         }
     }
+}
+
+.sticky {
+    position: fixed;
+    top: 7.2rem;
+}
+
+.sticky--end {
+    position: absolute;
+    top: 80%;
 }

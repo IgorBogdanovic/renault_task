@@ -1,0 +1,23 @@
+{
+	"title" : "Psy test",
+    "img": {
+        "img-750x875": {
+            "src": "../../images/page-09/hero-dsk.jpg"
+        },
+        "img-770x396": {
+            "src": "../../images/page-09/hero-tbl.jpg"
+        },
+		"img-640x508": {
+    		"src": "../../images/page-09/hero-mob.jpg"
+    	},
+        "img-153x191": {
+            "src": "../../images/page-09/psy-test-153.jpg"
+        },
+        "img-615x455": {
+            "src": "../../images/page-09/psy-test-615.jpg"
+        },
+    	"img-235x192": {
+    		"src": "../../images/lpl-235.jpg"
+    	}
+    }
+}

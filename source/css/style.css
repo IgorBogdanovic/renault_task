@@ -1423,6 +1423,12 @@ a {
   width: 100%;
   height: 1px; }
 
+.a-h-line--tmp {
+  display: block;
+  z-index: -2;
+  background-color: red;
+  height: 1px; }
+
 .a-h-line--renault-qa-1 {
   top: 19.5%; }
   @media (max-width: 64.0525em) {
@@ -2810,8 +2816,7 @@ a {
 .o-media__block-article-slider {
   width: 10%;
   position: absolute;
-  top: 26.4%;
-  left: 0; }
+  top: 26.4%; }
   .o-media__block-article-slider .o-media__block__slider__background--vertical {
     height: 125%;
     top: -12%; }
@@ -2913,6 +2918,14 @@ a {
         font-size: 2rem;
         letter-spacing: 0.071rem; } }
 
+.sticky {
+  position: fixed;
+  top: 7.2rem; }
+
+.sticky--end {
+  position: absolute;
+  top: 80%; }
+
 .o-media__block-article-slider--faq {
   top: 56%; }
 
@@ -3001,6 +3014,14 @@ a {
     .o-media__block-article__2--faq-margins {
       margin-top: 7%;
       padding-top: 0; } }
+
+.sticky {
+  position: fixed;
+  top: 7.2rem; }
+
+.sticky--end {
+  position: absolute;
+  top: 80%; }
 
 .o-media__block-module__img--desktop {
   float: left;
@@ -6692,43 +6713,43 @@ a {
       margin-top: 15.6%; } }
 
 .t-cmp-article-vu-and-astuces {
-  margin-top: 7.6%; }
+  margin-top: -2.4%; }
   @media (max-width: 64.0525em) {
     .t-cmp-article-vu-and-astuces {
-      margin-top: 10.9%; } }
+      margin-top: -0.8%; } }
   @media (max-width: 40.0525em) {
     .t-cmp-article-vu-and-astuces {
       margin-top: 14.5%; } }
 
 .t-cmp-article-foire-aux-questions {
-  margin-top: 37.3%; }
+  margin-top: 3.8%; }
   @media (max-width: 64.0525em) {
     .t-cmp-article-foire-aux-questions {
-      margin-top: 41.7%; } }
+      margin-top: 3.7%; } }
   @media (max-width: 40.0525em) {
     .t-cmp-article-foire-aux-questions {
-      margin-top: 17%; } }
+      margin-top: 10%; } }
 
 .t-cmp-article-cote-business {
-  margin-top: 12.2%; }
+  margin-top: 3.4%; }
   @media (max-width: 64.0525em) {
     .t-cmp-article-cote-business {
-      margin-top: 16.8%; } }
+      margin-top: 8.8%; } }
   @media (max-width: 40.0525em) {
     .t-cmp-article-cote-business {
       margin-top: 17.4%; } }
 
 .t-cmp-hp-article-test-quel-vehicule {
-  margin-top: 6.8%; }
+  margin-top: 13.6%; }
   @media (max-width: 64.0525em) {
     .t-cmp-hp-article-test-quel-vehicule {
-      margin-top: 8.4%; } }
+      margin-top: 11.4%; } }
   @media (max-width: 40.0525em) {
     .t-cmp-hp-article-test-quel-vehicule {
       margin-top: 12.5%; } }
 
 .t-cmp-hp-article-les-plus-lus {
-  margin-top: 7%; }
+  margin-top: 4.3%; }
   @media (max-width: 64.0525em) {
     .t-cmp-hp-article-les-plus-lus {
       margin-top: 12%; } }
@@ -6744,6 +6765,57 @@ a {
   @media (max-width: 40.0525em) {
     .t-cmp-hp-footer {
       margin-top: 25.6%; } }
+
+.a-h-line--tmp {
+  width: 71.6181%;
+  margin: auto; }
+
+@media (max-width: 64.0525em) {
+  .t-cmp-line--no-tbl {
+    display: none; } }
+
+@media (max-width: 40.0525em) {
+  .t-cmp-line--no-mob {
+    display: none; } }
+
+.t-cmp-hp-line-1 {
+  margin-top: 10%; }
+  @media (max-width: 64.0525em) {
+    .t-cmp-hp-line-1 {
+      width: 89.8%;
+      margin-top: 11.7%;
+      margin-left: 2.2%; } }
+
+.t-cmp-hp-line-2 {
+  margin-top: 33.5%; }
+  @media (max-width: 64.0525em) {
+    .t-cmp-hp-line-2 {
+      width: 89.8%;
+      margin-top: 38%;
+      margin-right: 2.2%; } }
+  @media (max-width: 40.0525em) {
+    .t-cmp-hp-line-2 {
+      width: 87.5%;
+      margin: auto;
+      margin-top: 7%; } }
+
+.t-cmp-hp-line-3 {
+  margin-top: 8.8%; }
+  @media (max-width: 64.0525em) {
+    .t-cmp-hp-line-3 {
+      width: 89.8%;
+      margin-top: 8%;
+      margin-right: 2.2%; } }
+
+.t-cmp-hp-line-4 {
+  margin-top: -6.8%; }
+  @media (max-width: 64.0525em) {
+    .t-cmp-hp-line-4 {
+      width: 84%;
+      margin-top: -3%; } }
+
+.t-cmp-hp-line-5 {
+  margin-top: 2.7%; }
 
 .t-cmp-shp-header {
   padding-top: 3.6%; }

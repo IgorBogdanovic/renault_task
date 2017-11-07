@@ -104,3 +104,13 @@
     	padding-top: 0;
     }
 }
+
+.sticky {
+    position: fixed;
+    top: 7.2rem;
+}
+
+.sticky--end {
+    position: absolute;
+    top: 80%;
+}

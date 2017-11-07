@@ -2,16 +2,16 @@
 	"title" : "SHP-FAQ",
     "img": {
 		"img-1354x700": {
-    		"src": "../../images/page-03/hero.png"
+    		"src": "../../images/page-03/hero.jpg"
     	},
     	"img-284x235": {
-    		"src": "../../images/page-03/qa-list-284.png"
+    		"src": "../../images/page-03/qa-list-284.jpg"
     	},
     	"img-640x492": {
-    		"src": "../../images/test-bg-mob.png"
+    		"src": "../../images/test-bg-mob.jpg"
     	},
     	"img-1350x440": {
-    		"src": "../../images/test-bg.png"
+    		"src": "../../images/test-bg.jpg"
     	},
     	"img-362x155": {
     		"src": "../../images/test-362x155.png"
@@ -23,7 +23,7 @@
     		"src": "../../images/test-362x188.png"
     	},
     	"img-235x192": {
-    		"src": "../../images/lpl-235.png"
+    		"src": "../../images/lpl-235.jpg"
     	}
     }
 }

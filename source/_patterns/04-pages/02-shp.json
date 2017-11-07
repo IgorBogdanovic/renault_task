@@ -2,28 +2,28 @@
 	"title" : "SHP",
     "img": {
 		"img-1354x700": {
-    		"src": "../../images/page-02/hero.png"
+    		"src": "../../images/page-02/hero.jpg"
     	},
     	"img-235x310": {
-    		"src": "../../images/page-02/editor-picks-235.png"
+    		"src": "../../images/page-02/editor-picks-235.jpg"
     	},
     	"img-405x535": {
-    		"src": "../../images/page-02/editor-picks-405.png"
+    		"src": "../../images/page-02/editor-picks-405.jpg"
     	},
     	"img-578x473": {
-    		"src": "../../images/page-02/editor-picks-578.png"
+    		"src": "../../images/page-02/editor-picks-578.jpg"
     	},
     	"img-320x262": {
-    		"src": "../../images/page-02/editor-picks-320.png"
+    		"src": "../../images/page-02/editor-picks-320.jpg"
     	},
     	"img-490x410": {
-    		"src": "../../images/page-02/qa-490.png"
+    		"src": "../../images/page-02/qa-490.jpg"
     	},
     	"img-640x492": {
-    		"src": "../../images/test-bg-mob.png"
+    		"src": "../../images/test-bg-mob.jpg"
     	},
     	"img-1350x440": {
-    		"src": "../../images/test-bg.png"
+    		"src": "../../images/test-bg.jpg"
     	},
     	"img-362x155": {
     		"src": "../../images/test-362x155.png"
@@ -35,7 +35,7 @@
     		"src": "../../images/test-362x188.png"
     	},
     	"img-235x192": {
-    		"src": "../../images/lpl-235.png"
+    		"src": "../../images/lpl-235.jpg"
     	}
     }
 }
