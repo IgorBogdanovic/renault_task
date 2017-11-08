@@ -65,8 +65,8 @@ var lplArrowRight = $('.o-media__block-arrow--lpl__right');
 ------------------------------------------*/
 
 var carouselHeader = $('.o-media__header-carousel');
-var headerArrowLeft = $('.o-media__block-arrow-left');
-var headerArrowRight = $('.o-media__block-arrow-right');
+var headerArrowLeft = $('.o-media__block-arrow-left--header');
+var headerArrowRight = $('.o-media__block-arrow-right--header');
 
 
 /*------------------------------------------

@@ -1426,7 +1426,7 @@ a {
 .a-h-line--tmp {
   display: block;
   z-index: -2;
-  background-color: red;
+  background-color: #ececec;
   height: 1px; }
 
 .a-h-line--renault-qa-1 {
@@ -1485,6 +1485,10 @@ a {
       font-size: 3.57rem; } }
 
 .a-cmp-drop-down-circle--active {
+  -ms-transform: rotateX(180deg);
+  -webkit-transform: rotateX(180deg);
+  -moz-transform: rotateX(180deg);
+  -o-transform: rotateX(180deg);
   transform: rotateX(180deg); }
 
 /*------------------------------------------
@@ -2077,7 +2081,6 @@ a {
       max-width: 640px; } }
 
 .o-nav__list--tbl-mob {
-  z-index: 1;
   background-color: #ffffff;
   display: none; }
   @media (max-width: 64.0525em) {
@@ -2660,8 +2663,8 @@ a {
 
 .o-media__header-article-img--background {
   z-index: -1;
-  -webkit-filter: brightness(30%);
-  filter: brightness(30%); }
+  -webkit-filter: brightness(15%);
+  filter: brightness(15%); }
 
 .o-media__header-article-video {
   position: absolute;
@@ -3015,13 +3018,13 @@ a {
       margin-top: 7%;
       padding-top: 0; } }
 
-.sticky {
+.sticky-faq {
   position: fixed;
   top: 7.2rem; }
 
-.sticky--end {
+.sticky-faq--end {
   position: absolute;
-  top: 80%; }
+  top: 180%; }
 
 .o-media__block-module__img--desktop {
   float: left;
@@ -6766,57 +6769,6 @@ a {
     .t-cmp-hp-footer {
       margin-top: 25.6%; } }
 
-.a-h-line--tmp {
-  width: 71.6181%;
-  margin: auto; }
-
-@media (max-width: 64.0525em) {
-  .t-cmp-line--no-tbl {
-    display: none; } }
-
-@media (max-width: 40.0525em) {
-  .t-cmp-line--no-mob {
-    display: none; } }
-
-.t-cmp-hp-line-1 {
-  margin-top: 10%; }
-  @media (max-width: 64.0525em) {
-    .t-cmp-hp-line-1 {
-      width: 89.8%;
-      margin-top: 11.7%;
-      margin-left: 2.2%; } }
-
-.t-cmp-hp-line-2 {
-  margin-top: 33.5%; }
-  @media (max-width: 64.0525em) {
-    .t-cmp-hp-line-2 {
-      width: 89.8%;
-      margin-top: 38%;
-      margin-right: 2.2%; } }
-  @media (max-width: 40.0525em) {
-    .t-cmp-hp-line-2 {
-      width: 87.5%;
-      margin: auto;
-      margin-top: 7%; } }
-
-.t-cmp-hp-line-3 {
-  margin-top: 8.8%; }
-  @media (max-width: 64.0525em) {
-    .t-cmp-hp-line-3 {
-      width: 89.8%;
-      margin-top: 8%;
-      margin-right: 2.2%; } }
-
-.t-cmp-hp-line-4 {
-  margin-top: -6.8%; }
-  @media (max-width: 64.0525em) {
-    .t-cmp-hp-line-4 {
-      width: 84%;
-      margin-top: -3%; } }
-
-.t-cmp-hp-line-5 {
-  margin-top: 2.7%; }
-
 .t-cmp-shp-header {
   padding-top: 3.6%; }
   @media (max-width: 64.0525em) {
@@ -6836,10 +6788,10 @@ a {
       margin-top: 10.5%; } }
 
 .t-cmp-article-latest-news {
-  margin-top: 10.3%; }
+  margin-top: -5%; }
   @media (max-width: 64.0525em) {
     .t-cmp-article-latest-news {
-      margin-top: 14.4%; } }
+      margin-top: -7%; } }
   @media (max-width: 40.0525em) {
     .t-cmp-article-latest-news {
       margin-top: 17%; } }
@@ -6863,7 +6815,7 @@ a {
       margin-top: -3.3%; } }
 
 .t-cmp-shp-article-les-plus-lus {
-  margin-top: 7.7%; }
+  margin-top: 4.1%; }
   @media (max-width: 64.0525em) {
     .t-cmp-shp-article-les-plus-lus {
       margin-top: 12%; } }
@@ -6899,7 +6851,7 @@ a {
       margin-top: 10.5%; } }
 
 .t-cmp-shp-faq-article-test-quel-vehicule {
-  margin-top: 10.5%; }
+  margin-top: 3.8%; }
   @media (max-width: 64.0525em) {
     .t-cmp-shp-faq-article-test-quel-vehicule {
       margin-top: 12.6%; } }
@@ -6908,7 +6860,7 @@ a {
       margin-top: 7%; } }
 
 .t-cmp-shp-faq-article-les-plus-lus {
-  margin-top: 7.7%; }
+  margin-top: 4.1%; }
   @media (max-width: 64.0525em) {
     .t-cmp-shp-faq-article-les-plus-lus {
       margin-top: 12%; } }
@@ -6974,7 +6926,7 @@ a {
       margin-top: 14.7%; } }
 
 .t-cmp-article-article-article-lies {
-  margin-top: 7.6%; }
+  margin-top: -1.6%; }
   @media (max-width: 64.0525em) {
     .t-cmp-article-article-article-lies {
       margin-top: 11.2%; } }
@@ -6983,7 +6935,7 @@ a {
       margin-top: 12%; } }
 
 .t-cmp-article-article-les-plus-lus {
-  margin-top: 9.25%; }
+  margin-top: 4%; }
   @media (max-width: 64.0525em) {
     .t-cmp-article-article-les-plus-lus {
       margin-top: 9.5%; } }
@@ -7019,7 +6971,7 @@ a {
       margin-top: 13.6%; } }
 
 .t-cmp-article-enrichi-article-article-lies {
-  margin-top: 8%; }
+  margin-top: -1.5%; }
   @media (max-width: 64.0525em) {
     .t-cmp-article-enrichi-article-article-lies {
       margin-top: 11.2%; } }
@@ -7028,7 +6980,7 @@ a {
       margin-top: 12%; } }
 
 .t-cmp-article-enrichi-article-les-plus-lus {
-  margin-top: 9.25%; }
+  margin-top: 4%; }
   @media (max-width: 64.0525em) {
     .t-cmp-article-enrichi-article-les-plus-lus {
       margin-top: 9.5%; } }
@@ -7074,7 +7026,7 @@ a {
       margin-top: 13.6%; } }
 
 .t-cmp-article-faq-article-article-lies {
-  margin-top: 7.4%; }
+  margin-top: -1.6%; }
   @media (max-width: 64.0525em) {
     .t-cmp-article-faq-article-article-lies {
       margin-top: 11.2%; } }
@@ -7098,7 +7050,7 @@ a {
         max-width: 13rem; } }
 
 .t-cmp-article-faq-article-les-plus-lus {
-  margin-top: 9.25%; }
+  margin-top: 4.2%; }
   @media (max-width: 64.0525em) {
     .t-cmp-article-faq-article-les-plus-lus {
       margin-top: 14.3%; } }
@@ -7173,7 +7125,7 @@ a {
       padding-top: 29.7%; } }
 
 .t-cmp-resultats-article-test-quel-vehicule {
-  margin-top: 8.4%; }
+  margin-top: 3.7%; }
   @media (max-width: 64.0525em) {
     .t-cmp-resultats-article-test-quel-vehicule {
       margin-top: 10.3%; } }
@@ -7182,7 +7134,7 @@ a {
       margin-top: 20%; } }
 
 .t-cmp-resultats-article-les-plus-lus {
-  margin-top: 7.7%; }
+  margin-top: 4.1%; }
   @media (max-width: 64.0525em) {
     .t-cmp-resultats-article-les-plus-lus {
       margin-top: 12.3%; } }
@@ -7209,7 +7161,7 @@ a {
       padding-top: 29.7%; } }
 
 .t-cmp-live-news-article-test-quel-vehicule {
-  margin-top: 8.4%; }
+  margin-top: 3.7%; }
   @media (max-width: 64.0525em) {
     .t-cmp-live-news-article-test-quel-vehicule {
       margin-top: 10.3%; } }
@@ -7218,7 +7170,7 @@ a {
       margin-top: 20%; } }
 
 .t-cmp-live-news-article-les-plus-lus {
-  margin-top: 7.7%; }
+  margin-top: 4.1%; }
   @media (max-width: 64.0525em) {
     .t-cmp-live-news-article-les-plus-lus {
       margin-top: 12.3%; } }
@@ -7252,3 +7204,98 @@ a {
   @media (max-width: 40.0525em) {
     .t-cmp-tags-cgu-terms-404-footer {
       margin-top: 23%; } }
+
+.a-h-line--tmp {
+  width: 71.6181%;
+  margin: auto; }
+
+.a-h-line--tmp-article-diaporama {
+  width: 79.412%;
+  margin: auto; }
+
+@media (max-width: 64.0525em) {
+  .t-cmp-line--no-tbl {
+    display: none; } }
+
+@media (max-width: 40.0525em) {
+  .t-cmp-line--no-mob {
+    display: none; } }
+
+.t-cmp-hp-line-1 {
+  margin-top: 10%; }
+  @media (max-width: 64.0525em) {
+    .t-cmp-hp-line-1 {
+      width: 89.8%;
+      margin-top: 11.7%;
+      margin-left: 2.2%; } }
+
+.t-cmp-hp-line-2 {
+  margin-top: 33.5%; }
+  @media (max-width: 64.0525em) {
+    .t-cmp-hp-line-2 {
+      width: 89.8%;
+      margin-top: 38%;
+      margin-right: 2.2%; } }
+  @media (max-width: 40.0525em) {
+    .t-cmp-hp-line-2 {
+      width: 87.5%;
+      margin: auto;
+      margin-top: 7%; } }
+
+.t-cmp-hp-line-3 {
+  margin-top: 8.8%; }
+  @media (max-width: 64.0525em) {
+    .t-cmp-hp-line-3 {
+      width: 89.8%;
+      margin-top: 8%;
+      margin-right: 2.2%; } }
+
+.t-cmp-hp-line-4 {
+  margin-top: -6.8%; }
+  @media (max-width: 64.0525em) {
+    .t-cmp-hp-line-4 {
+      width: 84%;
+      margin-top: -3%; } }
+
+.t-cmp-hp-line-5 {
+  margin-top: 2.7%; }
+
+.t-cmp-shp-line-1 {
+  margin-top: 8.3%; }
+  @media (max-width: 64.0525em) {
+    .t-cmp-shp-line-1 {
+      width: 84.4%;
+      margin-top: 13%; } }
+
+.t-cmp-shp-line-2 {
+  margin-top: 3.5%; }
+
+.t-cmp-shp-faq-line-1 {
+  margin-top: 6.7%; }
+
+.t-cmp-shp-faq-line-2 {
+  margin-top: 3.5%; }
+
+.t-cmp-article-line-1 {
+  margin-top: 9.2%; }
+
+.t-cmp-article-line-2 {
+  margin-top: 5.1%; }
+
+.t-cmp-article-enrichi-line-1 {
+  margin-top: 9.5%; }
+
+.t-cmp-article-enrichi-line-2 {
+  margin-top: 5.1%; }
+
+.t-cmp-article-faq-line-1 {
+  margin-top: 9%; }
+
+.t-cmp-article-faq-line-2 {
+  margin-top: 5.1%; }
+
+.t-cmp-resultats-line-1 {
+  margin-top: 4.7%; }
+
+.t-cmp-resultats-line-2 {
+  margin-top: 3.6%; }

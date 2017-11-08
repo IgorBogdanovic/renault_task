@@ -23,10 +23,10 @@
 }
 
 .t-cmp-article-latest-news {
-	margin-top: 10.3%;
+	margin-top: -5%;
 
 	@include mq($until: tablet) {
-		margin-top: 14.4%;
+		margin-top: -7%;
 	}
 
   	@include mq($until: mobile) {
@@ -59,7 +59,7 @@
 }
 
 .t-cmp-shp-article-les-plus-lus {
-	margin-top: 7.7%;
+	margin-top: 4.1%;
 
 	@include mq($until: tablet) {
 		margin-top: 12%;

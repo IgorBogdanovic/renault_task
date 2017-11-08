@@ -1,0 +1,125 @@
+.a-h-line--tmp {
+	width: 71.6181%;
+	margin: auto;
+}
+
+.a-h-line--tmp-article-diaporama {
+	width: 79.412%;
+	margin: auto;
+}
+
+.t-cmp-line--no-tbl {
+
+	@include mq($until: tablet) {
+  		display: none;
+	}
+}
+
+.t-cmp-line--no-mob {
+
+	@include mq($until: mobile) {
+  		display: none;
+	}
+}
+
+.t-cmp-hp-line-1 {
+	margin-top: 10%;
+
+	@include mq($until: tablet) {
+		width: 89.8%;
+		margin-top: 11.7%;
+		margin-left: 2.2%;
+	}
+}
+
+.t-cmp-hp-line-2 {
+	margin-top: 33.5%;
+
+	@include mq($until: tablet) {
+		width: 89.8%;
+		margin-top: 38%;
+    	margin-right: 2.2%;
+	}
+
+  	@include mq($until: mobile) {
+  		width: 87.5%;
+  		margin: auto;
+  		margin-top: 7%;
+	}
+}
+
+.t-cmp-hp-line-3 {
+	margin-top: 8.8%;
+
+	@include mq($until: tablet) {
+		width: 89.8%;
+		margin-top: 8%;
+    	margin-right: 2.2%;
+	}
+}
+
+.t-cmp-hp-line-4 {
+	margin-top: -6.8%;
+
+	@include mq($until: tablet) {
+		width: 84%;
+	    margin-top: -3%;
+	}
+}
+
+.t-cmp-hp-line-5 {
+	margin-top: 2.7%;
+}
+
+.t-cmp-shp-line-1 {
+	margin-top: 8.3%;
+
+	@include mq($until: tablet) {
+		width: 84.4%;
+		margin-top: 13%;
+	}
+}
+
+.t-cmp-shp-line-2 {
+	margin-top: 3.5%;
+}
+
+.t-cmp-shp-faq-line-1 {
+	margin-top: 6.7%;
+}
+
+.t-cmp-shp-faq-line-2 {
+	margin-top: 3.5%;
+}
+
+.t-cmp-article-line-1 {
+	margin-top: 9.2%;
+}
+
+.t-cmp-article-line-2 {
+	margin-top: 5.1%;
+}
+
+.t-cmp-article-enrichi-line-1 {
+	margin-top: 9.5%;
+}
+
+.t-cmp-article-enrichi-line-2 {
+	margin-top: 5.1%;
+}
+
+.t-cmp-article-faq-line-1 {
+	margin-top: 9%;
+}
+
+.t-cmp-article-faq-line-2 {
+	margin-top: 5.1%;
+}
+
+.t-cmp-resultats-line-1 {
+	margin-top: 4.7%;
+}
+
+.t-cmp-resultats-line-2 {
+	margin-top: 3.6%;
+}

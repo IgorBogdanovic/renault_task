@@ -1,11 +1,5 @@
 $(document).ready(function() {
 
-	var stickySlider = $('.o-media__block-article-slider');
-	var stickySliderTop = stickySlider.offset().top;
-	var stickySliderHeight = $('.o-media__block__slider__background--vertical').outerHeight();
-	var articleBottom = $('.o-media__block-article__2').offset().top + $('.o-media__block-article__2').outerHeight();
-	var navHeight = $('.o-nav').outerHeight();
-
    	var stickyNav = function(){
 	    var scrollTop = $(window).scrollTop();
 
@@ -23,7 +17,7 @@ $(document).ready(function() {
 
 	};
 
-	if (windowWidth > 1025) {
+	if (windowWidth > 1024) {
 		stickyNav();
 		$(window).scroll(function() {
 			stickyNav();
