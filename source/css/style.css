@@ -2235,7 +2235,6 @@ a {
       display: none; } }
 
 .o-nav__list--desktop__dd-menu {
-  z-index: 1;
   display: none;
   position: absolute;
   top: 100%;
@@ -6884,18 +6883,10 @@ a {
   left: 0;
   background-color: #ffffff;
   padding-bottom: 13.35%;
-  display: block;
-  visibility: hidden; }
+  display: none; }
   @media (max-width: 64.0525em) {
     .t-cmp-article-diaporama-module {
       padding-bottom: 0; } }
-
-.t-cmp-article-diaporama-module--visible {
-  visibility: visible; }
-
-.t-cmp-article-main--blur {
-  -webkit-filter: blur(3px);
-  filter: blur(3px); }
 
 .t-cmp-article-header {
   padding-top: 3.6%; }
@@ -7206,7 +7197,7 @@ a {
       margin-top: 23%; } }
 
 .a-h-line--tmp {
-  width: 71.6181%;
+  width: 70.941%;
   margin: auto; }
 
 .a-h-line--tmp-article-diaporama {

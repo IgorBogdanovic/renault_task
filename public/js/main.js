@@ -91,15 +91,16 @@ $(document).ready(function() {
 
 	articleDiaporamaSlideshow.click(function() {
 
-		diaporamaModule.addClass('t-cmp-article-diaporama-module--visible');
-		articleDiaporamaMain.addClass('t-cmp-article-main--blur');
+		articleDiaporamaMain.hide();
+		diaporamaModule.show();
+		carouselD_Module.slick('setPosition');
 
 	});
 
 	diaporamaModuleClose.click(function() {
 
-		diaporamaModule.removeClass('t-cmp-article-diaporama-module--visible');
-		articleDiaporamaMain.removeClass('t-cmp-article-main--blur');
+		diaporamaModule.hide();
+		articleDiaporamaMain.show();
 
 	});
 
@@ -146,6 +147,46 @@ $(document).ready(function() {
 	enrichiArrowRight.on('click', function() {
 	    carouselEnrichi.slick('slickNext');
 	});
+
+	if (640 < windowWidth < 1025) {
+
+		enrichiSlideshow.click(function(e) {
+
+			e.stopPropagation();
+			carouselEnrichiSmall.slick('slickPlay');
+			enrichiSlideshow.hide(300);
+
+		});
+
+		carouselEnrichiSmall.click(function(e) {
+
+			e.stopPropagation();
+			carouselEnrichiSmall.slick('slickPause');
+			enrichiSlideshow.show(300);
+
+		});
+
+	}
+
+	if (windowWidth < 641) {
+
+		enrichiSlideshow.click(function(e) {
+
+			e.stopPropagation();
+			carouselEnrichi.slick('slickPlay');
+			enrichiSlideshow.hide(300);
+
+		});
+
+		carouselEnrichi.click(function(e) {
+
+			e.stopPropagation();
+			carouselEnrichi.slick('slickPause');
+			enrichiSlideshow.show(300);
+
+		});
+
+	}
 
 /*------------------------------------------
 			> FAQ READER <						
@@ -339,7 +380,7 @@ $(document).ready(function() {
 		> MENU TABLET & MOBILE <						
 ------------------------------------------*/
 
-	// this code needs additional condition to work on tablet
+	// this code does not work 100%
 	menuBar.click(function() {
 		menuBar.toggle();
 		closeBar.toggle();
@@ -403,7 +444,7 @@ $(document).ready(function() {
 		e.stopPropagation();
 		psyTestArticle.hide();
 		psyTestResultats.show();
-		$('.o-media__block-lpl-carousel').slick('setPosition');
+		carouselLpl.slick('setPosition');
 
 	});
 

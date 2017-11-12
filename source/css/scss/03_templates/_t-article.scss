@@ -5,21 +5,11 @@
 	left: 0;
 	background-color: $color-white;
 	padding-bottom: 13.35%;
-	display: block;
-	visibility: hidden;
+	display: none;
 
 	@include mq($until: tablet) {
 		padding-bottom: 0;
 	}
-}
-
-.t-cmp-article-diaporama-module--visible {
-	visibility: visible;
-}
-
-.t-cmp-article-main--blur {
-	-webkit-filter: blur(3px);
-    filter: blur(3px);
 }
 
 .t-cmp-article-header {

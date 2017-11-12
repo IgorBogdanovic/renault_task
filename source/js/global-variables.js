@@ -123,6 +123,7 @@ var carouselEnrichi = $('.o-media__enrichi-carousel');
 var carouselEnrichiSmall = $('.o-media__enrichi-carousel--small');
 var enrichiArrowLeft = $('.o-media__block-arrow-left--enrichi');
 var enrichiArrowRight = $('.o-media__block-arrow-right--enrichi');
+var enrichiSlideshow = $('.o-media__button-enrichi');
 
 
 /*------------------------------------------
